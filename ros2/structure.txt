@@ -1,0 +1,21 @@
+Directory Structure Tree (Sketch):
+
+ros2
+|- install
+|- build
+|- log
+|- src
+
+src/
+    mfe/
+    mfe_base/
+    mfe_msgs/
+    mfe_perception/
+    mfe_kinematics/
+    mfe_localization/
+    mfe_path_planning/
+    mfe_navigation/
+    mfe_simulation/
+    mfe_tests/
+
+These packages will be added gradually.
