@@ -11,6 +11,9 @@ src/
     mfe_base/
     mfe_msgs/
     mfe_perception/
+        vision_cone_detector/
+        lidar_cone_detector/
+        state_estimation/
     mfe_kinematics/
     mfe_localization/
     mfe_path_planning/
