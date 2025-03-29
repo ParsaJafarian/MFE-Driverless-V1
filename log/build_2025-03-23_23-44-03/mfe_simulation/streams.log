@@ -1,0 +1,23 @@
+[0.050s] Invoking command in '/home/ros2_ws/build/mfe_simulation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/ros2_ws/ros2/src/mfe_simulation -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ros2_ws/install/mfe_simulation
+[0.460s] -- The C compiler identification is GNU 13.3.0
+[0.949s] -- The CXX compiler identification is GNU 13.3.0
+[1.081s] -- Detecting C compiler ABI info
+[1.753s] -- Detecting C compiler ABI info - done
+[1.897s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.900s] -- Detecting C compile features
+[1.906s] -- Detecting C compile features - done
+[1.958s] -- Detecting CXX compiler ABI info
+[2.481s] -- Detecting CXX compiler ABI info - done
+[2.503s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.503s] -- Detecting CXX compile features
+[2.504s] -- Detecting CXX compile features - done
+[2.544s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[3.151s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[3.397s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.631s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[4.162s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.166s] -- Added test 'lint_cmake' to check CMake code style
+[4.170s] -- Added test 'xmllint' to check XML markup files
+[4.176s] -- Configuring done (4.1s)
+[4.184s] -- Generating done (0.0s)
+[4.188s] -- Build files have been written to: /home/ros2_ws/build/mfe_simulation

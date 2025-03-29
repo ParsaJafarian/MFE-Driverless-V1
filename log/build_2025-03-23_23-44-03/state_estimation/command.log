@@ -1,0 +1,1 @@
+Invoking command in '/home/ros2_ws/build/state_estimation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/ros2_ws/ros2/src/mfe_perception/state_estimation -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ros2_ws/install/state_estimation

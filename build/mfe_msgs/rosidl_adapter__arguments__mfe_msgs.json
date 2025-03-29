@@ -1,0 +1,13 @@
+{
+  "package_name": "mfe_msgs",
+  "non_idl_tuples": [
+    "/home/ros2_ws/ros2/src/mfe_msgs:msg/Cone.msg",
+    "/home/ros2_ws/ros2/src/mfe_msgs:msg/Track.msg",
+    "/home/ros2_ws/ros2/src/mfe_msgs:msg/ConeWithCovariance.msg",
+    "/home/ros2_ws/ros2/src/mfe_msgs:msg/TrackWithCovariance.msg",
+    "/home/ros2_ws/ros2/src/mfe_msgs:msg/StateInfo.msg",
+    "/home/ros2_ws/ros2/src/mfe_msgs:msg/ROSStateStamped.msg",
+    "/home/ros2_ws/ros2/src/mfe_msgs:msg/IPGState.msg",
+    "/home/ros2_ws/ros2/src/mfe_msgs:srv/Reset.srv"
+  ]
+}

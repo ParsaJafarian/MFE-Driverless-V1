@@ -1,0 +1,1 @@
+Invoking command in '/home/ros2_ws/build/mfe_mapping': /usr/bin/cmake /home/ros2_ws/ros2/src/mfe_mapping -DCMAKE_INSTALL_PREFIX=/home/ros2_ws/install/mfe_mapping

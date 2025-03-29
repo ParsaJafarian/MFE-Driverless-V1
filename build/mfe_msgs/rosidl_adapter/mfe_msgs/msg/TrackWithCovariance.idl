@@ -1,0 +1,13 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from mfe_msgs/msg/TrackWithCovariance.msg
+// generated code does not contain a copyright notice
+
+#include "mfe_msgs/msg/ConeWithCovariance.idl"
+
+module mfe_msgs {
+  module msg {
+    struct TrackWithCovariance {
+      sequence<mfe_msgs::msg::ConeWithCovariance> track;
+    };
+  };
+};

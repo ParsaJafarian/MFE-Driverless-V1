@@ -1,0 +1,1 @@
+[0.057s] Invoking command in '/home/ros2_ws/build/mfe_simulation': /usr/bin/cmake --build /home/ros2_ws/build/mfe_simulation -- -j8 -l8

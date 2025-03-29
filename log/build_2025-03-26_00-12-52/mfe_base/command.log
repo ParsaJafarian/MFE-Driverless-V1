@@ -1,0 +1,1 @@
+Invoking command in '/home/ros2_ws/build/mfe_base': /usr/bin/cmake /home/ros2_ws/ros2/src/mfe_base -DCMAKE_INSTALL_PREFIX=/home/ros2_ws/install/mfe_base

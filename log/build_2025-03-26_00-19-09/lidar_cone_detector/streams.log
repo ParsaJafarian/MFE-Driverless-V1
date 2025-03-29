@@ -1,0 +1,50 @@
+[0.051s] Invoking command in '/home/ros2_ws/build/lidar_cone_detector': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/ros2_ws/ros2/src/mfe_perception/lidar_cone_detector -DCMAKE_INSTALL_PREFIX=/home/ros2_ws/install/lidar_cone_detector
+[0.083s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.600s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.620s] -- Found rclcpp: 28.1.5 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.747s] -- Found rosidl_generator_c: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.774s] -- Found rosidl_generator_cpp: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.808s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.854s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.064s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.069s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.220s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.400s] -- Found sensor_msgs: 5.3.5 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[1.524s] [33mCMake Warning at CMakeLists.txt:13 (find_package):
+[1.525s]   By not providing "Findvision_msgs.cmake" in CMAKE_MODULE_PATH this project
+[1.525s]   has asked CMake to find a package configuration file provided by
+[1.525s]   "vision_msgs", but CMake did not find one.
+[1.525s] 
+[1.525s]   Could not find a package configuration file provided by "vision_msgs" with
+[1.526s]   any of the following names:
+[1.526s] 
+[1.526s]     vision_msgsConfig.cmake
+[1.526s]     vision_msgs-config.cmake
+[1.526s] 
+[1.527s]   Add the installation prefix of "vision_msgs" to CMAKE_PREFIX_PATH or set
+[1.527s]   "vision_msgs_DIR" to a directory containing one of the above files.  If
+[1.527s]   "vision_msgs" provides a separate development package or SDK, be sure it
+[1.527s]   has been installed.
+[1.527s] 
+[1.528s] [0m
+[1.528s] -- Found tf2: 0.36.4 (/opt/ros/jazzy/share/tf2/cmake)
+[1.534s] -- Found tf2_ros: 0.36.4 (/opt/ros/jazzy/share/tf2_ros/cmake)
+[1.747s] [31mCMake Error at CMakeLists.txt:16 (find_package):
+[1.748s]   By not providing "Findpcl_ros.cmake" in CMAKE_MODULE_PATH this project has
+[1.748s]   asked CMake to find a package configuration file provided by "pcl_ros", but
+[1.748s]   CMake did not find one.
+[1.748s] 
+[1.748s]   Could not find a package configuration file provided by "pcl_ros" with any
+[1.748s]   of the following names:
+[1.748s] 
+[1.748s]     pcl_rosConfig.cmake
+[1.749s]     pcl_ros-config.cmake
+[1.749s] 
+[1.749s]   Add the installation prefix of "pcl_ros" to CMAKE_PREFIX_PATH or set
+[1.749s]   "pcl_ros_DIR" to a directory containing one of the above files.  If
+[1.749s]   "pcl_ros" provides a separate development package or SDK, be sure it has
+[1.749s]   been installed.
+[1.749s] 
+[1.749s] [0m
+[1.749s] -- Configuring incomplete, errors occurred!
+[1.760s] Invoked command in '/home/ros2_ws/build/lidar_cone_detector' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/ros2_ws/ros2/src/mfe_perception/lidar_cone_detector -DCMAKE_INSTALL_PREFIX=/home/ros2_ws/install/lidar_cone_detector

@@ -1,0 +1,14 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from mfe_msgs/msg/StateInfo.msg
+// generated code does not contain a copyright notice
+
+
+module mfe_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "number of laps and laptime")
+    struct StateInfo {
+      sequence<float> laps;
+    };
+  };
+};

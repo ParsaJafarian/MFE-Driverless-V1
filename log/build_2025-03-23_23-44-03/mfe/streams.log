@@ -1,0 +1,45 @@
+[0.045s] Invoking command in '/home/ros2_ws/build/mfe': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/ros2_ws/ros2/src/mfe -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ros2_ws/install/mfe
+[2.866s] -- The C compiler identification is GNU 13.3.0
+[3.739s] -- The CXX compiler identification is GNU 13.3.0
+[3.967s] -- Detecting C compiler ABI info
+[4.676s] -- Detecting C compiler ABI info - done
+[4.792s] -- Check for working C compiler: /usr/bin/cc - skipped
+[4.796s] -- Detecting C compile features
+[4.834s] -- Detecting C compile features - done
+[4.944s] -- Detecting CXX compiler ABI info
+[5.980s] -- Detecting CXX compiler ABI info - done
+[6.024s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[6.024s] -- Detecting CXX compile features
+[6.025s] -- Detecting CXX compile features - done
+[6.046s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[7.248s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[8.082s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[8.432s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[9.288s] -- Added test 'copyright' to check source files copyright and LICENSE
+[9.295s] -- Added test 'lint_cmake' to check CMake code style
+[9.298s] -- Added test 'xmllint' to check XML markup files
+[9.330s] -- Configuring done (8.8s)
+[9.377s] -- Generating done (0.0s)
+[9.405s] -- Build files have been written to: /home/ros2_ws/build/mfe
+[9.542s] Invoked command in '/home/ros2_ws/build/mfe' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/ros2_ws/ros2/src/mfe -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ros2_ws/install/mfe
+[9.545s] Invoking command in '/home/ros2_ws/build/mfe': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/ros2_ws/build/mfe -- -j8 -l8
+[9.820s] Invoked command in '/home/ros2_ws/build/mfe' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/ros2_ws/build/mfe -- -j8 -l8
+[10.044s] Invoking command in '/home/ros2_ws/build/mfe': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/ros2_ws/build/mfe
+[10.117s] -- Install configuration: ""
+[10.124s] -- Execute custom install script
+[10.129s] -- Symlinking: /home/ros2_ws/install/mfe/share/ament_index/resource_index/package_run_dependencies/mfe
+[10.214s] -- Symlinking: /home/ros2_ws/install/mfe/share/ament_index/resource_index/parent_prefix_path/mfe
+[10.240s] -- Symlinking: /home/ros2_ws/install/mfe/share/mfe/environment/ament_prefix_path.sh
+[10.299s] -- Symlinking: /home/ros2_ws/install/mfe/share/mfe/environment/ament_prefix_path.dsv
+[10.346s] -- Symlinking: /home/ros2_ws/install/mfe/share/mfe/environment/path.sh
+[10.441s] -- Symlinking: /home/ros2_ws/install/mfe/share/mfe/environment/path.dsv
+[10.549s] -- Symlinking: /home/ros2_ws/install/mfe/share/mfe/local_setup.bash
+[10.618s] -- Symlinking: /home/ros2_ws/install/mfe/share/mfe/local_setup.sh
+[10.692s] -- Symlinking: /home/ros2_ws/install/mfe/share/mfe/local_setup.zsh
+[10.770s] -- Symlinking: /home/ros2_ws/install/mfe/share/mfe/local_setup.dsv
+[10.868s] -- Symlinking: /home/ros2_ws/install/mfe/share/mfe/package.dsv
+[10.911s] -- Symlinking: /home/ros2_ws/install/mfe/share/ament_index/resource_index/packages/mfe
+[10.965s] -- Symlinking: /home/ros2_ws/install/mfe/share/mfe/cmake/mfeConfig.cmake
+[11.067s] -- Symlinking: /home/ros2_ws/install/mfe/share/mfe/cmake/mfeConfig-version.cmake
+[11.183s] -- Symlinking: /home/ros2_ws/install/mfe/share/mfe/package.xml
+[11.247s] Invoked command in '/home/ros2_ws/build/mfe' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/ros2_ws/build/mfe

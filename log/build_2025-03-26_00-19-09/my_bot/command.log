@@ -1,0 +1,1 @@
+Invoking command in '/home/ros2_ws/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/ros2_ws/ros2/src/my_bot -DCMAKE_INSTALL_PREFIX=/home/ros2_ws/install/my_bot

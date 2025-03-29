@@ -1,0 +1,4 @@
+Invoking command in '/home/ros2_ws/build/mfe_base': /usr/bin/cmake --build /home/ros2_ws/build/mfe_base -- -j8 -l8
+Invoked command in '/home/ros2_ws/build/mfe_base' returned '0': /usr/bin/cmake --build /home/ros2_ws/build/mfe_base -- -j8 -l8
+Invoking command in '/home/ros2_ws/build/mfe_base': /usr/bin/cmake --install /home/ros2_ws/build/mfe_base
+Invoked command in '/home/ros2_ws/build/mfe_base' returned '0': /usr/bin/cmake --install /home/ros2_ws/build/mfe_base

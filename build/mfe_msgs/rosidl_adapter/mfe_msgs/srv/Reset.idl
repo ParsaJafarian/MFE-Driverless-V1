@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from mfe_msgs/srv/Reset.srv
+// generated code does not contain a copyright notice
+
+
+module mfe_msgs {
+  module srv {
+    struct Reset_Request {
+      string name;
+    };
+    struct Reset_Response {
+      boolean success;
+    };
+  };
+};

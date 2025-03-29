@@ -1,0 +1,200 @@
+[0.000000] (-) TimerEvent: {}
+[0.000786] (lidar_cone_detector) JobQueued: {'identifier': 'lidar_cone_detector', 'dependencies': OrderedDict()}
+[0.000875] (mfe) JobQueued: {'identifier': 'mfe', 'dependencies': OrderedDict()}
+[0.000943] (mfe_base) JobQueued: {'identifier': 'mfe_base', 'dependencies': OrderedDict()}
+[0.001020] (mfe_bringup) JobQueued: {'identifier': 'mfe_bringup', 'dependencies': OrderedDict()}
+[0.001055] (mfe_mapping) JobQueued: {'identifier': 'mfe_mapping', 'dependencies': OrderedDict()}
+[0.001079] (mfe_msgs) JobQueued: {'identifier': 'mfe_msgs', 'dependencies': OrderedDict()}
+[0.001100] (mfe_navigation) JobQueued: {'identifier': 'mfe_navigation', 'dependencies': OrderedDict()}
+[0.001135] (mfe_path_planning) JobQueued: {'identifier': 'mfe_path_planning', 'dependencies': OrderedDict()}
+[0.001175] (mfe_simulation) JobQueued: {'identifier': 'mfe_simulation', 'dependencies': OrderedDict()}
+[0.001242] (my_bot) JobQueued: {'identifier': 'my_bot', 'dependencies': OrderedDict()}
+[0.001282] (state_estimation) JobQueued: {'identifier': 'state_estimation', 'dependencies': OrderedDict()}
+[0.001316] (vision_cone_detector) JobQueued: {'identifier': 'vision_cone_detector', 'dependencies': OrderedDict()}
+[0.001378] (lidar_cone_detector) JobStarted: {'identifier': 'lidar_cone_detector'}
+[0.007030] (mfe) JobStarted: {'identifier': 'mfe'}
+[0.010803] (mfe_base) JobStarted: {'identifier': 'mfe_base'}
+[0.013175] (mfe_bringup) JobStarted: {'identifier': 'mfe_bringup'}
+[0.015753] (mfe_mapping) JobStarted: {'identifier': 'mfe_mapping'}
+[0.017550] (mfe_msgs) JobStarted: {'identifier': 'mfe_msgs'}
+[0.019016] (mfe_navigation) JobStarted: {'identifier': 'mfe_navigation'}
+[0.020871] (mfe_path_planning) JobStarted: {'identifier': 'mfe_path_planning'}
+[0.024857] (lidar_cone_detector) JobProgress: {'identifier': 'lidar_cone_detector', 'progress': 'cmake'}
+[0.025701] (lidar_cone_detector) Command: {'cmd': ['/usr/bin/cmake', '/home/ros2_ws/ros2/src/mfe_perception/lidar_cone_detector', '-DCMAKE_INSTALL_PREFIX=/home/ros2_ws/install/lidar_cone_detector'], 'cwd': '/home/ros2_ws/build/lidar_cone_detector', 'env': OrderedDict({'HOSTNAME': 'fedora', 'SHLVL': '1', 'HOME': '/root', 'OLDPWD': '/home/ros2_ws/ros2/src/my_bot', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'TERM': 'xterm', 'PATH': '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'XAUTHORITY': '/tmp/.docker.xauth', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'PWD': '/home/ros2_ws/build/lidar_cone_detector', 'LC_ALL': 'C.UTF-8', 'COLCON': '1'}), 'shell': False}
+[0.028454] (mfe) JobProgress: {'identifier': 'mfe', 'progress': 'cmake'}
+[0.029894] (mfe) Command: {'cmd': ['/usr/bin/cmake', '/home/ros2_ws/ros2/src/mfe', '-DCMAKE_INSTALL_PREFIX=/home/ros2_ws/install/mfe'], 'cwd': '/home/ros2_ws/build/mfe', 'env': OrderedDict({'HOSTNAME': 'fedora', 'SHLVL': '1', 'HOME': '/root', 'OLDPWD': '/home/ros2_ws/ros2/src/my_bot', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'TERM': 'xterm', 'PATH': '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'XAUTHORITY': '/tmp/.docker.xauth', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'PWD': '/home/ros2_ws/build/mfe', 'LC_ALL': 'C.UTF-8', 'COLCON': '1'}), 'shell': False}
+[0.031923] (mfe_base) JobProgress: {'identifier': 'mfe_base', 'progress': 'cmake'}
+[0.032889] (mfe_base) Command: {'cmd': ['/usr/bin/cmake', '/home/ros2_ws/ros2/src/mfe_base', '-DCMAKE_INSTALL_PREFIX=/home/ros2_ws/install/mfe_base'], 'cwd': '/home/ros2_ws/build/mfe_base', 'env': OrderedDict({'HOSTNAME': 'fedora', 'SHLVL': '1', 'HOME': '/root', 'OLDPWD': '/home/ros2_ws/ros2/src/my_bot', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'TERM': 'xterm', 'PATH': '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'XAUTHORITY': '/tmp/.docker.xauth', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'PWD': '/home/ros2_ws/build/mfe_base', 'LC_ALL': 'C.UTF-8', 'COLCON': '1'}), 'shell': False}
+[0.036227] (mfe_bringup) JobProgress: {'identifier': 'mfe_bringup', 'progress': 'cmake'}
+[0.037104] (mfe_bringup) Command: {'cmd': ['/usr/bin/cmake', '/home/ros2_ws/ros2/src/mfe_bringup', '-DCMAKE_INSTALL_PREFIX=/home/ros2_ws/install/mfe_bringup'], 'cwd': '/home/ros2_ws/build/mfe_bringup', 'env': OrderedDict({'HOSTNAME': 'fedora', 'SHLVL': '1', 'HOME': '/root', 'OLDPWD': '/home/ros2_ws/ros2/src/my_bot', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'TERM': 'xterm', 'PATH': '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'XAUTHORITY': '/tmp/.docker.xauth', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'PWD': '/home/ros2_ws/build/mfe_bringup', 'LC_ALL': 'C.UTF-8', 'COLCON': '1'}), 'shell': False}
+[0.040286] (mfe_mapping) JobProgress: {'identifier': 'mfe_mapping', 'progress': 'cmake'}
+[0.040935] (mfe_mapping) Command: {'cmd': ['/usr/bin/cmake', '/home/ros2_ws/ros2/src/mfe_mapping', '-DCMAKE_INSTALL_PREFIX=/home/ros2_ws/install/mfe_mapping'], 'cwd': '/home/ros2_ws/build/mfe_mapping', 'env': OrderedDict({'HOSTNAME': 'fedora', 'SHLVL': '1', 'HOME': '/root', 'OLDPWD': '/home/ros2_ws/ros2/src/my_bot', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'TERM': 'xterm', 'PATH': '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'XAUTHORITY': '/tmp/.docker.xauth', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'PWD': '/home/ros2_ws/build/mfe_mapping', 'LC_ALL': 'C.UTF-8', 'COLCON': '1'}), 'shell': False}
+[0.044089] (mfe_msgs) JobProgress: {'identifier': 'mfe_msgs', 'progress': 'cmake'}
+[0.044291] (mfe_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/ros2_ws/ros2/src/mfe_msgs', '-DCMAKE_INSTALL_PREFIX=/home/ros2_ws/install/mfe_msgs'], 'cwd': '/home/ros2_ws/build/mfe_msgs', 'env': OrderedDict({'HOSTNAME': 'fedora', 'SHLVL': '1', 'HOME': '/root', 'OLDPWD': '/home/ros2_ws/ros2/src/my_bot', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'TERM': 'xterm', 'PATH': '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'XAUTHORITY': '/tmp/.docker.xauth', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'PWD': '/home/ros2_ws/build/mfe_msgs', 'LC_ALL': 'C.UTF-8', 'COLCON': '1'}), 'shell': False}
+[0.046471] (mfe_navigation) JobProgress: {'identifier': 'mfe_navigation', 'progress': 'cmake'}
+[0.047947] (mfe_navigation) Command: {'cmd': ['/usr/bin/cmake', '/home/ros2_ws/ros2/src/mfe_navigation', '-DCMAKE_INSTALL_PREFIX=/home/ros2_ws/install/mfe_navigation'], 'cwd': '/home/ros2_ws/build/mfe_navigation', 'env': OrderedDict({'HOSTNAME': 'fedora', 'SHLVL': '1', 'HOME': '/root', 'OLDPWD': '/home/ros2_ws/ros2/src/my_bot', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'TERM': 'xterm', 'PATH': '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'XAUTHORITY': '/tmp/.docker.xauth', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'PWD': '/home/ros2_ws/build/mfe_navigation', 'LC_ALL': 'C.UTF-8', 'COLCON': '1'}), 'shell': False}
+[0.051055] (mfe_path_planning) JobProgress: {'identifier': 'mfe_path_planning', 'progress': 'cmake'}
+[0.052625] (mfe_path_planning) Command: {'cmd': ['/usr/bin/cmake', '/home/ros2_ws/ros2/src/mfe_path_planning', '-DCMAKE_INSTALL_PREFIX=/home/ros2_ws/install/mfe_path_planning'], 'cwd': '/home/ros2_ws/build/mfe_path_planning', 'env': OrderedDict({'HOSTNAME': 'fedora', 'SHLVL': '1', 'HOME': '/root', 'OLDPWD': '/home/ros2_ws/ros2/src/my_bot', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'TERM': 'xterm', 'PATH': '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'XAUTHORITY': '/tmp/.docker.xauth', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'PWD': '/home/ros2_ws/build/mfe_path_planning', 'LC_ALL': 'C.UTF-8', 'COLCON': '1'}), 'shell': False}
+[0.057581] (lidar_cone_detector) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.070908] (mfe_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.084470] (mfe) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.089593] (mfe_bringup) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.099524] (-) TimerEvent: {}
+[0.106509] (mfe_mapping) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.124035] (mfe_base) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.167145] (mfe_msgs) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[0.167483] (mfe_msgs) StderrLine: {'line': b'  File "/opt/ros/jazzy/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py", line 21, in <module>\n'}
+[0.167694] (mfe_msgs) StderrLine: {'line': b'    from ament_package.templates import get_environment_hook_template_path\n'}
+[0.167875] (mfe_msgs) StderrLine: {'line': b"ModuleNotFoundError: No module named 'ament_package'\n"}
+[0.173054] (mfe_msgs) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/ament_cmake_package_templates-extras.cmake:41 (message):\n'}
+[0.173366] (mfe_msgs) StderrLine: {'line': b'  execute_process(/usr/bin/python3\n'}
+[0.173559] (mfe_msgs) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py\n'}
+[0.173738] (mfe_msgs) StderrLine: {'line': b'  /home/ros2_ws/build/mfe_msgs/ament_cmake_package_templates/templates.cmake)\n'}
+[0.173920] (mfe_msgs) StderrLine: {'line': b'  returned error code 1\n'}
+[0.174119] (mfe_msgs) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.174300] (mfe_msgs) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)\n'}
+[0.174476] (mfe_msgs) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)\n'}
+[0.174651] (mfe_msgs) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)\n'}
+[0.174829] (mfe_msgs) StderrLine: {'line': b'  CMakeLists.txt:19 (find_package)\n'}
+[0.175013] (mfe_msgs) StderrLine: {'line': b'\n'}
+[0.175189] (mfe_msgs) StderrLine: {'line': b'\x1b[0m\n'}
+[0.175376] (mfe_msgs) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.178894] (mfe_navigation) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.181041] (mfe_msgs) CommandEnded: {'returncode': 1}
+[0.199619] (-) TimerEvent: {}
+[0.261938] (mfe_msgs) JobEnded: {'identifier': 'mfe_msgs', 'rc': 1}
+[0.299736] (-) TimerEvent: {}
+[0.392471] (lidar_cone_detector) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[0.394013] (lidar_cone_detector) StderrLine: {'line': b'  File "/opt/ros/jazzy/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py", line 21, in <module>\n'}
+[0.395308] (lidar_cone_detector) StderrLine: {'line': b'    from ament_package.templates import get_environment_hook_template_path\n'}
+[0.396688] (lidar_cone_detector) StderrLine: {'line': b"ModuleNotFoundError: No module named 'ament_package'\n"}
+[0.400073] (-) TimerEvent: {}
+[0.402068] (lidar_cone_detector) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/ament_cmake_package_templates-extras.cmake:41 (message):\n'}
+[0.405132] (lidar_cone_detector) StderrLine: {'line': b'  execute_process(/usr/bin/python3\n'}
+[0.406086] (lidar_cone_detector) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py\n'}
+[0.406769] (lidar_cone_detector) StderrLine: {'line': b'  /home/ros2_ws/build/lidar_cone_detector/ament_cmake_package_templates/templates.cmake)\n'}
+[0.407475] (lidar_cone_detector) StderrLine: {'line': b'  returned error code 1\n'}
+[0.407712] (lidar_cone_detector) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.407944] (lidar_cone_detector) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)\n'}
+[0.409329] (lidar_cone_detector) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)\n'}
+[0.409575] (lidar_cone_detector) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)\n'}
+[0.409797] (lidar_cone_detector) StderrLine: {'line': b'  CMakeLists.txt:9 (find_package)\n'}
+[0.412076] (lidar_cone_detector) StderrLine: {'line': b'\n'}
+[0.412444] (lidar_cone_detector) StderrLine: {'line': b'\x1b[0m\n'}
+[0.415252] (lidar_cone_detector) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.417385] (mfe_path_planning) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.418082] (lidar_cone_detector) JobEnded: {'identifier': 'lidar_cone_detector', 'rc': 'SIGINT'}
+[0.434194] (mfe) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[0.434804] (mfe) StderrLine: {'line': b'  File "/opt/ros/jazzy/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py", line 21, in <module>\n'}
+[0.435057] (mfe) StderrLine: {'line': b'    from ament_package.templates import get_environment_hook_template_path\n'}
+[0.435232] (mfe) StderrLine: {'line': b"ModuleNotFoundError: No module named 'ament_package'\n"}
+[0.445832] (mfe) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/ament_cmake_package_templates-extras.cmake:41 (message):\n'}
+[0.446251] (mfe) StderrLine: {'line': b'  execute_process(/usr/bin/python3\n'}
+[0.446508] (mfe) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py\n'}
+[0.446715] (mfe) StderrLine: {'line': b'  /home/ros2_ws/build/mfe/ament_cmake_package_templates/templates.cmake)\n'}
+[0.446956] (mfe) StderrLine: {'line': b'  returned error code 1\n'}
+[0.447342] (mfe) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.447627] (mfe) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)\n'}
+[0.447858] (mfe) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)\n'}
+[0.448086] (mfe) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)\n'}
+[0.448317] (mfe) StderrLine: {'line': b'  CMakeLists.txt:19 (find_package)\n'}
+[0.448541] (mfe) StderrLine: {'line': b'\n'}
+[0.448819] (mfe) StderrLine: {'line': b'\x1b[0m\n'}
+[0.449113] (mfe) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.451638] (mfe) JobEnded: {'identifier': 'mfe', 'rc': 'SIGINT'}
+[0.452628] (mfe_navigation) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[0.452988] (mfe_navigation) StderrLine: {'line': b'  File "/opt/ros/jazzy/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py", line 21, in <module>\n'}
+[0.453217] (mfe_navigation) StderrLine: {'line': b'    from ament_package.templates import get_environment_hook_template_path\n'}
+[0.453424] (mfe_navigation) StderrLine: {'line': b"ModuleNotFoundError: No module named 'ament_package'\n"}
+[0.460678] (mfe_navigation) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/ament_cmake_package_templates-extras.cmake:41 (message):\n'}
+[0.461007] (mfe_navigation) StderrLine: {'line': b'  execute_process(/usr/bin/python3\n'}
+[0.461271] (mfe_navigation) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py\n'}
+[0.461520] (mfe_navigation) StderrLine: {'line': b'  /home/ros2_ws/build/mfe_navigation/ament_cmake_package_templates/templates.cmake)\n'}
+[0.461750] (mfe_navigation) StderrLine: {'line': b'  returned error code 1\n'}
+[0.461963] (mfe_navigation) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.462214] (mfe_navigation) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)\n'}
+[0.462426] (mfe_navigation) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)\n'}
+[0.462661] (mfe_navigation) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)\n'}
+[0.462864] (mfe_navigation) StderrLine: {'line': b'  CMakeLists.txt:19 (find_package)\n'}
+[0.463083] (mfe_navigation) StderrLine: {'line': b'\n'}
+[0.463292] (mfe_navigation) StderrLine: {'line': b'\x1b[0m\n'}
+[0.463515] (mfe_navigation) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.464098] (mfe_bringup) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[0.464437] (mfe_bringup) StderrLine: {'line': b'  File "/opt/ros/jazzy/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py", line 21, in <module>\n'}
+[0.464685] (mfe_bringup) StderrLine: {'line': b'    from ament_package.templates import get_environment_hook_template_path\n'}
+[0.464897] (mfe_bringup) StderrLine: {'line': b"ModuleNotFoundError: No module named 'ament_package'\n"}
+[0.465246] (mfe_mapping) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[0.466910] (mfe_mapping) StderrLine: {'line': b'  File "/opt/ros/jazzy/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py", line 21, in <module>\n'}
+[0.467313] (mfe_mapping) StderrLine: {'line': b'    from ament_package.templates import get_environment_hook_template_path\n'}
+[0.467536] (mfe_mapping) StderrLine: {'line': b"ModuleNotFoundError: No module named 'ament_package'\n"}
+[0.469205] (mfe_navigation) JobEnded: {'identifier': 'mfe_navigation', 'rc': 'SIGINT'}
+[0.475896] (mfe_bringup) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/ament_cmake_package_templates-extras.cmake:41 (message):\n'}
+[0.476267] (mfe_bringup) StderrLine: {'line': b'  execute_process(/usr/bin/python3\n'}
+[0.476482] (mfe_bringup) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py\n'}
+[0.476689] (mfe_bringup) StderrLine: {'line': b'  /home/ros2_ws/build/mfe_bringup/ament_cmake_package_templates/templates.cmake)\n'}
+[0.476881] (mfe_bringup) StderrLine: {'line': b'  returned error code 1\n'}
+[0.477086] (mfe_bringup) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.477287] (mfe_bringup) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)\n'}
+[0.477517] (mfe_bringup) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)\n'}
+[0.481421] (mfe_bringup) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)\n'}
+[0.481636] (mfe_bringup) StderrLine: {'line': b'  CMakeLists.txt:9 (find_package)\n'}
+[0.481821] (mfe_bringup) StderrLine: {'line': b'\n'}
+[0.482019] (mfe_bringup) StderrLine: {'line': b'\x1b[0m\n'}
+[0.482206] (mfe_bringup) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.482409] (mfe_mapping) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/ament_cmake_package_templates-extras.cmake:41 (message):\n'}
+[0.482603] (mfe_mapping) StderrLine: {'line': b'  execute_process(/usr/bin/python3\n'}
+[0.482789] (mfe_mapping) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py\n'}
+[0.482980] (mfe_mapping) StderrLine: {'line': b'  /home/ros2_ws/build/mfe_mapping/ament_cmake_package_templates/templates.cmake)\n'}
+[0.483521] (mfe_mapping) StderrLine: {'line': b'  returned error code 1\n'}
+[0.483728] (mfe_mapping) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.483917] (mfe_mapping) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)\n'}
+[0.484137] (mfe_mapping) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)\n'}
+[0.484305] (mfe_mapping) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)\n'}
+[0.484466] (mfe_mapping) StderrLine: {'line': b'  CMakeLists.txt:9 (find_package)\n'}
+[0.484631] (mfe_mapping) StderrLine: {'line': b'\n'}
+[0.484793] (mfe_mapping) StderrLine: {'line': b'\x1b[0m\n'}
+[0.484968] (mfe_base) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[0.485189] (mfe_base) StderrLine: {'line': b'  File "/opt/ros/jazzy/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py", line 21, in <module>\n'}
+[0.485381] (mfe_base) StderrLine: {'line': b'    from ament_package.templates import get_environment_hook_template_path\n'}
+[0.485549] (mfe_base) StderrLine: {'line': b"ModuleNotFoundError: No module named 'ament_package'\n"}
+[0.485719] (mfe_mapping) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.487175] (mfe_bringup) JobEnded: {'identifier': 'mfe_bringup', 'rc': 'SIGINT'}
+[0.490132] (mfe_base) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/ament_cmake_package_templates-extras.cmake:41 (message):\n'}
+[0.490801] (mfe_base) StderrLine: {'line': b'  execute_process(/usr/bin/python3\n'}
+[0.491037] (mfe_base) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py\n'}
+[0.491341] (mfe_base) StderrLine: {'line': b'  /home/ros2_ws/build/mfe_base/ament_cmake_package_templates/templates.cmake)\n'}
+[0.491536] (mfe_base) StderrLine: {'line': b'  returned error code 1\n'}
+[0.491712] (mfe_base) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.491891] (mfe_base) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)\n'}
+[0.492119] (mfe_base) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)\n'}
+[0.492295] (mfe_base) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)\n'}
+[0.492471] (mfe_base) StderrLine: {'line': b'  CMakeLists.txt:19 (find_package)\n'}
+[0.492643] (mfe_base) StderrLine: {'line': b'\n'}
+[0.492815] (mfe_base) StderrLine: {'line': b'\x1b[0m\n'}
+[0.492988] (mfe_mapping) JobEnded: {'identifier': 'mfe_mapping', 'rc': 'SIGINT'}
+[0.493589] (mfe_base) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.494357] (mfe_path_planning) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[0.494658] (mfe_path_planning) StderrLine: {'line': b'  File "/opt/ros/jazzy/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py", line 21, in <module>\n'}
+[0.494867] (mfe_path_planning) StderrLine: {'line': b'    from ament_package.templates import get_environment_hook_template_path\n'}
+[0.495214] (mfe_path_planning) StderrLine: {'line': b"ModuleNotFoundError: No module named 'ament_package'\n"}
+[0.496229] (mfe_base) JobEnded: {'identifier': 'mfe_base', 'rc': 'SIGINT'}
+[0.500286] (-) TimerEvent: {}
+[0.506709] (mfe_path_planning) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/ament_cmake_package_templates-extras.cmake:41 (message):\n'}
+[0.506979] (mfe_path_planning) StderrLine: {'line': b'  execute_process(/usr/bin/python3\n'}
+[0.507186] (mfe_path_planning) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py\n'}
+[0.507391] (mfe_path_planning) StderrLine: {'line': b'  /home/ros2_ws/build/mfe_path_planning/ament_cmake_package_templates/templates.cmake)\n'}
+[0.507576] (mfe_path_planning) StderrLine: {'line': b'  returned error code 1\n'}
+[0.507890] (mfe_path_planning) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.508110] (mfe_path_planning) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)\n'}
+[0.508307] (mfe_path_planning) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)\n'}
+[0.508489] (mfe_path_planning) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)\n'}
+[0.508667] (mfe_path_planning) StderrLine: {'line': b'  CMakeLists.txt:19 (find_package)\n'}
+[0.508840] (mfe_path_planning) StderrLine: {'line': b'\n'}
+[0.509025] (mfe_path_planning) StderrLine: {'line': b'\x1b[0m\n'}
+[0.509214] (mfe_path_planning) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.513020] (mfe_path_planning) JobEnded: {'identifier': 'mfe_path_planning', 'rc': 'SIGINT'}
+[0.515587] (mfe_simulation) JobSkipped: {'identifier': 'mfe_simulation'}
+[0.515722] (my_bot) JobSkipped: {'identifier': 'my_bot'}
+[0.515822] (state_estimation) JobSkipped: {'identifier': 'state_estimation'}
+[0.515928] (vision_cone_detector) JobSkipped: {'identifier': 'vision_cone_detector'}
+[0.515979] (-) EventReactorShutdown: {}

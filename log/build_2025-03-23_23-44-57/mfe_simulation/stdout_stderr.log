@@ -1,0 +1,17 @@
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/ros2_ws/install/mfe_simulation/share/ament_index/resource_index/package_run_dependencies/mfe_simulation
+-- Symlinking: /home/ros2_ws/install/mfe_simulation/share/ament_index/resource_index/parent_prefix_path/mfe_simulation
+-- Symlinking: /home/ros2_ws/install/mfe_simulation/share/mfe_simulation/environment/ament_prefix_path.sh
+-- Symlinking: /home/ros2_ws/install/mfe_simulation/share/mfe_simulation/environment/ament_prefix_path.dsv
+-- Symlinking: /home/ros2_ws/install/mfe_simulation/share/mfe_simulation/environment/path.sh
+-- Symlinking: /home/ros2_ws/install/mfe_simulation/share/mfe_simulation/environment/path.dsv
+-- Symlinking: /home/ros2_ws/install/mfe_simulation/share/mfe_simulation/local_setup.bash
+-- Symlinking: /home/ros2_ws/install/mfe_simulation/share/mfe_simulation/local_setup.sh
+-- Symlinking: /home/ros2_ws/install/mfe_simulation/share/mfe_simulation/local_setup.zsh
+-- Symlinking: /home/ros2_ws/install/mfe_simulation/share/mfe_simulation/local_setup.dsv
+-- Symlinking: /home/ros2_ws/install/mfe_simulation/share/mfe_simulation/package.dsv
+-- Symlinking: /home/ros2_ws/install/mfe_simulation/share/ament_index/resource_index/packages/mfe_simulation
+-- Symlinking: /home/ros2_ws/install/mfe_simulation/share/mfe_simulation/cmake/mfe_simulationConfig.cmake
+-- Symlinking: /home/ros2_ws/install/mfe_simulation/share/mfe_simulation/cmake/mfe_simulationConfig-version.cmake
+-- Symlinking: /home/ros2_ws/install/mfe_simulation/share/mfe_simulation/package.xml

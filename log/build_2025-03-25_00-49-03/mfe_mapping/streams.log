@@ -1,0 +1,21 @@
+[1.248s] Invoking command in '/home/ros2_ws/build/mfe_mapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/ros2_ws/build/mfe_mapping -- -j8 -l8
+[12.684s] Invoked command in '/home/ros2_ws/build/mfe_mapping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/ros2_ws/build/mfe_mapping -- -j8 -l8
+[12.717s] Invoking command in '/home/ros2_ws/build/mfe_mapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/ros2_ws/build/mfe_mapping
+[12.730s] -- Install configuration: ""
+[12.795s] -- Execute custom install script
+[12.796s] -- Up-to-date symlink: /home/ros2_ws/install/mfe_mapping/share/ament_index/resource_index/package_run_dependencies/mfe_mapping
+[12.796s] -- Up-to-date symlink: /home/ros2_ws/install/mfe_mapping/share/ament_index/resource_index/parent_prefix_path/mfe_mapping
+[12.796s] -- Up-to-date symlink: /home/ros2_ws/install/mfe_mapping/share/mfe_mapping/environment/ament_prefix_path.sh
+[12.796s] -- Up-to-date symlink: /home/ros2_ws/install/mfe_mapping/share/mfe_mapping/environment/ament_prefix_path.dsv
+[12.796s] -- Up-to-date symlink: /home/ros2_ws/install/mfe_mapping/share/mfe_mapping/environment/path.sh
+[12.796s] -- Up-to-date symlink: /home/ros2_ws/install/mfe_mapping/share/mfe_mapping/environment/path.dsv
+[12.797s] -- Up-to-date symlink: /home/ros2_ws/install/mfe_mapping/share/mfe_mapping/local_setup.bash
+[12.797s] -- Up-to-date symlink: /home/ros2_ws/install/mfe_mapping/share/mfe_mapping/local_setup.sh
+[12.797s] -- Up-to-date symlink: /home/ros2_ws/install/mfe_mapping/share/mfe_mapping/local_setup.zsh
+[12.797s] -- Up-to-date symlink: /home/ros2_ws/install/mfe_mapping/share/mfe_mapping/local_setup.dsv
+[12.797s] -- Symlinking: /home/ros2_ws/install/mfe_mapping/share/mfe_mapping/package.dsv
+[12.810s] -- Up-to-date symlink: /home/ros2_ws/install/mfe_mapping/share/ament_index/resource_index/packages/mfe_mapping
+[12.813s] -- Up-to-date symlink: /home/ros2_ws/install/mfe_mapping/share/mfe_mapping/cmake/mfe_mappingConfig.cmake
+[12.813s] -- Up-to-date symlink: /home/ros2_ws/install/mfe_mapping/share/mfe_mapping/cmake/mfe_mappingConfig-version.cmake
+[12.813s] -- Up-to-date symlink: /home/ros2_ws/install/mfe_mapping/share/mfe_mapping/package.xml
+[12.819s] Invoked command in '/home/ros2_ws/build/mfe_mapping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/ros2_ws/build/mfe_mapping

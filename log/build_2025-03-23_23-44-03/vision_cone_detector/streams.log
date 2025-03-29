@@ -1,0 +1,22 @@
+[0.027s] Invoking command in '/home/ros2_ws/build/vision_cone_detector': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/ros2_ws/ros2/src/mfe_perception/vision_cone_detector -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ros2_ws/install/vision_cone_detector
+[1.887s] -- The C compiler identification is GNU 13.3.0
+[1.887s] -- The CXX compiler identification is GNU 13.3.0
+[1.889s] -- Detecting C compiler ABI info
+[1.896s] -- Detecting C compiler ABI info - done
+[1.898s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.898s] -- Detecting C compile features
+[1.898s] -- Detecting C compile features - done
+[1.899s] -- Detecting CXX compiler ABI info
+[2.439s] -- Detecting CXX compiler ABI info - done
+[2.459s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.462s] -- Detecting CXX compile features
+[2.462s] -- Detecting CXX compile features - done
+[2.529s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[3.170s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[3.378s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.578s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[4.124s] -- Added test 'lint_cmake' to check CMake code style
+[4.130s] -- Added test 'xmllint' to check XML markup files
+[4.137s] -- Configuring done (4.1s)
+[4.148s] -- Generating done (0.0s)
+[4.152s] -- Build files have been written to: /home/ros2_ws/build/vision_cone_detector

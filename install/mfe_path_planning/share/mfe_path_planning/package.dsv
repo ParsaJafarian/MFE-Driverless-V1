@@ -1,0 +1,8 @@
+source;share/mfe_path_planning/hook/cmake_prefix_path.ps1
+source;share/mfe_path_planning/hook/cmake_prefix_path.dsv
+source;share/mfe_path_planning/hook/cmake_prefix_path.sh
+source;share/mfe_path_planning/local_setup.bash
+source;share/mfe_path_planning/local_setup.dsv
+source;share/mfe_path_planning/local_setup.ps1
+source;share/mfe_path_planning/local_setup.sh
+source;share/mfe_path_planning/local_setup.zsh

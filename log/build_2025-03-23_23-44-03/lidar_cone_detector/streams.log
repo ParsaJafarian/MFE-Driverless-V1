@@ -1,0 +1,64 @@
+[0.091s] Invoking command in '/home/ros2_ws/build/lidar_cone_detector': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/ros2_ws/ros2/src/mfe_perception/lidar_cone_detector -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ros2_ws/install/lidar_cone_detector
+[9.479s] -- The C compiler identification is GNU 13.3.0
+[9.480s] -- The CXX compiler identification is GNU 13.3.0
+[9.484s] -- Detecting C compiler ABI info
+[9.485s] -- Detecting C compiler ABI info - done
+[9.489s] -- Check for working C compiler: /usr/bin/cc - skipped
+[9.495s] -- Detecting C compile features
+[9.496s] -- Detecting C compile features - done
+[9.501s] -- Detecting CXX compiler ABI info
+[9.503s] -- Detecting CXX compiler ABI info - done
+[9.504s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[9.507s] -- Detecting CXX compile features
+[9.507s] -- Detecting CXX compile features - done
+[9.508s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[9.509s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[9.510s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[9.511s] -- Found rclcpp: 28.1.5 (/opt/ros/jazzy/share/rclcpp/cmake)
+[9.521s] -- Found rosidl_generator_c: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[9.833s] -- Found rosidl_generator_cpp: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[10.299s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[10.651s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[12.379s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[12.453s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[13.658s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[13.754s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[13.782s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[15.673s] -- Found sensor_msgs: 5.3.5 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[15.941s] [33mCMake Warning at CMakeLists.txt:13 (find_package):
+[15.941s]   By not providing "Findvision_msgs.cmake" in CMAKE_MODULE_PATH this project
+[15.941s]   has asked CMake to find a package configuration file provided by
+[15.941s]   "vision_msgs", but CMake did not find one.
+[15.941s] 
+[15.941s]   Could not find a package configuration file provided by "vision_msgs" with
+[15.941s]   any of the following names:
+[15.941s] 
+[15.941s]     vision_msgsConfig.cmake
+[15.941s]     vision_msgs-config.cmake
+[15.941s] 
+[15.941s]   Add the installation prefix of "vision_msgs" to CMAKE_PREFIX_PATH or set
+[15.941s]   "vision_msgs_DIR" to a directory containing one of the above files.  If
+[15.942s]   "vision_msgs" provides a separate development package or SDK, be sure it
+[15.942s]   has been installed.
+[15.942s] 
+[15.942s] [0m
+[15.959s] -- Found tf2: 0.36.4 (/opt/ros/jazzy/share/tf2/cmake)
+[16.001s] -- Found tf2_ros: 0.36.4 (/opt/ros/jazzy/share/tf2_ros/cmake)
+[17.079s] [31mCMake Error at CMakeLists.txt:16 (find_package):
+[17.079s]   By not providing "Findpcl_ros.cmake" in CMAKE_MODULE_PATH this project has
+[17.079s]   asked CMake to find a package configuration file provided by "pcl_ros", but
+[17.079s]   CMake did not find one.
+[17.079s] 
+[17.079s]   Could not find a package configuration file provided by "pcl_ros" with any
+[17.079s]   of the following names:
+[17.080s] 
+[17.080s]     pcl_rosConfig.cmake
+[17.080s]     pcl_ros-config.cmake
+[17.080s] 
+[17.080s]   Add the installation prefix of "pcl_ros" to CMAKE_PREFIX_PATH or set
+[17.080s]   "pcl_ros_DIR" to a directory containing one of the above files.  If
+[17.080s]   "pcl_ros" provides a separate development package or SDK, be sure it has
+[17.080s]   been installed.
+[17.080s] 
+[17.080s] [0m
+[17.080s] -- Configuring incomplete, errors occurred!

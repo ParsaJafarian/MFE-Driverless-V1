@@ -1,0 +1,15 @@
+/home/ros2_ws/install/vision_cone_detector/share/ament_index/resource_index/package_run_dependencies/vision_cone_detector
+/home/ros2_ws/install/vision_cone_detector/share/ament_index/resource_index/parent_prefix_path/vision_cone_detector
+/home/ros2_ws/install/vision_cone_detector/share/vision_cone_detector/environment/ament_prefix_path.sh
+/home/ros2_ws/install/vision_cone_detector/share/vision_cone_detector/environment/ament_prefix_path.dsv
+/home/ros2_ws/install/vision_cone_detector/share/vision_cone_detector/environment/path.sh
+/home/ros2_ws/install/vision_cone_detector/share/vision_cone_detector/environment/path.dsv
+/home/ros2_ws/install/vision_cone_detector/share/vision_cone_detector/local_setup.bash
+/home/ros2_ws/install/vision_cone_detector/share/vision_cone_detector/local_setup.sh
+/home/ros2_ws/install/vision_cone_detector/share/vision_cone_detector/local_setup.zsh
+/home/ros2_ws/install/vision_cone_detector/share/vision_cone_detector/local_setup.dsv
+/home/ros2_ws/install/vision_cone_detector/share/vision_cone_detector/package.dsv
+/home/ros2_ws/install/vision_cone_detector/share/ament_index/resource_index/packages/vision_cone_detector
+/home/ros2_ws/install/vision_cone_detector/share/vision_cone_detector/cmake/vision_cone_detectorConfig.cmake
+/home/ros2_ws/install/vision_cone_detector/share/vision_cone_detector/cmake/vision_cone_detectorConfig-version.cmake
+/home/ros2_ws/install/vision_cone_detector/share/vision_cone_detector/package.xml

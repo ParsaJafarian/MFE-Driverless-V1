@@ -1,0 +1,5 @@
+Invoking command in '/home/ros2_ws/build/mfe_base': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/ros2_ws/ros2/src/mfe_base -DCMAKE_INSTALL_PREFIX=/home/ros2_ws/install/mfe_base
+Invoked command in '/home/ros2_ws/build/mfe_base' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/ros2_ws/ros2/src/mfe_base -DCMAKE_INSTALL_PREFIX=/home/ros2_ws/install/mfe_base
+Invoking command in '/home/ros2_ws/build/mfe_base': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/ros2_ws/build/mfe_base -- -j8 -l8
+Invoked command in '/home/ros2_ws/build/mfe_base' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/ros2_ws/build/mfe_base -- -j8 -l8
+Invoking command in '/home/ros2_ws/build/mfe_base': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/ros2_ws/build/mfe_base

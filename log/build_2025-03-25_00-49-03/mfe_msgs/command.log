@@ -1,0 +1,2 @@
+Invoking command in '/home/ros2_ws/build/mfe_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/ros2_ws/build/mfe_msgs -- -j8 -l8
+Invoked command in '/home/ros2_ws/build/mfe_msgs' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/ros2_ws/build/mfe_msgs -- -j8 -l8

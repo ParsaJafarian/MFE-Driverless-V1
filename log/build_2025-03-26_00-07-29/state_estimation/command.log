@@ -1,0 +1,3 @@
+Invoking command in '/home/ros2_ws/build/state_estimation': /usr/bin/cmake --build /home/ros2_ws/build/state_estimation -- -j8 -l8
+Invoked command in '/home/ros2_ws/build/state_estimation' returned '0': /usr/bin/cmake --build /home/ros2_ws/build/state_estimation -- -j8 -l8
+Invoking command in '/home/ros2_ws/build/state_estimation': /usr/bin/cmake --install /home/ros2_ws/build/state_estimation

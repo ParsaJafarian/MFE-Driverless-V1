@@ -1,0 +1,15 @@
+/home/ros2_ws/install/mfe_path_planning/share/ament_index/resource_index/package_run_dependencies/mfe_path_planning
+/home/ros2_ws/install/mfe_path_planning/share/ament_index/resource_index/parent_prefix_path/mfe_path_planning
+/home/ros2_ws/install/mfe_path_planning/share/mfe_path_planning/environment/ament_prefix_path.sh
+/home/ros2_ws/install/mfe_path_planning/share/mfe_path_planning/environment/ament_prefix_path.dsv
+/home/ros2_ws/install/mfe_path_planning/share/mfe_path_planning/environment/path.sh
+/home/ros2_ws/install/mfe_path_planning/share/mfe_path_planning/environment/path.dsv
+/home/ros2_ws/install/mfe_path_planning/share/mfe_path_planning/local_setup.bash
+/home/ros2_ws/install/mfe_path_planning/share/mfe_path_planning/local_setup.sh
+/home/ros2_ws/install/mfe_path_planning/share/mfe_path_planning/local_setup.zsh
+/home/ros2_ws/install/mfe_path_planning/share/mfe_path_planning/local_setup.dsv
+/home/ros2_ws/install/mfe_path_planning/share/mfe_path_planning/package.dsv
+/home/ros2_ws/install/mfe_path_planning/share/ament_index/resource_index/packages/mfe_path_planning
+/home/ros2_ws/install/mfe_path_planning/share/mfe_path_planning/cmake/mfe_path_planningConfig.cmake
+/home/ros2_ws/install/mfe_path_planning/share/mfe_path_planning/cmake/mfe_path_planningConfig-version.cmake
+/home/ros2_ws/install/mfe_path_planning/share/mfe_path_planning/package.xml

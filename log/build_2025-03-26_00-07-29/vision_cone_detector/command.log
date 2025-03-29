@@ -1,0 +1,3 @@
+Invoking command in '/home/ros2_ws/build/vision_cone_detector': /usr/bin/cmake --build /home/ros2_ws/build/vision_cone_detector -- -j8 -l8
+Invoked command in '/home/ros2_ws/build/vision_cone_detector' returned '0': /usr/bin/cmake --build /home/ros2_ws/build/vision_cone_detector -- -j8 -l8
+Invoking command in '/home/ros2_ws/build/vision_cone_detector': /usr/bin/cmake --install /home/ros2_ws/build/vision_cone_detector

@@ -1,0 +1,49 @@
+[0.740s] Invoking command in '/home/ros2_ws/build/lidar_cone_detector': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/ros2_ws/ros2/src/mfe_perception/lidar_cone_detector -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ros2_ws/install/lidar_cone_detector
+[11.096s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[12.257s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[13.562s] -- Found rclcpp: 28.1.5 (/opt/ros/jazzy/share/rclcpp/cmake)
+[18.162s] -- Found rosidl_generator_c: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[18.524s] -- Found rosidl_generator_cpp: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[18.962s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[19.363s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[24.466s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[24.500s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[26.532s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[27.871s] -- Found sensor_msgs: 5.3.5 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[29.802s] [33mCMake Warning at CMakeLists.txt:13 (find_package):
+[29.802s]   By not providing "Findvision_msgs.cmake" in CMAKE_MODULE_PATH this project
+[29.802s]   has asked CMake to find a package configuration file provided by
+[29.802s]   "vision_msgs", but CMake did not find one.
+[29.802s] 
+[29.802s]   Could not find a package configuration file provided by "vision_msgs" with
+[29.802s]   any of the following names:
+[29.802s] 
+[29.802s]     vision_msgsConfig.cmake
+[29.802s]     vision_msgs-config.cmake
+[29.802s] 
+[29.802s]   Add the installation prefix of "vision_msgs" to CMAKE_PREFIX_PATH or set
+[29.803s]   "vision_msgs_DIR" to a directory containing one of the above files.  If
+[29.803s]   "vision_msgs" provides a separate development package or SDK, be sure it
+[29.803s]   has been installed.
+[29.803s] 
+[29.803s] [0m
+[29.803s] -- Found tf2: 0.36.4 (/opt/ros/jazzy/share/tf2/cmake)
+[29.952s] -- Found tf2_ros: 0.36.4 (/opt/ros/jazzy/share/tf2_ros/cmake)
+[32.185s] [31mCMake Error at CMakeLists.txt:16 (find_package):
+[32.185s]   By not providing "Findpcl_ros.cmake" in CMAKE_MODULE_PATH this project has
+[32.185s]   asked CMake to find a package configuration file provided by "pcl_ros", but
+[32.185s]   CMake did not find one.
+[32.185s] 
+[32.185s]   Could not find a package configuration file provided by "pcl_ros" with any
+[32.185s]   of the following names:
+[32.186s] 
+[32.186s]     pcl_rosConfig.cmake
+[32.186s]     pcl_ros-config.cmake
+[32.186s] 
+[32.186s]   Add the installation prefix of "pcl_ros" to CMAKE_PREFIX_PATH or set
+[32.186s]   "pcl_ros_DIR" to a directory containing one of the above files.  If
+[32.186s]   "pcl_ros" provides a separate development package or SDK, be sure it has
+[32.186s]   been installed.
+[32.186s] 
+[32.186s] [0m
+[32.186s] -- Configuring incomplete, errors occurred!

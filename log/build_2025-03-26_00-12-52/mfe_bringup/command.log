@@ -1,0 +1,1 @@
+Invoking command in '/home/ros2_ws/build/mfe_bringup': /usr/bin/cmake /home/ros2_ws/ros2/src/mfe_bringup -DCMAKE_INSTALL_PREFIX=/home/ros2_ws/install/mfe_bringup

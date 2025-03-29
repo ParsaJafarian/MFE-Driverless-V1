@@ -1,0 +1,17 @@
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/ros2_ws/install/vision_cone_detector/share/ament_index/resource_index/package_run_dependencies/vision_cone_detector
+-- Symlinking: /home/ros2_ws/install/vision_cone_detector/share/ament_index/resource_index/parent_prefix_path/vision_cone_detector
+-- Symlinking: /home/ros2_ws/install/vision_cone_detector/share/vision_cone_detector/environment/ament_prefix_path.sh
+-- Symlinking: /home/ros2_ws/install/vision_cone_detector/share/vision_cone_detector/environment/ament_prefix_path.dsv
+-- Symlinking: /home/ros2_ws/install/vision_cone_detector/share/vision_cone_detector/environment/path.sh
+-- Symlinking: /home/ros2_ws/install/vision_cone_detector/share/vision_cone_detector/environment/path.dsv
+-- Symlinking: /home/ros2_ws/install/vision_cone_detector/share/vision_cone_detector/local_setup.bash
+-- Symlinking: /home/ros2_ws/install/vision_cone_detector/share/vision_cone_detector/local_setup.sh
+-- Symlinking: /home/ros2_ws/install/vision_cone_detector/share/vision_cone_detector/local_setup.zsh
+-- Symlinking: /home/ros2_ws/install/vision_cone_detector/share/vision_cone_detector/local_setup.dsv
+-- Symlinking: /home/ros2_ws/install/vision_cone_detector/share/vision_cone_detector/package.dsv
+-- Symlinking: /home/ros2_ws/install/vision_cone_detector/share/ament_index/resource_index/packages/vision_cone_detector
+-- Symlinking: /home/ros2_ws/install/vision_cone_detector/share/vision_cone_detector/cmake/vision_cone_detectorConfig.cmake
+-- Symlinking: /home/ros2_ws/install/vision_cone_detector/share/vision_cone_detector/cmake/vision_cone_detectorConfig-version.cmake
+-- Symlinking: /home/ros2_ws/install/vision_cone_detector/share/vision_cone_detector/package.xml

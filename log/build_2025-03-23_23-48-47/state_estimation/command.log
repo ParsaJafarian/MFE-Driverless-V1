@@ -1,0 +1,4 @@
+Invoking command in '/home/ros2_ws/build/state_estimation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/ros2_ws/build/state_estimation -- -j8 -l8
+Invoked command in '/home/ros2_ws/build/state_estimation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/ros2_ws/build/state_estimation -- -j8 -l8
+Invoking command in '/home/ros2_ws/build/state_estimation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/ros2_ws/build/state_estimation
+Invoked command in '/home/ros2_ws/build/state_estimation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/ros2_ws/build/state_estimation

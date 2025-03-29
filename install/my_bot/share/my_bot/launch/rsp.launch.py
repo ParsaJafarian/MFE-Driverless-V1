@@ -1,0 +1,1 @@
+/home/ros2_ws/ros2/src/my_bot/launch/rsp.launch.py

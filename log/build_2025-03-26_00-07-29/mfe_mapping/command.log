@@ -1,0 +1,4 @@
+Invoking command in '/home/ros2_ws/build/mfe_mapping': /usr/bin/cmake --build /home/ros2_ws/build/mfe_mapping -- -j8 -l8
+Invoked command in '/home/ros2_ws/build/mfe_mapping' returned '0': /usr/bin/cmake --build /home/ros2_ws/build/mfe_mapping -- -j8 -l8
+Invoking command in '/home/ros2_ws/build/mfe_mapping': /usr/bin/cmake --install /home/ros2_ws/build/mfe_mapping
+Invoked command in '/home/ros2_ws/build/mfe_mapping' returned '0': /usr/bin/cmake --install /home/ros2_ws/build/mfe_mapping

@@ -1,0 +1,12 @@
+[0.060s] Invoking command in '/home/ros2_ws/build/mfe_path_planning': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/ros2_ws/ros2/src/mfe_path_planning -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ros2_ws/install/mfe_path_planning
+[0.918s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.919s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.921s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.921s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.921s] -- Added test 'lint_cmake' to check CMake code style
+[0.922s] -- Added test 'xmllint' to check XML markup files
+[0.923s] -- Configuring done (0.8s)
+[0.926s] -- Generating done (0.0s)
+[0.928s] -- Build files have been written to: /home/ros2_ws/build/mfe_path_planning
+[0.937s] Invoked command in '/home/ros2_ws/build/mfe_path_planning' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/ros2_ws/ros2/src/mfe_path_planning -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ros2_ws/install/mfe_path_planning
+[0.942s] Invoking command in '/home/ros2_ws/build/mfe_path_planning': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/ros2_ws/build/mfe_path_planning -- -j8 -l8

@@ -1,0 +1,1 @@
+Invoking command in '/home/ros2_ws/build/vision_cone_detector': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/ros2_ws/ros2/src/mfe_perception/vision_cone_detector -DCMAKE_INSTALL_PREFIX=/home/ros2_ws/install/vision_cone_detector

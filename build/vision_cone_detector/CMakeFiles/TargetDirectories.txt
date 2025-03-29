@@ -1,0 +1,9 @@
+/home/ros2_ws/build/vision_cone_detector/CMakeFiles/uninstall.dir
+/home/ros2_ws/build/vision_cone_detector/CMakeFiles/vision_cone_detector_uninstall.dir
+/home/ros2_ws/build/vision_cone_detector/CMakeFiles/test.dir
+/home/ros2_ws/build/vision_cone_detector/CMakeFiles/edit_cache.dir
+/home/ros2_ws/build/vision_cone_detector/CMakeFiles/rebuild_cache.dir
+/home/ros2_ws/build/vision_cone_detector/CMakeFiles/list_install_components.dir
+/home/ros2_ws/build/vision_cone_detector/CMakeFiles/install.dir
+/home/ros2_ws/build/vision_cone_detector/CMakeFiles/install/local.dir
+/home/ros2_ws/build/vision_cone_detector/CMakeFiles/install/strip.dir

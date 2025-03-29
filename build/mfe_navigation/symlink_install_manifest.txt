@@ -1,0 +1,15 @@
+/home/ros2_ws/install/mfe_navigation/share/ament_index/resource_index/package_run_dependencies/mfe_navigation
+/home/ros2_ws/install/mfe_navigation/share/ament_index/resource_index/parent_prefix_path/mfe_navigation
+/home/ros2_ws/install/mfe_navigation/share/mfe_navigation/environment/ament_prefix_path.sh
+/home/ros2_ws/install/mfe_navigation/share/mfe_navigation/environment/ament_prefix_path.dsv
+/home/ros2_ws/install/mfe_navigation/share/mfe_navigation/environment/path.sh
+/home/ros2_ws/install/mfe_navigation/share/mfe_navigation/environment/path.dsv
+/home/ros2_ws/install/mfe_navigation/share/mfe_navigation/local_setup.bash
+/home/ros2_ws/install/mfe_navigation/share/mfe_navigation/local_setup.sh
+/home/ros2_ws/install/mfe_navigation/share/mfe_navigation/local_setup.zsh
+/home/ros2_ws/install/mfe_navigation/share/mfe_navigation/local_setup.dsv
+/home/ros2_ws/install/mfe_navigation/share/mfe_navigation/package.dsv
+/home/ros2_ws/install/mfe_navigation/share/ament_index/resource_index/packages/mfe_navigation
+/home/ros2_ws/install/mfe_navigation/share/mfe_navigation/cmake/mfe_navigationConfig.cmake
+/home/ros2_ws/install/mfe_navigation/share/mfe_navigation/cmake/mfe_navigationConfig-version.cmake
+/home/ros2_ws/install/mfe_navigation/share/mfe_navigation/package.xml

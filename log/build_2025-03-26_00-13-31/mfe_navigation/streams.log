@@ -1,0 +1,32 @@
+[0.043s] Invoking command in '/home/ros2_ws/build/mfe_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/ros2_ws/ros2/src/mfe_navigation -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ros2_ws/install/mfe_navigation
+[1.010s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.011s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.012s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.013s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.015s] -- Added test 'lint_cmake' to check CMake code style
+[1.017s] -- Added test 'xmllint' to check XML markup files
+[1.019s] -- Configuring done (0.9s)
+[1.034s] -- Generating done (0.0s)
+[1.045s] -- Build files have been written to: /home/ros2_ws/build/mfe_navigation
+[1.052s] Invoked command in '/home/ros2_ws/build/mfe_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/ros2_ws/ros2/src/mfe_navigation -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ros2_ws/install/mfe_navigation
+[1.056s] Invoking command in '/home/ros2_ws/build/mfe_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/ros2_ws/build/mfe_navigation -- -j8 -l8
+[1.151s] Invoked command in '/home/ros2_ws/build/mfe_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/ros2_ws/build/mfe_navigation -- -j8 -l8
+[1.199s] Invoking command in '/home/ros2_ws/build/mfe_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/ros2_ws/build/mfe_navigation
+[1.239s] -- Install configuration: ""
+[1.240s] -- Execute custom install script
+[1.241s] -- Up-to-date symlink: /home/ros2_ws/install/mfe_navigation/share/ament_index/resource_index/package_run_dependencies/mfe_navigation
+[1.243s] -- Up-to-date symlink: /home/ros2_ws/install/mfe_navigation/share/ament_index/resource_index/parent_prefix_path/mfe_navigation
+[1.244s] -- Up-to-date symlink: /home/ros2_ws/install/mfe_navigation/share/mfe_navigation/environment/ament_prefix_path.sh
+[1.244s] -- Up-to-date symlink: /home/ros2_ws/install/mfe_navigation/share/mfe_navigation/environment/ament_prefix_path.dsv
+[1.244s] -- Up-to-date symlink: /home/ros2_ws/install/mfe_navigation/share/mfe_navigation/environment/path.sh
+[1.245s] -- Up-to-date symlink: /home/ros2_ws/install/mfe_navigation/share/mfe_navigation/environment/path.dsv
+[1.245s] -- Up-to-date symlink: /home/ros2_ws/install/mfe_navigation/share/mfe_navigation/local_setup.bash
+[1.246s] -- Up-to-date symlink: /home/ros2_ws/install/mfe_navigation/share/mfe_navigation/local_setup.sh
+[1.246s] -- Up-to-date symlink: /home/ros2_ws/install/mfe_navigation/share/mfe_navigation/local_setup.zsh
+[1.247s] -- Up-to-date symlink: /home/ros2_ws/install/mfe_navigation/share/mfe_navigation/local_setup.dsv
+[1.247s] -- Symlinking: /home/ros2_ws/install/mfe_navigation/share/mfe_navigation/package.dsv
+[1.247s] -- Up-to-date symlink: /home/ros2_ws/install/mfe_navigation/share/ament_index/resource_index/packages/mfe_navigation
+[1.248s] -- Up-to-date symlink: /home/ros2_ws/install/mfe_navigation/share/mfe_navigation/cmake/mfe_navigationConfig.cmake
+[1.248s] -- Up-to-date symlink: /home/ros2_ws/install/mfe_navigation/share/mfe_navigation/cmake/mfe_navigationConfig-version.cmake
+[1.248s] -- Up-to-date symlink: /home/ros2_ws/install/mfe_navigation/share/mfe_navigation/package.xml
+[1.282s] Invoked command in '/home/ros2_ws/build/mfe_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/ros2_ws/build/mfe_navigation

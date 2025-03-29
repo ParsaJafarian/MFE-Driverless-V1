@@ -1,0 +1,7 @@
+[31mCMake Error at /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:95 (message):
+  rosidl_generate_interfaces() the passed file 'srv/Reset.srv' doesn't exist
+  relative to the CMAKE_CURRENT_SOURCE_DIR '/home/ros2_ws/ros2/src/mfe_msgs'
+Call Stack (most recent call first):
+  CMakeLists.txt:26 (rosidl_generate_interfaces)
+
+[0m

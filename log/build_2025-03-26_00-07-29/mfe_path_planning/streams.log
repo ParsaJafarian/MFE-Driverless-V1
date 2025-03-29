@@ -1,0 +1,20 @@
+[0.083s] Invoking command in '/home/ros2_ws/build/mfe_path_planning': /usr/bin/cmake --build /home/ros2_ws/build/mfe_path_planning -- -j8 -l8
+[0.216s] Invoked command in '/home/ros2_ws/build/mfe_path_planning' returned '0': /usr/bin/cmake --build /home/ros2_ws/build/mfe_path_planning -- -j8 -l8
+[0.253s] Invoking command in '/home/ros2_ws/build/mfe_path_planning': /usr/bin/cmake --install /home/ros2_ws/build/mfe_path_planning
+[0.268s] -- Install configuration: ""
+[0.368s] -- Execute custom install script
+[0.369s] -- Up-to-date symlink: /home/ros2_ws/install/mfe_path_planning/share/ament_index/resource_index/package_run_dependencies/mfe_path_planning
+[0.370s] -- Up-to-date symlink: /home/ros2_ws/install/mfe_path_planning/share/ament_index/resource_index/parent_prefix_path/mfe_path_planning
+[0.371s] -- Up-to-date symlink: /home/ros2_ws/install/mfe_path_planning/share/mfe_path_planning/environment/ament_prefix_path.sh
+[0.371s] -- Up-to-date symlink: /home/ros2_ws/install/mfe_path_planning/share/mfe_path_planning/environment/ament_prefix_path.dsv
+[0.371s] -- Up-to-date symlink: /home/ros2_ws/install/mfe_path_planning/share/mfe_path_planning/environment/path.sh
+[0.372s] -- Up-to-date symlink: /home/ros2_ws/install/mfe_path_planning/share/mfe_path_planning/environment/path.dsv
+[0.372s] -- Up-to-date symlink: /home/ros2_ws/install/mfe_path_planning/share/mfe_path_planning/local_setup.bash
+[0.373s] -- Up-to-date symlink: /home/ros2_ws/install/mfe_path_planning/share/mfe_path_planning/local_setup.sh
+[0.375s] -- Up-to-date symlink: /home/ros2_ws/install/mfe_path_planning/share/mfe_path_planning/local_setup.zsh
+[0.375s] -- Up-to-date symlink: /home/ros2_ws/install/mfe_path_planning/share/mfe_path_planning/local_setup.dsv
+[0.376s] -- Symlinking: /home/ros2_ws/install/mfe_path_planning/share/mfe_path_planning/package.dsv
+[0.388s] -- Up-to-date symlink: /home/ros2_ws/install/mfe_path_planning/share/ament_index/resource_index/packages/mfe_path_planning
+[0.388s] -- Up-to-date symlink: /home/ros2_ws/install/mfe_path_planning/share/mfe_path_planning/cmake/mfe_path_planningConfig.cmake
+[0.389s] -- Up-to-date symlink: /home/ros2_ws/install/mfe_path_planning/share/mfe_path_planning/cmake/mfe_path_planningConfig-version.cmake
+[0.389s] -- Up-to-date symlink: /home/ros2_ws/install/mfe_path_planning/share/mfe_path_planning/package.xml

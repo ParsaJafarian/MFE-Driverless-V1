@@ -1,0 +1,21 @@
+[0.096s] Invoking command in '/home/ros2_ws/build/mfe_path_planning': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/ros2_ws/build/mfe_path_planning -- -j8 -l8
+[0.302s] Invoked command in '/home/ros2_ws/build/mfe_path_planning' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/ros2_ws/build/mfe_path_planning -- -j8 -l8
+[0.321s] Invoking command in '/home/ros2_ws/build/mfe_path_planning': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/ros2_ws/build/mfe_path_planning
+[0.330s] -- Install configuration: ""
+[0.626s] -- Execute custom install script
+[0.626s] -- Up-to-date symlink: /home/ros2_ws/install/mfe_path_planning/share/ament_index/resource_index/package_run_dependencies/mfe_path_planning
+[0.626s] -- Up-to-date symlink: /home/ros2_ws/install/mfe_path_planning/share/ament_index/resource_index/parent_prefix_path/mfe_path_planning
+[0.627s] -- Up-to-date symlink: /home/ros2_ws/install/mfe_path_planning/share/mfe_path_planning/environment/ament_prefix_path.sh
+[0.628s] -- Up-to-date symlink: /home/ros2_ws/install/mfe_path_planning/share/mfe_path_planning/environment/ament_prefix_path.dsv
+[0.628s] -- Up-to-date symlink: /home/ros2_ws/install/mfe_path_planning/share/mfe_path_planning/environment/path.sh
+[0.628s] -- Up-to-date symlink: /home/ros2_ws/install/mfe_path_planning/share/mfe_path_planning/environment/path.dsv
+[0.629s] -- Up-to-date symlink: /home/ros2_ws/install/mfe_path_planning/share/mfe_path_planning/local_setup.bash
+[0.630s] -- Up-to-date symlink: /home/ros2_ws/install/mfe_path_planning/share/mfe_path_planning/local_setup.sh
+[0.630s] -- Up-to-date symlink: /home/ros2_ws/install/mfe_path_planning/share/mfe_path_planning/local_setup.zsh
+[0.630s] -- Up-to-date symlink: /home/ros2_ws/install/mfe_path_planning/share/mfe_path_planning/local_setup.dsv
+[0.630s] -- Symlinking: /home/ros2_ws/install/mfe_path_planning/share/mfe_path_planning/package.dsv
+[0.639s] -- Up-to-date symlink: /home/ros2_ws/install/mfe_path_planning/share/ament_index/resource_index/packages/mfe_path_planning
+[0.639s] -- Up-to-date symlink: /home/ros2_ws/install/mfe_path_planning/share/mfe_path_planning/cmake/mfe_path_planningConfig.cmake
+[0.639s] -- Up-to-date symlink: /home/ros2_ws/install/mfe_path_planning/share/mfe_path_planning/cmake/mfe_path_planningConfig-version.cmake
+[0.640s] -- Up-to-date symlink: /home/ros2_ws/install/mfe_path_planning/share/mfe_path_planning/package.xml
+[0.642s] Invoked command in '/home/ros2_ws/build/mfe_path_planning' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/ros2_ws/build/mfe_path_planning

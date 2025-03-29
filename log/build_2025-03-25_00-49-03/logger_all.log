@@ -1,0 +1,802 @@
+[1.453s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[1.453s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7f9f6eb3ec30>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f9f6ecad970>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f9f6ecad970>>, mixin_verb=('build',))
+[2.095s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.096s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/Gazebo.meta'
+[2.096s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/fastrtps.meta'
+[2.096s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.096s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.096s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.096s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[2.097s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.097s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ros2_ws'
+[2.097s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[2.097s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[2.097s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[2.097s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[2.097s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[2.097s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[2.097s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[2.097s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[2.097s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.292s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[2.292s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[2.292s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[2.292s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[2.292s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[2.293s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[2.293s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[2.293s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[2.293s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[2.293s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[2.293s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[2.293s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[2.293s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[2.293s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[2.293s] Level 1:colcon.colcon_core.package_identification:_identify(ros2) by extensions ['ignore', 'ignore_ament_install']
+[2.294s] Level 1:colcon.colcon_core.package_identification:_identify(ros2) by extension 'ignore'
+[2.294s] Level 1:colcon.colcon_core.package_identification:_identify(ros2) by extension 'ignore_ament_install'
+[2.294s] Level 1:colcon.colcon_core.package_identification:_identify(ros2) by extensions ['colcon_pkg']
+[2.294s] Level 1:colcon.colcon_core.package_identification:_identify(ros2) by extension 'colcon_pkg'
+[2.294s] Level 1:colcon.colcon_core.package_identification:_identify(ros2) by extensions ['colcon_meta']
+[2.294s] Level 1:colcon.colcon_core.package_identification:_identify(ros2) by extension 'colcon_meta'
+[2.294s] Level 1:colcon.colcon_core.package_identification:_identify(ros2) by extensions ['ros']
+[2.294s] Level 1:colcon.colcon_core.package_identification:_identify(ros2) by extension 'ros'
+[2.294s] Level 1:colcon.colcon_core.package_identification:_identify(ros2) by extensions ['cmake', 'python']
+[2.294s] Level 1:colcon.colcon_core.package_identification:_identify(ros2) by extension 'cmake'
+[2.294s] Level 1:colcon.colcon_core.package_identification:_identify(ros2) by extension 'python'
+[2.294s] Level 1:colcon.colcon_core.package_identification:_identify(ros2) by extensions ['python_setup_py']
+[2.294s] Level 1:colcon.colcon_core.package_identification:_identify(ros2) by extension 'python_setup_py'
+[2.294s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src) by extensions ['ignore', 'ignore_ament_install']
+[2.294s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src) by extension 'ignore'
+[2.295s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src) by extension 'ignore_ament_install'
+[2.295s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src) by extensions ['colcon_pkg']
+[2.295s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src) by extension 'colcon_pkg'
+[2.295s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src) by extensions ['colcon_meta']
+[2.295s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src) by extension 'colcon_meta'
+[2.295s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src) by extensions ['ros']
+[2.295s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src) by extension 'ros'
+[2.295s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src) by extensions ['cmake', 'python']
+[2.295s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src) by extension 'cmake'
+[2.295s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src) by extension 'python'
+[2.295s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src) by extensions ['python_setup_py']
+[2.295s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src) by extension 'python_setup_py'
+[2.295s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/articubot_one) by extensions ['ignore', 'ignore_ament_install']
+[2.295s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/articubot_one) by extension 'ignore'
+[2.295s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/articubot_one) by extension 'ignore_ament_install'
+[2.296s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/articubot_one) by extensions ['colcon_pkg']
+[2.296s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/articubot_one) by extension 'colcon_pkg'
+[2.296s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/articubot_one) by extensions ['colcon_meta']
+[2.296s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/articubot_one) by extension 'colcon_meta'
+[2.296s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/articubot_one) by extensions ['ros']
+[2.296s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/articubot_one) by extension 'ros'
+[2.307s] DEBUG:colcon.colcon_core.package_identification:Package 'ros2/src/articubot_one' with type 'ros.ament_cmake' and name 'articubot_one'
+[2.307s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/mfe) by extensions ['ignore', 'ignore_ament_install']
+[2.307s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/mfe) by extension 'ignore'
+[2.307s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/mfe) by extension 'ignore_ament_install'
+[2.307s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/mfe) by extensions ['colcon_pkg']
+[2.307s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/mfe) by extension 'colcon_pkg'
+[2.307s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/mfe) by extensions ['colcon_meta']
+[2.307s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/mfe) by extension 'colcon_meta'
+[2.307s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/mfe) by extensions ['ros']
+[2.308s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/mfe) by extension 'ros'
+[2.308s] DEBUG:colcon.colcon_core.package_identification:Package 'ros2/src/mfe' with type 'ros.ament_cmake' and name 'mfe'
+[2.308s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/mfe_base) by extensions ['ignore', 'ignore_ament_install']
+[2.308s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/mfe_base) by extension 'ignore'
+[2.308s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/mfe_base) by extension 'ignore_ament_install'
+[2.308s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/mfe_base) by extensions ['colcon_pkg']
+[2.308s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/mfe_base) by extension 'colcon_pkg'
+[2.308s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/mfe_base) by extensions ['colcon_meta']
+[2.308s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/mfe_base) by extension 'colcon_meta'
+[2.308s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/mfe_base) by extensions ['ros']
+[2.309s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/mfe_base) by extension 'ros'
+[2.309s] DEBUG:colcon.colcon_core.package_identification:Package 'ros2/src/mfe_base' with type 'ros.ament_cmake' and name 'mfe_base'
+[2.309s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/mfe_bringup) by extensions ['ignore', 'ignore_ament_install']
+[2.309s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/mfe_bringup) by extension 'ignore'
+[2.309s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/mfe_bringup) by extension 'ignore_ament_install'
+[2.309s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/mfe_bringup) by extensions ['colcon_pkg']
+[2.309s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/mfe_bringup) by extension 'colcon_pkg'
+[2.309s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/mfe_bringup) by extensions ['colcon_meta']
+[2.309s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/mfe_bringup) by extension 'colcon_meta'
+[2.309s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/mfe_bringup) by extensions ['ros']
+[2.309s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/mfe_bringup) by extension 'ros'
+[2.310s] DEBUG:colcon.colcon_core.package_identification:Package 'ros2/src/mfe_bringup' with type 'ros.ament_cmake' and name 'mfe_bringup'
+[2.310s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/mfe_mapping) by extensions ['ignore', 'ignore_ament_install']
+[2.310s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/mfe_mapping) by extension 'ignore'
+[2.310s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/mfe_mapping) by extension 'ignore_ament_install'
+[2.310s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/mfe_mapping) by extensions ['colcon_pkg']
+[2.310s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/mfe_mapping) by extension 'colcon_pkg'
+[2.310s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/mfe_mapping) by extensions ['colcon_meta']
+[2.310s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/mfe_mapping) by extension 'colcon_meta'
+[2.310s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/mfe_mapping) by extensions ['ros']
+[2.310s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/mfe_mapping) by extension 'ros'
+[2.311s] DEBUG:colcon.colcon_core.package_identification:Package 'ros2/src/mfe_mapping' with type 'ros.ament_cmake' and name 'mfe_mapping'
+[2.311s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/mfe_msgs) by extensions ['ignore', 'ignore_ament_install']
+[2.311s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/mfe_msgs) by extension 'ignore'
+[2.311s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/mfe_msgs) by extension 'ignore_ament_install'
+[2.311s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/mfe_msgs) by extensions ['colcon_pkg']
+[2.311s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/mfe_msgs) by extension 'colcon_pkg'
+[2.311s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/mfe_msgs) by extensions ['colcon_meta']
+[2.311s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/mfe_msgs) by extension 'colcon_meta'
+[2.312s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/mfe_msgs) by extensions ['ros']
+[2.312s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/mfe_msgs) by extension 'ros'
+[2.312s] DEBUG:colcon.colcon_core.package_identification:Package 'ros2/src/mfe_msgs' with type 'ros.ament_cmake' and name 'mfe_msgs'
+[2.313s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/mfe_navigation) by extensions ['ignore', 'ignore_ament_install']
+[2.313s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/mfe_navigation) by extension 'ignore'
+[2.313s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/mfe_navigation) by extension 'ignore_ament_install'
+[2.313s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/mfe_navigation) by extensions ['colcon_pkg']
+[2.313s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/mfe_navigation) by extension 'colcon_pkg'
+[2.313s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/mfe_navigation) by extensions ['colcon_meta']
+[2.313s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/mfe_navigation) by extension 'colcon_meta'
+[2.313s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/mfe_navigation) by extensions ['ros']
+[2.313s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/mfe_navigation) by extension 'ros'
+[2.314s] DEBUG:colcon.colcon_core.package_identification:Package 'ros2/src/mfe_navigation' with type 'ros.ament_cmake' and name 'mfe_navigation'
+[2.314s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/mfe_path_planning) by extensions ['ignore', 'ignore_ament_install']
+[2.314s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/mfe_path_planning) by extension 'ignore'
+[2.314s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/mfe_path_planning) by extension 'ignore_ament_install'
+[2.314s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/mfe_path_planning) by extensions ['colcon_pkg']
+[2.314s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/mfe_path_planning) by extension 'colcon_pkg'
+[2.314s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/mfe_path_planning) by extensions ['colcon_meta']
+[2.315s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/mfe_path_planning) by extension 'colcon_meta'
+[2.315s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/mfe_path_planning) by extensions ['ros']
+[2.315s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/mfe_path_planning) by extension 'ros'
+[2.315s] DEBUG:colcon.colcon_core.package_identification:Package 'ros2/src/mfe_path_planning' with type 'ros.ament_cmake' and name 'mfe_path_planning'
+[2.315s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/mfe_perception) by extensions ['ignore', 'ignore_ament_install']
+[2.315s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/mfe_perception) by extension 'ignore'
+[2.315s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/mfe_perception) by extension 'ignore_ament_install'
+[2.315s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/mfe_perception) by extensions ['colcon_pkg']
+[2.316s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/mfe_perception) by extension 'colcon_pkg'
+[2.316s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/mfe_perception) by extensions ['colcon_meta']
+[2.316s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/mfe_perception) by extension 'colcon_meta'
+[2.316s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/mfe_perception) by extensions ['ros']
+[2.316s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/mfe_perception) by extension 'ros'
+[2.316s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/mfe_perception) by extensions ['cmake', 'python']
+[2.316s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/mfe_perception) by extension 'cmake'
+[2.316s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/mfe_perception) by extension 'python'
+[2.316s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/mfe_perception) by extensions ['python_setup_py']
+[2.316s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/mfe_perception) by extension 'python_setup_py'
+[2.316s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/mfe_perception/lidar_cone_detector) by extensions ['ignore', 'ignore_ament_install']
+[2.316s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/mfe_perception/lidar_cone_detector) by extension 'ignore'
+[2.316s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/mfe_perception/lidar_cone_detector) by extension 'ignore_ament_install'
+[2.316s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/mfe_perception/lidar_cone_detector) by extensions ['colcon_pkg']
+[2.316s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/mfe_perception/lidar_cone_detector) by extension 'colcon_pkg'
+[2.316s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/mfe_perception/lidar_cone_detector) by extensions ['colcon_meta']
+[2.316s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/mfe_perception/lidar_cone_detector) by extension 'colcon_meta'
+[2.317s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/mfe_perception/lidar_cone_detector) by extensions ['ros']
+[2.317s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/mfe_perception/lidar_cone_detector) by extension 'ros'
+[2.317s] DEBUG:colcon.colcon_core.package_identification:Package 'ros2/src/mfe_perception/lidar_cone_detector' with type 'ros.ament_cmake' and name 'lidar_cone_detector'
+[2.317s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/mfe_perception/state_estimation) by extensions ['ignore', 'ignore_ament_install']
+[2.317s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/mfe_perception/state_estimation) by extension 'ignore'
+[2.317s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/mfe_perception/state_estimation) by extension 'ignore_ament_install'
+[2.318s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/mfe_perception/state_estimation) by extensions ['colcon_pkg']
+[2.318s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/mfe_perception/state_estimation) by extension 'colcon_pkg'
+[2.318s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/mfe_perception/state_estimation) by extensions ['colcon_meta']
+[2.318s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/mfe_perception/state_estimation) by extension 'colcon_meta'
+[2.318s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/mfe_perception/state_estimation) by extensions ['ros']
+[2.318s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/mfe_perception/state_estimation) by extension 'ros'
+[2.318s] DEBUG:colcon.colcon_core.package_identification:Package 'ros2/src/mfe_perception/state_estimation' with type 'ros.ament_cmake' and name 'state_estimation'
+[2.318s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/mfe_perception/vision_cone_detector) by extensions ['ignore', 'ignore_ament_install']
+[2.319s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/mfe_perception/vision_cone_detector) by extension 'ignore'
+[2.319s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/mfe_perception/vision_cone_detector) by extension 'ignore_ament_install'
+[2.319s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/mfe_perception/vision_cone_detector) by extensions ['colcon_pkg']
+[2.319s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/mfe_perception/vision_cone_detector) by extension 'colcon_pkg'
+[2.319s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/mfe_perception/vision_cone_detector) by extensions ['colcon_meta']
+[2.319s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/mfe_perception/vision_cone_detector) by extension 'colcon_meta'
+[2.319s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/mfe_perception/vision_cone_detector) by extensions ['ros']
+[2.319s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/mfe_perception/vision_cone_detector) by extension 'ros'
+[2.319s] DEBUG:colcon.colcon_core.package_identification:Package 'ros2/src/mfe_perception/vision_cone_detector' with type 'ros.ament_cmake' and name 'vision_cone_detector'
+[2.320s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/mfe_simulation) by extensions ['ignore', 'ignore_ament_install']
+[2.320s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/mfe_simulation) by extension 'ignore'
+[2.320s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/mfe_simulation) by extension 'ignore_ament_install'
+[2.320s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/mfe_simulation) by extensions ['colcon_pkg']
+[2.320s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/mfe_simulation) by extension 'colcon_pkg'
+[2.320s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/mfe_simulation) by extensions ['colcon_meta']
+[2.320s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/mfe_simulation) by extension 'colcon_meta'
+[2.320s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/mfe_simulation) by extensions ['ros']
+[2.320s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/mfe_simulation) by extension 'ros'
+[2.320s] DEBUG:colcon.colcon_core.package_identification:Package 'ros2/src/mfe_simulation' with type 'ros.ament_cmake' and name 'mfe_simulation'
+[2.321s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/mfe_tests) by extensions ['ignore', 'ignore_ament_install']
+[2.321s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/mfe_tests) by extension 'ignore'
+[2.321s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/mfe_tests) by extension 'ignore_ament_install'
+[2.321s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/mfe_tests) by extensions ['colcon_pkg']
+[2.321s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/mfe_tests) by extension 'colcon_pkg'
+[2.321s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/mfe_tests) by extensions ['colcon_meta']
+[2.321s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/mfe_tests) by extension 'colcon_meta'
+[2.321s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/mfe_tests) by extensions ['ros']
+[2.321s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/mfe_tests) by extension 'ros'
+[2.322s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/mfe_tests) by extensions ['cmake', 'python']
+[2.322s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/mfe_tests) by extension 'cmake'
+[2.322s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/mfe_tests) by extension 'python'
+[2.322s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/mfe_tests) by extensions ['python_setup_py']
+[2.322s] Level 1:colcon.colcon_core.package_identification:_identify(ros2/src/mfe_tests) by extension 'python_setup_py'
+[2.322s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.322s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.322s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.322s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.322s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.452s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'cmake_args' from command line to 'None'
+[2.452s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'cmake_target' from command line to 'None'
+[2.452s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.452s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'cmake_clean_cache' from command line to 'False'
+[2.452s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'cmake_clean_first' from command line to 'False'
+[2.452s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'cmake_force_configure' from command line to 'False'
+[2.453s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'ament_cmake_args' from command line to 'None'
+[2.453s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'catkin_cmake_args' from command line to 'None'
+[2.453s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.453s] DEBUG:colcon.colcon_core.verb:Building package 'articubot_one' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ros2_ws/build/articubot_one', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ros2_ws/install/articubot_one', 'merge_install': False, 'path': '/home/ros2_ws/ros2/src/articubot_one', 'symlink_install': True, 'test_result_base': None}
+[2.453s] Level 5:colcon.colcon_core.verb:set package 'lidar_cone_detector' build argument 'cmake_args' from command line to 'None'
+[2.453s] Level 5:colcon.colcon_core.verb:set package 'lidar_cone_detector' build argument 'cmake_target' from command line to 'None'
+[2.453s] Level 5:colcon.colcon_core.verb:set package 'lidar_cone_detector' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.453s] Level 5:colcon.colcon_core.verb:set package 'lidar_cone_detector' build argument 'cmake_clean_cache' from command line to 'False'
+[2.453s] Level 5:colcon.colcon_core.verb:set package 'lidar_cone_detector' build argument 'cmake_clean_first' from command line to 'False'
+[2.453s] Level 5:colcon.colcon_core.verb:set package 'lidar_cone_detector' build argument 'cmake_force_configure' from command line to 'False'
+[2.453s] Level 5:colcon.colcon_core.verb:set package 'lidar_cone_detector' build argument 'ament_cmake_args' from command line to 'None'
+[2.453s] Level 5:colcon.colcon_core.verb:set package 'lidar_cone_detector' build argument 'catkin_cmake_args' from command line to 'None'
+[2.453s] Level 5:colcon.colcon_core.verb:set package 'lidar_cone_detector' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.453s] DEBUG:colcon.colcon_core.verb:Building package 'lidar_cone_detector' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ros2_ws/build/lidar_cone_detector', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ros2_ws/install/lidar_cone_detector', 'merge_install': False, 'path': '/home/ros2_ws/ros2/src/mfe_perception/lidar_cone_detector', 'symlink_install': True, 'test_result_base': None}
+[2.453s] Level 5:colcon.colcon_core.verb:set package 'mfe' build argument 'cmake_args' from command line to 'None'
+[2.453s] Level 5:colcon.colcon_core.verb:set package 'mfe' build argument 'cmake_target' from command line to 'None'
+[2.453s] Level 5:colcon.colcon_core.verb:set package 'mfe' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.453s] Level 5:colcon.colcon_core.verb:set package 'mfe' build argument 'cmake_clean_cache' from command line to 'False'
+[2.453s] Level 5:colcon.colcon_core.verb:set package 'mfe' build argument 'cmake_clean_first' from command line to 'False'
+[2.454s] Level 5:colcon.colcon_core.verb:set package 'mfe' build argument 'cmake_force_configure' from command line to 'False'
+[2.454s] Level 5:colcon.colcon_core.verb:set package 'mfe' build argument 'ament_cmake_args' from command line to 'None'
+[2.454s] Level 5:colcon.colcon_core.verb:set package 'mfe' build argument 'catkin_cmake_args' from command line to 'None'
+[2.454s] Level 5:colcon.colcon_core.verb:set package 'mfe' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.454s] DEBUG:colcon.colcon_core.verb:Building package 'mfe' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ros2_ws/build/mfe', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ros2_ws/install/mfe', 'merge_install': False, 'path': '/home/ros2_ws/ros2/src/mfe', 'symlink_install': True, 'test_result_base': None}
+[2.454s] Level 5:colcon.colcon_core.verb:set package 'mfe_base' build argument 'cmake_args' from command line to 'None'
+[2.454s] Level 5:colcon.colcon_core.verb:set package 'mfe_base' build argument 'cmake_target' from command line to 'None'
+[2.454s] Level 5:colcon.colcon_core.verb:set package 'mfe_base' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.454s] Level 5:colcon.colcon_core.verb:set package 'mfe_base' build argument 'cmake_clean_cache' from command line to 'False'
+[2.454s] Level 5:colcon.colcon_core.verb:set package 'mfe_base' build argument 'cmake_clean_first' from command line to 'False'
+[2.454s] Level 5:colcon.colcon_core.verb:set package 'mfe_base' build argument 'cmake_force_configure' from command line to 'False'
+[2.454s] Level 5:colcon.colcon_core.verb:set package 'mfe_base' build argument 'ament_cmake_args' from command line to 'None'
+[2.454s] Level 5:colcon.colcon_core.verb:set package 'mfe_base' build argument 'catkin_cmake_args' from command line to 'None'
+[2.454s] Level 5:colcon.colcon_core.verb:set package 'mfe_base' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.454s] DEBUG:colcon.colcon_core.verb:Building package 'mfe_base' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ros2_ws/build/mfe_base', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ros2_ws/install/mfe_base', 'merge_install': False, 'path': '/home/ros2_ws/ros2/src/mfe_base', 'symlink_install': True, 'test_result_base': None}
+[2.454s] Level 5:colcon.colcon_core.verb:set package 'mfe_bringup' build argument 'cmake_args' from command line to 'None'
+[2.454s] Level 5:colcon.colcon_core.verb:set package 'mfe_bringup' build argument 'cmake_target' from command line to 'None'
+[2.454s] Level 5:colcon.colcon_core.verb:set package 'mfe_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.454s] Level 5:colcon.colcon_core.verb:set package 'mfe_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[2.454s] Level 5:colcon.colcon_core.verb:set package 'mfe_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[2.455s] Level 5:colcon.colcon_core.verb:set package 'mfe_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[2.455s] Level 5:colcon.colcon_core.verb:set package 'mfe_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[2.455s] Level 5:colcon.colcon_core.verb:set package 'mfe_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[2.455s] Level 5:colcon.colcon_core.verb:set package 'mfe_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.455s] DEBUG:colcon.colcon_core.verb:Building package 'mfe_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ros2_ws/build/mfe_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ros2_ws/install/mfe_bringup', 'merge_install': False, 'path': '/home/ros2_ws/ros2/src/mfe_bringup', 'symlink_install': True, 'test_result_base': None}
+[2.455s] Level 5:colcon.colcon_core.verb:set package 'mfe_mapping' build argument 'cmake_args' from command line to 'None'
+[2.455s] Level 5:colcon.colcon_core.verb:set package 'mfe_mapping' build argument 'cmake_target' from command line to 'None'
+[2.455s] Level 5:colcon.colcon_core.verb:set package 'mfe_mapping' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.455s] Level 5:colcon.colcon_core.verb:set package 'mfe_mapping' build argument 'cmake_clean_cache' from command line to 'False'
+[2.455s] Level 5:colcon.colcon_core.verb:set package 'mfe_mapping' build argument 'cmake_clean_first' from command line to 'False'
+[2.455s] Level 5:colcon.colcon_core.verb:set package 'mfe_mapping' build argument 'cmake_force_configure' from command line to 'False'
+[2.455s] Level 5:colcon.colcon_core.verb:set package 'mfe_mapping' build argument 'ament_cmake_args' from command line to 'None'
+[2.455s] Level 5:colcon.colcon_core.verb:set package 'mfe_mapping' build argument 'catkin_cmake_args' from command line to 'None'
+[2.455s] Level 5:colcon.colcon_core.verb:set package 'mfe_mapping' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.455s] DEBUG:colcon.colcon_core.verb:Building package 'mfe_mapping' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ros2_ws/build/mfe_mapping', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ros2_ws/install/mfe_mapping', 'merge_install': False, 'path': '/home/ros2_ws/ros2/src/mfe_mapping', 'symlink_install': True, 'test_result_base': None}
+[2.455s] Level 5:colcon.colcon_core.verb:set package 'mfe_msgs' build argument 'cmake_args' from command line to 'None'
+[2.455s] Level 5:colcon.colcon_core.verb:set package 'mfe_msgs' build argument 'cmake_target' from command line to 'None'
+[2.455s] Level 5:colcon.colcon_core.verb:set package 'mfe_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.455s] Level 5:colcon.colcon_core.verb:set package 'mfe_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[2.455s] Level 5:colcon.colcon_core.verb:set package 'mfe_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[2.455s] Level 5:colcon.colcon_core.verb:set package 'mfe_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[2.455s] Level 5:colcon.colcon_core.verb:set package 'mfe_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[2.456s] Level 5:colcon.colcon_core.verb:set package 'mfe_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[2.456s] Level 5:colcon.colcon_core.verb:set package 'mfe_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.456s] DEBUG:colcon.colcon_core.verb:Building package 'mfe_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ros2_ws/build/mfe_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ros2_ws/install/mfe_msgs', 'merge_install': False, 'path': '/home/ros2_ws/ros2/src/mfe_msgs', 'symlink_install': True, 'test_result_base': None}
+[2.456s] Level 5:colcon.colcon_core.verb:set package 'mfe_navigation' build argument 'cmake_args' from command line to 'None'
+[2.456s] Level 5:colcon.colcon_core.verb:set package 'mfe_navigation' build argument 'cmake_target' from command line to 'None'
+[2.456s] Level 5:colcon.colcon_core.verb:set package 'mfe_navigation' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.456s] Level 5:colcon.colcon_core.verb:set package 'mfe_navigation' build argument 'cmake_clean_cache' from command line to 'False'
+[2.456s] Level 5:colcon.colcon_core.verb:set package 'mfe_navigation' build argument 'cmake_clean_first' from command line to 'False'
+[2.456s] Level 5:colcon.colcon_core.verb:set package 'mfe_navigation' build argument 'cmake_force_configure' from command line to 'False'
+[2.456s] Level 5:colcon.colcon_core.verb:set package 'mfe_navigation' build argument 'ament_cmake_args' from command line to 'None'
+[2.456s] Level 5:colcon.colcon_core.verb:set package 'mfe_navigation' build argument 'catkin_cmake_args' from command line to 'None'
+[2.456s] Level 5:colcon.colcon_core.verb:set package 'mfe_navigation' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.456s] DEBUG:colcon.colcon_core.verb:Building package 'mfe_navigation' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ros2_ws/build/mfe_navigation', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ros2_ws/install/mfe_navigation', 'merge_install': False, 'path': '/home/ros2_ws/ros2/src/mfe_navigation', 'symlink_install': True, 'test_result_base': None}
+[2.456s] Level 5:colcon.colcon_core.verb:set package 'mfe_path_planning' build argument 'cmake_args' from command line to 'None'
+[2.456s] Level 5:colcon.colcon_core.verb:set package 'mfe_path_planning' build argument 'cmake_target' from command line to 'None'
+[2.456s] Level 5:colcon.colcon_core.verb:set package 'mfe_path_planning' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.456s] Level 5:colcon.colcon_core.verb:set package 'mfe_path_planning' build argument 'cmake_clean_cache' from command line to 'False'
+[2.456s] Level 5:colcon.colcon_core.verb:set package 'mfe_path_planning' build argument 'cmake_clean_first' from command line to 'False'
+[2.456s] Level 5:colcon.colcon_core.verb:set package 'mfe_path_planning' build argument 'cmake_force_configure' from command line to 'False'
+[2.456s] Level 5:colcon.colcon_core.verb:set package 'mfe_path_planning' build argument 'ament_cmake_args' from command line to 'None'
+[2.456s] Level 5:colcon.colcon_core.verb:set package 'mfe_path_planning' build argument 'catkin_cmake_args' from command line to 'None'
+[2.456s] Level 5:colcon.colcon_core.verb:set package 'mfe_path_planning' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.457s] DEBUG:colcon.colcon_core.verb:Building package 'mfe_path_planning' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ros2_ws/build/mfe_path_planning', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ros2_ws/install/mfe_path_planning', 'merge_install': False, 'path': '/home/ros2_ws/ros2/src/mfe_path_planning', 'symlink_install': True, 'test_result_base': None}
+[2.457s] Level 5:colcon.colcon_core.verb:set package 'mfe_simulation' build argument 'cmake_args' from command line to 'None'
+[2.457s] Level 5:colcon.colcon_core.verb:set package 'mfe_simulation' build argument 'cmake_target' from command line to 'None'
+[2.457s] Level 5:colcon.colcon_core.verb:set package 'mfe_simulation' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.457s] Level 5:colcon.colcon_core.verb:set package 'mfe_simulation' build argument 'cmake_clean_cache' from command line to 'False'
+[2.457s] Level 5:colcon.colcon_core.verb:set package 'mfe_simulation' build argument 'cmake_clean_first' from command line to 'False'
+[2.457s] Level 5:colcon.colcon_core.verb:set package 'mfe_simulation' build argument 'cmake_force_configure' from command line to 'False'
+[2.457s] Level 5:colcon.colcon_core.verb:set package 'mfe_simulation' build argument 'ament_cmake_args' from command line to 'None'
+[2.457s] Level 5:colcon.colcon_core.verb:set package 'mfe_simulation' build argument 'catkin_cmake_args' from command line to 'None'
+[2.457s] Level 5:colcon.colcon_core.verb:set package 'mfe_simulation' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.457s] DEBUG:colcon.colcon_core.verb:Building package 'mfe_simulation' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ros2_ws/build/mfe_simulation', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ros2_ws/install/mfe_simulation', 'merge_install': False, 'path': '/home/ros2_ws/ros2/src/mfe_simulation', 'symlink_install': True, 'test_result_base': None}
+[2.457s] Level 5:colcon.colcon_core.verb:set package 'state_estimation' build argument 'cmake_args' from command line to 'None'
+[2.457s] Level 5:colcon.colcon_core.verb:set package 'state_estimation' build argument 'cmake_target' from command line to 'None'
+[2.457s] Level 5:colcon.colcon_core.verb:set package 'state_estimation' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.457s] Level 5:colcon.colcon_core.verb:set package 'state_estimation' build argument 'cmake_clean_cache' from command line to 'False'
+[2.457s] Level 5:colcon.colcon_core.verb:set package 'state_estimation' build argument 'cmake_clean_first' from command line to 'False'
+[2.457s] Level 5:colcon.colcon_core.verb:set package 'state_estimation' build argument 'cmake_force_configure' from command line to 'False'
+[2.457s] Level 5:colcon.colcon_core.verb:set package 'state_estimation' build argument 'ament_cmake_args' from command line to 'None'
+[2.457s] Level 5:colcon.colcon_core.verb:set package 'state_estimation' build argument 'catkin_cmake_args' from command line to 'None'
+[2.457s] Level 5:colcon.colcon_core.verb:set package 'state_estimation' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.458s] DEBUG:colcon.colcon_core.verb:Building package 'state_estimation' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ros2_ws/build/state_estimation', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ros2_ws/install/state_estimation', 'merge_install': False, 'path': '/home/ros2_ws/ros2/src/mfe_perception/state_estimation', 'symlink_install': True, 'test_result_base': None}
+[2.458s] Level 5:colcon.colcon_core.verb:set package 'vision_cone_detector' build argument 'cmake_args' from command line to 'None'
+[2.458s] Level 5:colcon.colcon_core.verb:set package 'vision_cone_detector' build argument 'cmake_target' from command line to 'None'
+[2.458s] Level 5:colcon.colcon_core.verb:set package 'vision_cone_detector' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.458s] Level 5:colcon.colcon_core.verb:set package 'vision_cone_detector' build argument 'cmake_clean_cache' from command line to 'False'
+[2.458s] Level 5:colcon.colcon_core.verb:set package 'vision_cone_detector' build argument 'cmake_clean_first' from command line to 'False'
+[2.458s] Level 5:colcon.colcon_core.verb:set package 'vision_cone_detector' build argument 'cmake_force_configure' from command line to 'False'
+[2.458s] Level 5:colcon.colcon_core.verb:set package 'vision_cone_detector' build argument 'ament_cmake_args' from command line to 'None'
+[2.458s] Level 5:colcon.colcon_core.verb:set package 'vision_cone_detector' build argument 'catkin_cmake_args' from command line to 'None'
+[2.458s] Level 5:colcon.colcon_core.verb:set package 'vision_cone_detector' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.458s] DEBUG:colcon.colcon_core.verb:Building package 'vision_cone_detector' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ros2_ws/build/vision_cone_detector', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ros2_ws/install/vision_cone_detector', 'merge_install': False, 'path': '/home/ros2_ws/ros2/src/mfe_perception/vision_cone_detector', 'symlink_install': True, 'test_result_base': None}
+[2.458s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.459s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.459s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ros2_ws/ros2/src/articubot_one' with build type 'ament_cmake'
+[2.459s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ros2_ws/ros2/src/articubot_one'
+[2.475s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.475s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.476s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.649s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ros2_ws/ros2/src/mfe_perception/lidar_cone_detector' with build type 'ament_cmake'
+[2.650s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ros2_ws/ros2/src/mfe_perception/lidar_cone_detector'
+[2.650s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.650s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.653s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ros2_ws/ros2/src/mfe' with build type 'ament_cmake'
+[2.653s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ros2_ws/ros2/src/mfe'
+[2.654s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.654s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.656s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ros2_ws/ros2/src/mfe_base' with build type 'ament_cmake'
+[2.657s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ros2_ws/ros2/src/mfe_base'
+[2.657s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.657s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.660s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ros2_ws/ros2/src/mfe_bringup' with build type 'ament_cmake'
+[2.660s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ros2_ws/ros2/src/mfe_bringup'
+[2.660s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.660s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.663s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ros2_ws/ros2/src/mfe_mapping' with build type 'ament_cmake'
+[2.663s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ros2_ws/ros2/src/mfe_mapping'
+[2.663s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.663s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.666s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ros2_ws/ros2/src/mfe_msgs' with build type 'ament_cmake'
+[2.666s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ros2_ws/ros2/src/mfe_msgs'
+[2.666s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.666s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.672s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ros2_ws/ros2/src/mfe_navigation' with build type 'ament_cmake'
+[2.672s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ros2_ws/ros2/src/mfe_navigation'
+[2.672s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.672s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.913s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ros2_ws/build/articubot_one': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/ros2_ws/build/articubot_one -- -j8 -l8
+[3.389s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ros2_ws/build/lidar_cone_detector': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/ros2_ws/ros2/src/mfe_perception/lidar_cone_detector -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ros2_ws/install/lidar_cone_detector
+[3.508s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ros2_ws/build/mfe': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/ros2_ws/build/mfe -- -j8 -l8
+[3.617s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ros2_ws/build/mfe_base': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/ros2_ws/build/mfe_base -- -j8 -l8
+[3.772s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ros2_ws/build/mfe_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/ros2_ws/build/mfe_bringup -- -j8 -l8
+[3.912s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ros2_ws/build/mfe_mapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/ros2_ws/build/mfe_mapping -- -j8 -l8
+[4.105s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ros2_ws/build/mfe_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/ros2_ws/build/mfe_msgs -- -j8 -l8
+[4.161s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ros2_ws/build/mfe_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/ros2_ws/build/mfe_navigation -- -j8 -l8
+[15.339s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ros2_ws/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/ros2_ws/build/articubot_one -- -j8 -l8
+[15.348s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ros2_ws/build/mfe_mapping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/ros2_ws/build/mfe_mapping -- -j8 -l8
+[15.349s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ros2_ws/build/mfe_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/ros2_ws/build/mfe_navigation -- -j8 -l8
+[15.362s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ros2_ws/build/mfe_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/ros2_ws/build/mfe_bringup -- -j8 -l8
+[15.375s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ros2_ws/build/articubot_one': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/ros2_ws/build/articubot_one
+[15.377s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ros2_ws/build/mfe_base' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/ros2_ws/build/mfe_base -- -j8 -l8
+[15.378s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ros2_ws/build/mfe' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/ros2_ws/build/mfe -- -j8 -l8
+[15.381s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ros2_ws/build/mfe_mapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/ros2_ws/build/mfe_mapping
+[15.382s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ros2_ws/build/mfe_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/ros2_ws/build/mfe_navigation
+[15.389s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ros2_ws/build/mfe_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/ros2_ws/build/mfe_bringup
+[15.403s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ros2_ws/build/mfe_base': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/ros2_ws/build/mfe_base
+[15.405s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ros2_ws/build/mfe': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/ros2_ws/build/mfe
+[15.481s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mfe_mapping)
+[15.482s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ros2_ws/build/mfe_mapping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/ros2_ws/build/mfe_mapping
+[15.568s] Level 1:colcon.colcon_core.environment:checking '/home/ros2_ws/install/mfe_mapping' for CMake module files
+[15.569s] Level 1:colcon.colcon_core.environment:checking '/home/ros2_ws/install/mfe_mapping' for CMake config files
+[15.569s] Level 1:colcon.colcon_core.shell:create_environment_hook('mfe_mapping', 'cmake_prefix_path')
+[15.570s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2_ws/install/mfe_mapping/share/mfe_mapping/hook/cmake_prefix_path.ps1'
+[15.570s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ros2_ws/install/mfe_mapping/share/mfe_mapping/hook/cmake_prefix_path.dsv'
+[15.571s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2_ws/install/mfe_mapping/share/mfe_mapping/hook/cmake_prefix_path.sh'
+[15.571s] Level 1:colcon.colcon_core.environment:checking '/home/ros2_ws/install/mfe_mapping/bin'
+[15.572s] Level 1:colcon.colcon_core.environment:checking '/home/ros2_ws/install/mfe_mapping/lib/pkgconfig/mfe_mapping.pc'
+[15.574s] Level 1:colcon.colcon_core.environment:checking '/home/ros2_ws/install/mfe_mapping/lib/python3.12/site-packages'
+[15.574s] Level 1:colcon.colcon_core.environment:checking '/home/ros2_ws/install/mfe_mapping/bin'
+[15.574s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2_ws/install/mfe_mapping/share/mfe_mapping/package.ps1'
+[15.575s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ros2_ws/install/mfe_mapping/share/mfe_mapping/package.dsv'
+[15.575s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2_ws/install/mfe_mapping/share/mfe_mapping/package.sh'
+[15.576s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2_ws/install/mfe_mapping/share/mfe_mapping/package.bash'
+[15.577s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2_ws/install/mfe_mapping/share/mfe_mapping/package.zsh'
+[15.577s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ros2_ws/install/mfe_mapping/share/colcon-core/packages/mfe_mapping)
+[15.580s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(articubot_one)
+[15.580s] Level 1:colcon.colcon_core.environment:checking '/home/ros2_ws/install/articubot_one' for CMake module files
+[15.582s] Level 1:colcon.colcon_core.environment:checking '/home/ros2_ws/install/articubot_one' for CMake config files
+[15.583s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ros2_ws/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/ros2_ws/build/articubot_one
+[15.584s] Level 1:colcon.colcon_core.shell:create_environment_hook('articubot_one', 'cmake_prefix_path')
+[15.584s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2_ws/install/articubot_one/share/articubot_one/hook/cmake_prefix_path.ps1'
+[15.584s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ros2_ws/install/articubot_one/share/articubot_one/hook/cmake_prefix_path.dsv'
+[15.585s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2_ws/install/articubot_one/share/articubot_one/hook/cmake_prefix_path.sh'
+[15.585s] Level 1:colcon.colcon_core.environment:checking '/home/ros2_ws/install/articubot_one/bin'
+[15.585s] Level 1:colcon.colcon_core.environment:checking '/home/ros2_ws/install/articubot_one/lib/pkgconfig/articubot_one.pc'
+[15.586s] Level 1:colcon.colcon_core.environment:checking '/home/ros2_ws/install/articubot_one/lib/python3.12/site-packages'
+[15.586s] Level 1:colcon.colcon_core.environment:checking '/home/ros2_ws/install/articubot_one/bin'
+[15.586s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2_ws/install/articubot_one/share/articubot_one/package.ps1'
+[15.587s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ros2_ws/install/articubot_one/share/articubot_one/package.dsv'
+[15.587s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2_ws/install/articubot_one/share/articubot_one/package.sh'
+[15.587s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2_ws/install/articubot_one/share/articubot_one/package.bash'
+[15.588s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2_ws/install/articubot_one/share/articubot_one/package.zsh'
+[15.588s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ros2_ws/install/articubot_one/share/colcon-core/packages/articubot_one)
+[15.589s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mfe_navigation)
+[15.589s] Level 1:colcon.colcon_core.environment:checking '/home/ros2_ws/install/mfe_navigation' for CMake module files
+[15.589s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ros2_ws/build/mfe_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/ros2_ws/build/mfe_navigation
+[15.590s] Level 1:colcon.colcon_core.environment:checking '/home/ros2_ws/install/mfe_navigation' for CMake config files
+[15.590s] Level 1:colcon.colcon_core.shell:create_environment_hook('mfe_navigation', 'cmake_prefix_path')
+[15.590s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2_ws/install/mfe_navigation/share/mfe_navigation/hook/cmake_prefix_path.ps1'
+[15.591s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ros2_ws/install/mfe_navigation/share/mfe_navigation/hook/cmake_prefix_path.dsv'
+[15.591s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2_ws/install/mfe_navigation/share/mfe_navigation/hook/cmake_prefix_path.sh'
+[15.591s] Level 1:colcon.colcon_core.environment:checking '/home/ros2_ws/install/mfe_navigation/bin'
+[15.592s] Level 1:colcon.colcon_core.environment:checking '/home/ros2_ws/install/mfe_navigation/lib/pkgconfig/mfe_navigation.pc'
+[15.592s] Level 1:colcon.colcon_core.environment:checking '/home/ros2_ws/install/mfe_navigation/lib/python3.12/site-packages'
+[15.592s] Level 1:colcon.colcon_core.environment:checking '/home/ros2_ws/install/mfe_navigation/bin'
+[15.592s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2_ws/install/mfe_navigation/share/mfe_navigation/package.ps1'
+[15.593s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ros2_ws/install/mfe_navigation/share/mfe_navigation/package.dsv'
+[15.593s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2_ws/install/mfe_navigation/share/mfe_navigation/package.sh'
+[15.593s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2_ws/install/mfe_navigation/share/mfe_navigation/package.bash'
+[15.594s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2_ws/install/mfe_navigation/share/mfe_navigation/package.zsh'
+[15.594s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ros2_ws/install/mfe_navigation/share/colcon-core/packages/mfe_navigation)
+[15.595s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mfe_bringup)
+[15.595s] Level 1:colcon.colcon_core.environment:checking '/home/ros2_ws/install/mfe_bringup' for CMake module files
+[15.595s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ros2_ws/build/mfe_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/ros2_ws/build/mfe_bringup
+[15.596s] Level 1:colcon.colcon_core.environment:checking '/home/ros2_ws/install/mfe_bringup' for CMake config files
+[15.596s] Level 1:colcon.colcon_core.shell:create_environment_hook('mfe_bringup', 'cmake_prefix_path')
+[15.596s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2_ws/install/mfe_bringup/share/mfe_bringup/hook/cmake_prefix_path.ps1'
+[15.597s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ros2_ws/install/mfe_bringup/share/mfe_bringup/hook/cmake_prefix_path.dsv'
+[15.597s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2_ws/install/mfe_bringup/share/mfe_bringup/hook/cmake_prefix_path.sh'
+[15.598s] Level 1:colcon.colcon_core.environment:checking '/home/ros2_ws/install/mfe_bringup/bin'
+[15.598s] Level 1:colcon.colcon_core.environment:checking '/home/ros2_ws/install/mfe_bringup/lib/pkgconfig/mfe_bringup.pc'
+[15.598s] Level 1:colcon.colcon_core.environment:checking '/home/ros2_ws/install/mfe_bringup/lib/python3.12/site-packages'
+[15.599s] Level 1:colcon.colcon_core.environment:checking '/home/ros2_ws/install/mfe_bringup/bin'
+[15.599s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2_ws/install/mfe_bringup/share/mfe_bringup/package.ps1'
+[15.599s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ros2_ws/install/mfe_bringup/share/mfe_bringup/package.dsv'
+[15.600s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2_ws/install/mfe_bringup/share/mfe_bringup/package.sh'
+[15.600s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2_ws/install/mfe_bringup/share/mfe_bringup/package.bash'
+[15.601s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2_ws/install/mfe_bringup/share/mfe_bringup/package.zsh'
+[15.601s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ros2_ws/install/mfe_bringup/share/colcon-core/packages/mfe_bringup)
+[15.602s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mfe_base)
+[15.602s] Level 1:colcon.colcon_core.environment:checking '/home/ros2_ws/install/mfe_base' for CMake module files
+[15.603s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ros2_ws/build/mfe_base' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/ros2_ws/build/mfe_base
+[15.604s] Level 1:colcon.colcon_core.environment:checking '/home/ros2_ws/install/mfe_base' for CMake config files
+[15.604s] Level 1:colcon.colcon_core.shell:create_environment_hook('mfe_base', 'cmake_prefix_path')
+[15.605s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2_ws/install/mfe_base/share/mfe_base/hook/cmake_prefix_path.ps1'
+[15.605s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ros2_ws/install/mfe_base/share/mfe_base/hook/cmake_prefix_path.dsv'
+[15.606s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2_ws/install/mfe_base/share/mfe_base/hook/cmake_prefix_path.sh'
+[15.607s] Level 1:colcon.colcon_core.environment:checking '/home/ros2_ws/install/mfe_base/bin'
+[15.607s] Level 1:colcon.colcon_core.environment:checking '/home/ros2_ws/install/mfe_base/lib/pkgconfig/mfe_base.pc'
+[15.607s] Level 1:colcon.colcon_core.environment:checking '/home/ros2_ws/install/mfe_base/lib/python3.12/site-packages'
+[15.608s] Level 1:colcon.colcon_core.environment:checking '/home/ros2_ws/install/mfe_base/bin'
+[15.608s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2_ws/install/mfe_base/share/mfe_base/package.ps1'
+[15.609s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ros2_ws/install/mfe_base/share/mfe_base/package.dsv'
+[15.609s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2_ws/install/mfe_base/share/mfe_base/package.sh'
+[15.610s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2_ws/install/mfe_base/share/mfe_base/package.bash'
+[15.610s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2_ws/install/mfe_base/share/mfe_base/package.zsh'
+[15.611s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ros2_ws/install/mfe_base/share/colcon-core/packages/mfe_base)
+[15.612s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mfe)
+[15.613s] Level 1:colcon.colcon_core.environment:checking '/home/ros2_ws/install/mfe' for CMake module files
+[15.613s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ros2_ws/build/mfe' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/ros2_ws/build/mfe
+[15.614s] Level 1:colcon.colcon_core.environment:checking '/home/ros2_ws/install/mfe' for CMake config files
+[15.614s] Level 1:colcon.colcon_core.shell:create_environment_hook('mfe', 'cmake_prefix_path')
+[15.615s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2_ws/install/mfe/share/mfe/hook/cmake_prefix_path.ps1'
+[15.615s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ros2_ws/install/mfe/share/mfe/hook/cmake_prefix_path.dsv'
+[15.616s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2_ws/install/mfe/share/mfe/hook/cmake_prefix_path.sh'
+[15.616s] Level 1:colcon.colcon_core.environment:checking '/home/ros2_ws/install/mfe/bin'
+[15.617s] Level 1:colcon.colcon_core.environment:checking '/home/ros2_ws/install/mfe/lib/pkgconfig/mfe.pc'
+[15.617s] Level 1:colcon.colcon_core.environment:checking '/home/ros2_ws/install/mfe/lib/python3.12/site-packages'
+[15.617s] Level 1:colcon.colcon_core.environment:checking '/home/ros2_ws/install/mfe/bin'
+[15.617s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2_ws/install/mfe/share/mfe/package.ps1'
+[15.618s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ros2_ws/install/mfe/share/mfe/package.dsv'
+[15.619s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2_ws/install/mfe/share/mfe/package.sh'
+[15.619s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2_ws/install/mfe/share/mfe/package.bash'
+[15.619s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2_ws/install/mfe/share/mfe/package.zsh'
+[15.620s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ros2_ws/install/mfe/share/colcon-core/packages/mfe)
+[15.622s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mfe_mapping)
+[15.622s] Level 1:colcon.colcon_core.environment:checking '/home/ros2_ws/install/mfe_mapping' for CMake module files
+[15.623s] Level 1:colcon.colcon_core.environment:checking '/home/ros2_ws/install/mfe_mapping' for CMake config files
+[15.623s] Level 1:colcon.colcon_core.shell:create_environment_hook('mfe_mapping', 'cmake_prefix_path')
+[15.623s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2_ws/install/mfe_mapping/share/mfe_mapping/hook/cmake_prefix_path.ps1'
+[15.624s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ros2_ws/install/mfe_mapping/share/mfe_mapping/hook/cmake_prefix_path.dsv'
+[15.624s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2_ws/install/mfe_mapping/share/mfe_mapping/hook/cmake_prefix_path.sh'
+[15.625s] Level 1:colcon.colcon_core.environment:checking '/home/ros2_ws/install/mfe_mapping/bin'
+[15.625s] Level 1:colcon.colcon_core.environment:checking '/home/ros2_ws/install/mfe_mapping/lib/pkgconfig/mfe_mapping.pc'
+[15.625s] Level 1:colcon.colcon_core.environment:checking '/home/ros2_ws/install/mfe_mapping/lib/python3.12/site-packages'
+[15.626s] Level 1:colcon.colcon_core.environment:checking '/home/ros2_ws/install/mfe_mapping/bin'
+[15.626s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2_ws/install/mfe_mapping/share/mfe_mapping/package.ps1'
+[15.627s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ros2_ws/install/mfe_mapping/share/mfe_mapping/package.dsv'
+[15.628s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2_ws/install/mfe_mapping/share/mfe_mapping/package.sh'
+[15.629s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2_ws/install/mfe_mapping/share/mfe_mapping/package.bash'
+[15.630s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2_ws/install/mfe_mapping/share/mfe_mapping/package.zsh'
+[15.630s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ros2_ws/install/mfe_mapping/share/colcon-core/packages/mfe_mapping)
+[15.632s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(articubot_one)
+[15.632s] Level 1:colcon.colcon_core.environment:checking '/home/ros2_ws/install/articubot_one' for CMake module files
+[15.633s] Level 1:colcon.colcon_core.environment:checking '/home/ros2_ws/install/articubot_one' for CMake config files
+[15.634s] Level 1:colcon.colcon_core.shell:create_environment_hook('articubot_one', 'cmake_prefix_path')
+[15.634s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2_ws/install/articubot_one/share/articubot_one/hook/cmake_prefix_path.ps1'
+[15.635s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ros2_ws/install/articubot_one/share/articubot_one/hook/cmake_prefix_path.dsv'
+[15.635s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2_ws/install/articubot_one/share/articubot_one/hook/cmake_prefix_path.sh'
+[15.636s] Level 1:colcon.colcon_core.environment:checking '/home/ros2_ws/install/articubot_one/bin'
+[15.636s] Level 1:colcon.colcon_core.environment:checking '/home/ros2_ws/install/articubot_one/lib/pkgconfig/articubot_one.pc'
+[15.637s] Level 1:colcon.colcon_core.environment:checking '/home/ros2_ws/install/articubot_one/lib/python3.12/site-packages'
+[15.637s] Level 1:colcon.colcon_core.environment:checking '/home/ros2_ws/install/articubot_one/bin'
+[15.637s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2_ws/install/articubot_one/share/articubot_one/package.ps1'
+[15.638s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ros2_ws/install/articubot_one/share/articubot_one/package.dsv'
+[15.639s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2_ws/install/articubot_one/share/articubot_one/package.sh'
+[15.639s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2_ws/install/articubot_one/share/articubot_one/package.bash'
+[15.640s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2_ws/install/articubot_one/share/articubot_one/package.zsh'
+[15.640s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ros2_ws/install/articubot_one/share/colcon-core/packages/articubot_one)
+[15.640s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ros2_ws/ros2/src/mfe_path_planning' with build type 'ament_cmake'
+[15.640s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ros2_ws/ros2/src/mfe_path_planning'
+[15.641s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[15.641s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[15.645s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mfe_navigation)
+[15.645s] Level 1:colcon.colcon_core.environment:checking '/home/ros2_ws/install/mfe_navigation' for CMake module files
+[15.646s] Level 1:colcon.colcon_core.environment:checking '/home/ros2_ws/install/mfe_navigation' for CMake config files
+[15.646s] Level 1:colcon.colcon_core.shell:create_environment_hook('mfe_navigation', 'cmake_prefix_path')
+[15.646s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2_ws/install/mfe_navigation/share/mfe_navigation/hook/cmake_prefix_path.ps1'
+[15.647s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ros2_ws/install/mfe_navigation/share/mfe_navigation/hook/cmake_prefix_path.dsv'
+[15.647s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2_ws/install/mfe_navigation/share/mfe_navigation/hook/cmake_prefix_path.sh'
+[15.648s] Level 1:colcon.colcon_core.environment:checking '/home/ros2_ws/install/mfe_navigation/bin'
+[15.648s] Level 1:colcon.colcon_core.environment:checking '/home/ros2_ws/install/mfe_navigation/lib/pkgconfig/mfe_navigation.pc'
+[15.648s] Level 1:colcon.colcon_core.environment:checking '/home/ros2_ws/install/mfe_navigation/lib/python3.12/site-packages'
+[15.648s] Level 1:colcon.colcon_core.environment:checking '/home/ros2_ws/install/mfe_navigation/bin'
+[15.649s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2_ws/install/mfe_navigation/share/mfe_navigation/package.ps1'
+[15.649s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ros2_ws/install/mfe_navigation/share/mfe_navigation/package.dsv'
+[15.650s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2_ws/install/mfe_navigation/share/mfe_navigation/package.sh'
+[15.650s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2_ws/install/mfe_navigation/share/mfe_navigation/package.bash'
+[15.651s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2_ws/install/mfe_navigation/share/mfe_navigation/package.zsh'
+[15.651s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ros2_ws/install/mfe_navigation/share/colcon-core/packages/mfe_navigation)
+[15.652s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ros2_ws/ros2/src/mfe_simulation' with build type 'ament_cmake'
+[15.653s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ros2_ws/ros2/src/mfe_simulation'
+[15.653s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[15.653s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[15.656s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ros2_ws/ros2/src/mfe_perception/state_estimation' with build type 'ament_cmake'
+[15.656s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ros2_ws/ros2/src/mfe_perception/state_estimation'
+[15.656s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[15.656s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[15.661s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mfe_bringup)
+[15.662s] Level 1:colcon.colcon_core.environment:checking '/home/ros2_ws/install/mfe_bringup' for CMake module files
+[15.663s] Level 1:colcon.colcon_core.environment:checking '/home/ros2_ws/install/mfe_bringup' for CMake config files
+[15.663s] Level 1:colcon.colcon_core.shell:create_environment_hook('mfe_bringup', 'cmake_prefix_path')
+[15.663s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2_ws/install/mfe_bringup/share/mfe_bringup/hook/cmake_prefix_path.ps1'
+[15.664s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ros2_ws/install/mfe_bringup/share/mfe_bringup/hook/cmake_prefix_path.dsv'
+[15.664s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2_ws/install/mfe_bringup/share/mfe_bringup/hook/cmake_prefix_path.sh'
+[15.665s] Level 1:colcon.colcon_core.environment:checking '/home/ros2_ws/install/mfe_bringup/bin'
+[15.665s] Level 1:colcon.colcon_core.environment:checking '/home/ros2_ws/install/mfe_bringup/lib/pkgconfig/mfe_bringup.pc'
+[15.665s] Level 1:colcon.colcon_core.environment:checking '/home/ros2_ws/install/mfe_bringup/lib/python3.12/site-packages'
+[15.665s] Level 1:colcon.colcon_core.environment:checking '/home/ros2_ws/install/mfe_bringup/bin'
+[15.666s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2_ws/install/mfe_bringup/share/mfe_bringup/package.ps1'
+[15.666s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ros2_ws/install/mfe_bringup/share/mfe_bringup/package.dsv'
+[15.667s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2_ws/install/mfe_bringup/share/mfe_bringup/package.sh'
+[15.667s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2_ws/install/mfe_bringup/share/mfe_bringup/package.bash'
+[15.667s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2_ws/install/mfe_bringup/share/mfe_bringup/package.zsh'
+[15.668s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ros2_ws/install/mfe_bringup/share/colcon-core/packages/mfe_bringup)
+[15.669s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mfe_base)
+[15.669s] Level 1:colcon.colcon_core.environment:checking '/home/ros2_ws/install/mfe_base' for CMake module files
+[15.670s] Level 1:colcon.colcon_core.environment:checking '/home/ros2_ws/install/mfe_base' for CMake config files
+[15.670s] Level 1:colcon.colcon_core.shell:create_environment_hook('mfe_base', 'cmake_prefix_path')
+[15.671s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2_ws/install/mfe_base/share/mfe_base/hook/cmake_prefix_path.ps1'
+[15.671s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ros2_ws/install/mfe_base/share/mfe_base/hook/cmake_prefix_path.dsv'
+[15.671s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2_ws/install/mfe_base/share/mfe_base/hook/cmake_prefix_path.sh'
+[15.672s] Level 1:colcon.colcon_core.environment:checking '/home/ros2_ws/install/mfe_base/bin'
+[15.672s] Level 1:colcon.colcon_core.environment:checking '/home/ros2_ws/install/mfe_base/lib/pkgconfig/mfe_base.pc'
+[15.672s] Level 1:colcon.colcon_core.environment:checking '/home/ros2_ws/install/mfe_base/lib/python3.12/site-packages'
+[15.673s] Level 1:colcon.colcon_core.environment:checking '/home/ros2_ws/install/mfe_base/bin'
+[15.673s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2_ws/install/mfe_base/share/mfe_base/package.ps1'
+[15.673s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ros2_ws/install/mfe_base/share/mfe_base/package.dsv'
+[15.674s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2_ws/install/mfe_base/share/mfe_base/package.sh'
+[15.674s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2_ws/install/mfe_base/share/mfe_base/package.bash'
+[15.675s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2_ws/install/mfe_base/share/mfe_base/package.zsh'
+[15.675s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ros2_ws/install/mfe_base/share/colcon-core/packages/mfe_base)
+[15.676s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ros2_ws/ros2/src/mfe_perception/vision_cone_detector' with build type 'ament_cmake'
+[15.676s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ros2_ws/ros2/src/mfe_perception/vision_cone_detector'
+[15.677s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[15.677s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[15.681s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mfe)
+[15.682s] Level 1:colcon.colcon_core.environment:checking '/home/ros2_ws/install/mfe' for CMake module files
+[15.682s] Level 1:colcon.colcon_core.environment:checking '/home/ros2_ws/install/mfe' for CMake config files
+[15.683s] Level 1:colcon.colcon_core.shell:create_environment_hook('mfe', 'cmake_prefix_path')
+[15.683s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2_ws/install/mfe/share/mfe/hook/cmake_prefix_path.ps1'
+[15.683s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ros2_ws/install/mfe/share/mfe/hook/cmake_prefix_path.dsv'
+[15.684s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2_ws/install/mfe/share/mfe/hook/cmake_prefix_path.sh'
+[15.684s] Level 1:colcon.colcon_core.environment:checking '/home/ros2_ws/install/mfe/bin'
+[15.684s] Level 1:colcon.colcon_core.environment:checking '/home/ros2_ws/install/mfe/lib/pkgconfig/mfe.pc'
+[15.685s] Level 1:colcon.colcon_core.environment:checking '/home/ros2_ws/install/mfe/lib/python3.12/site-packages'
+[15.685s] Level 1:colcon.colcon_core.environment:checking '/home/ros2_ws/install/mfe/bin'
+[15.685s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2_ws/install/mfe/share/mfe/package.ps1'
+[15.686s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ros2_ws/install/mfe/share/mfe/package.dsv'
+[15.686s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2_ws/install/mfe/share/mfe/package.sh'
+[15.686s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2_ws/install/mfe/share/mfe/package.bash'
+[15.687s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2_ws/install/mfe/share/mfe/package.zsh'
+[15.687s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ros2_ws/install/mfe/share/colcon-core/packages/mfe)
+[15.737s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ros2_ws/build/mfe_path_planning': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/ros2_ws/build/mfe_path_planning -- -j8 -l8
+[15.837s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ros2_ws/build/mfe_simulation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/ros2_ws/build/mfe_simulation -- -j8 -l8
+[15.914s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ros2_ws/build/state_estimation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/ros2_ws/build/state_estimation -- -j8 -l8
+[15.943s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ros2_ws/build/vision_cone_detector': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/ros2_ws/build/vision_cone_detector -- -j8 -l8
+[15.943s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ros2_ws/build/mfe_path_planning' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/ros2_ws/build/mfe_path_planning -- -j8 -l8
+[15.962s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ros2_ws/build/mfe_path_planning': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/ros2_ws/build/mfe_path_planning
+[15.972s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ros2_ws/build/mfe_simulation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/ros2_ws/build/mfe_simulation -- -j8 -l8
+[15.993s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ros2_ws/build/mfe_simulation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/ros2_ws/build/mfe_simulation
+[16.050s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mfe_simulation)
+[16.051s] Level 1:colcon.colcon_core.environment:checking '/home/ros2_ws/install/mfe_simulation' for CMake module files
+[16.051s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ros2_ws/build/mfe_simulation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/ros2_ws/build/mfe_simulation
+[16.052s] Level 1:colcon.colcon_core.environment:checking '/home/ros2_ws/install/mfe_simulation' for CMake config files
+[16.052s] Level 1:colcon.colcon_core.shell:create_environment_hook('mfe_simulation', 'cmake_prefix_path')
+[16.052s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2_ws/install/mfe_simulation/share/mfe_simulation/hook/cmake_prefix_path.ps1'
+[16.053s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ros2_ws/install/mfe_simulation/share/mfe_simulation/hook/cmake_prefix_path.dsv'
+[16.053s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2_ws/install/mfe_simulation/share/mfe_simulation/hook/cmake_prefix_path.sh'
+[16.054s] Level 1:colcon.colcon_core.environment:checking '/home/ros2_ws/install/mfe_simulation/bin'
+[16.054s] Level 1:colcon.colcon_core.environment:checking '/home/ros2_ws/install/mfe_simulation/lib/pkgconfig/mfe_simulation.pc'
+[16.054s] Level 1:colcon.colcon_core.environment:checking '/home/ros2_ws/install/mfe_simulation/lib/python3.12/site-packages'
+[16.055s] Level 1:colcon.colcon_core.environment:checking '/home/ros2_ws/install/mfe_simulation/bin'
+[16.055s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2_ws/install/mfe_simulation/share/mfe_simulation/package.ps1'
+[16.055s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ros2_ws/install/mfe_simulation/share/mfe_simulation/package.dsv'
+[16.056s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2_ws/install/mfe_simulation/share/mfe_simulation/package.sh'
+[16.056s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2_ws/install/mfe_simulation/share/mfe_simulation/package.bash'
+[16.057s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2_ws/install/mfe_simulation/share/mfe_simulation/package.zsh'
+[16.057s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ros2_ws/install/mfe_simulation/share/colcon-core/packages/mfe_simulation)
+[16.077s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mfe_simulation)
+[16.077s] Level 1:colcon.colcon_core.environment:checking '/home/ros2_ws/install/mfe_simulation' for CMake module files
+[16.078s] Level 1:colcon.colcon_core.environment:checking '/home/ros2_ws/install/mfe_simulation' for CMake config files
+[16.078s] Level 1:colcon.colcon_core.shell:create_environment_hook('mfe_simulation', 'cmake_prefix_path')
+[16.078s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2_ws/install/mfe_simulation/share/mfe_simulation/hook/cmake_prefix_path.ps1'
+[16.079s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ros2_ws/install/mfe_simulation/share/mfe_simulation/hook/cmake_prefix_path.dsv'
+[16.079s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2_ws/install/mfe_simulation/share/mfe_simulation/hook/cmake_prefix_path.sh'
+[16.080s] Level 1:colcon.colcon_core.environment:checking '/home/ros2_ws/install/mfe_simulation/bin'
+[16.080s] Level 1:colcon.colcon_core.environment:checking '/home/ros2_ws/install/mfe_simulation/lib/pkgconfig/mfe_simulation.pc'
+[16.080s] Level 1:colcon.colcon_core.environment:checking '/home/ros2_ws/install/mfe_simulation/lib/python3.12/site-packages'
+[16.080s] Level 1:colcon.colcon_core.environment:checking '/home/ros2_ws/install/mfe_simulation/bin'
+[16.080s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2_ws/install/mfe_simulation/share/mfe_simulation/package.ps1'
+[16.081s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ros2_ws/install/mfe_simulation/share/mfe_simulation/package.dsv'
+[16.081s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2_ws/install/mfe_simulation/share/mfe_simulation/package.sh'
+[16.082s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2_ws/install/mfe_simulation/share/mfe_simulation/package.bash'
+[16.082s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2_ws/install/mfe_simulation/share/mfe_simulation/package.zsh'
+[16.082s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ros2_ws/install/mfe_simulation/share/colcon-core/packages/mfe_simulation)
+[16.258s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ros2_ws/build/vision_cone_detector' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/ros2_ws/build/vision_cone_detector -- -j8 -l8
+[16.270s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ros2_ws/build/state_estimation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/ros2_ws/build/state_estimation -- -j8 -l8
+[16.279s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ros2_ws/build/vision_cone_detector': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/ros2_ws/build/vision_cone_detector
+[16.283s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mfe_path_planning)
+[16.283s] Level 1:colcon.colcon_core.environment:checking '/home/ros2_ws/install/mfe_path_planning' for CMake module files
+[16.283s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ros2_ws/build/mfe_path_planning' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/ros2_ws/build/mfe_path_planning
+[16.284s] Level 1:colcon.colcon_core.environment:checking '/home/ros2_ws/install/mfe_path_planning' for CMake config files
+[16.284s] Level 1:colcon.colcon_core.shell:create_environment_hook('mfe_path_planning', 'cmake_prefix_path')
+[16.284s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2_ws/install/mfe_path_planning/share/mfe_path_planning/hook/cmake_prefix_path.ps1'
+[16.285s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ros2_ws/install/mfe_path_planning/share/mfe_path_planning/hook/cmake_prefix_path.dsv'
+[16.285s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2_ws/install/mfe_path_planning/share/mfe_path_planning/hook/cmake_prefix_path.sh'
+[16.286s] Level 1:colcon.colcon_core.environment:checking '/home/ros2_ws/install/mfe_path_planning/bin'
+[16.286s] Level 1:colcon.colcon_core.environment:checking '/home/ros2_ws/install/mfe_path_planning/lib/pkgconfig/mfe_path_planning.pc'
+[16.286s] Level 1:colcon.colcon_core.environment:checking '/home/ros2_ws/install/mfe_path_planning/lib/python3.12/site-packages'
+[16.287s] Level 1:colcon.colcon_core.environment:checking '/home/ros2_ws/install/mfe_path_planning/bin'
+[16.287s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2_ws/install/mfe_path_planning/share/mfe_path_planning/package.ps1'
+[16.287s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ros2_ws/install/mfe_path_planning/share/mfe_path_planning/package.dsv'
+[16.288s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2_ws/install/mfe_path_planning/share/mfe_path_planning/package.sh'
+[16.288s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2_ws/install/mfe_path_planning/share/mfe_path_planning/package.bash'
+[16.289s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2_ws/install/mfe_path_planning/share/mfe_path_planning/package.zsh'
+[16.289s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ros2_ws/install/mfe_path_planning/share/colcon-core/packages/mfe_path_planning)
+[16.292s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ros2_ws/build/state_estimation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/ros2_ws/build/state_estimation
+[16.308s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mfe_path_planning)
+[16.308s] Level 1:colcon.colcon_core.environment:checking '/home/ros2_ws/install/mfe_path_planning' for CMake module files
+[16.309s] Level 1:colcon.colcon_core.environment:checking '/home/ros2_ws/install/mfe_path_planning' for CMake config files
+[16.309s] Level 1:colcon.colcon_core.shell:create_environment_hook('mfe_path_planning', 'cmake_prefix_path')
+[16.310s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2_ws/install/mfe_path_planning/share/mfe_path_planning/hook/cmake_prefix_path.ps1'
+[16.310s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ros2_ws/install/mfe_path_planning/share/mfe_path_planning/hook/cmake_prefix_path.dsv'
+[16.310s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2_ws/install/mfe_path_planning/share/mfe_path_planning/hook/cmake_prefix_path.sh'
+[16.311s] Level 1:colcon.colcon_core.environment:checking '/home/ros2_ws/install/mfe_path_planning/bin'
+[16.311s] Level 1:colcon.colcon_core.environment:checking '/home/ros2_ws/install/mfe_path_planning/lib/pkgconfig/mfe_path_planning.pc'
+[16.311s] Level 1:colcon.colcon_core.environment:checking '/home/ros2_ws/install/mfe_path_planning/lib/python3.12/site-packages'
+[16.312s] Level 1:colcon.colcon_core.environment:checking '/home/ros2_ws/install/mfe_path_planning/bin'
+[16.312s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2_ws/install/mfe_path_planning/share/mfe_path_planning/package.ps1'
+[16.312s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ros2_ws/install/mfe_path_planning/share/mfe_path_planning/package.dsv'
+[16.313s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2_ws/install/mfe_path_planning/share/mfe_path_planning/package.sh'
+[16.313s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2_ws/install/mfe_path_planning/share/mfe_path_planning/package.bash'
+[16.314s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2_ws/install/mfe_path_planning/share/mfe_path_planning/package.zsh'
+[16.314s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ros2_ws/install/mfe_path_planning/share/colcon-core/packages/mfe_path_planning)
+[16.527s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vision_cone_detector)
+[16.528s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ros2_ws/build/vision_cone_detector' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/ros2_ws/build/vision_cone_detector
+[16.528s] Level 1:colcon.colcon_core.environment:checking '/home/ros2_ws/install/vision_cone_detector' for CMake module files
+[16.529s] Level 1:colcon.colcon_core.environment:checking '/home/ros2_ws/install/vision_cone_detector' for CMake config files
+[16.530s] Level 1:colcon.colcon_core.shell:create_environment_hook('vision_cone_detector', 'cmake_prefix_path')
+[16.530s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2_ws/install/vision_cone_detector/share/vision_cone_detector/hook/cmake_prefix_path.ps1'
+[16.531s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ros2_ws/install/vision_cone_detector/share/vision_cone_detector/hook/cmake_prefix_path.dsv'
+[16.531s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2_ws/install/vision_cone_detector/share/vision_cone_detector/hook/cmake_prefix_path.sh'
+[16.532s] Level 1:colcon.colcon_core.environment:checking '/home/ros2_ws/install/vision_cone_detector/bin'
+[16.532s] Level 1:colcon.colcon_core.environment:checking '/home/ros2_ws/install/vision_cone_detector/lib/pkgconfig/vision_cone_detector.pc'
+[16.532s] Level 1:colcon.colcon_core.environment:checking '/home/ros2_ws/install/vision_cone_detector/lib/python3.12/site-packages'
+[16.533s] Level 1:colcon.colcon_core.environment:checking '/home/ros2_ws/install/vision_cone_detector/bin'
+[16.533s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2_ws/install/vision_cone_detector/share/vision_cone_detector/package.ps1'
+[16.533s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ros2_ws/install/vision_cone_detector/share/vision_cone_detector/package.dsv'
+[16.534s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2_ws/install/vision_cone_detector/share/vision_cone_detector/package.sh'
+[16.534s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2_ws/install/vision_cone_detector/share/vision_cone_detector/package.bash'
+[16.534s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2_ws/install/vision_cone_detector/share/vision_cone_detector/package.zsh'
+[16.535s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ros2_ws/install/vision_cone_detector/share/colcon-core/packages/vision_cone_detector)
+[16.554s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vision_cone_detector)
+[16.555s] Level 1:colcon.colcon_core.environment:checking '/home/ros2_ws/install/vision_cone_detector' for CMake module files
+[16.555s] Level 1:colcon.colcon_core.environment:checking '/home/ros2_ws/install/vision_cone_detector' for CMake config files
+[16.556s] Level 1:colcon.colcon_core.shell:create_environment_hook('vision_cone_detector', 'cmake_prefix_path')
+[16.556s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2_ws/install/vision_cone_detector/share/vision_cone_detector/hook/cmake_prefix_path.ps1'
+[16.556s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ros2_ws/install/vision_cone_detector/share/vision_cone_detector/hook/cmake_prefix_path.dsv'
+[16.557s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2_ws/install/vision_cone_detector/share/vision_cone_detector/hook/cmake_prefix_path.sh'
+[16.558s] Level 1:colcon.colcon_core.environment:checking '/home/ros2_ws/install/vision_cone_detector/bin'
+[16.558s] Level 1:colcon.colcon_core.environment:checking '/home/ros2_ws/install/vision_cone_detector/lib/pkgconfig/vision_cone_detector.pc'
+[16.558s] Level 1:colcon.colcon_core.environment:checking '/home/ros2_ws/install/vision_cone_detector/lib/python3.12/site-packages'
+[16.558s] Level 1:colcon.colcon_core.environment:checking '/home/ros2_ws/install/vision_cone_detector/bin'
+[16.559s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2_ws/install/vision_cone_detector/share/vision_cone_detector/package.ps1'
+[16.559s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ros2_ws/install/vision_cone_detector/share/vision_cone_detector/package.dsv'
+[16.560s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2_ws/install/vision_cone_detector/share/vision_cone_detector/package.sh'
+[16.560s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2_ws/install/vision_cone_detector/share/vision_cone_detector/package.bash'
+[16.561s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2_ws/install/vision_cone_detector/share/vision_cone_detector/package.zsh'
+[16.561s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ros2_ws/install/vision_cone_detector/share/colcon-core/packages/vision_cone_detector)
+[16.617s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(state_estimation)
+[16.618s] Level 1:colcon.colcon_core.environment:checking '/home/ros2_ws/install/state_estimation' for CMake module files
+[16.618s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ros2_ws/build/state_estimation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/ros2_ws/build/state_estimation
+[16.618s] Level 1:colcon.colcon_core.environment:checking '/home/ros2_ws/install/state_estimation' for CMake config files
+[16.619s] Level 1:colcon.colcon_core.shell:create_environment_hook('state_estimation', 'cmake_prefix_path')
+[16.619s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2_ws/install/state_estimation/share/state_estimation/hook/cmake_prefix_path.ps1'
+[16.619s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ros2_ws/install/state_estimation/share/state_estimation/hook/cmake_prefix_path.dsv'
+[16.620s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2_ws/install/state_estimation/share/state_estimation/hook/cmake_prefix_path.sh'
+[16.620s] Level 1:colcon.colcon_core.environment:checking '/home/ros2_ws/install/state_estimation/bin'
+[16.620s] Level 1:colcon.colcon_core.environment:checking '/home/ros2_ws/install/state_estimation/lib/pkgconfig/state_estimation.pc'
+[16.621s] Level 1:colcon.colcon_core.environment:checking '/home/ros2_ws/install/state_estimation/lib/python3.12/site-packages'
+[16.621s] Level 1:colcon.colcon_core.environment:checking '/home/ros2_ws/install/state_estimation/bin'
+[16.621s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2_ws/install/state_estimation/share/state_estimation/package.ps1'
+[16.622s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ros2_ws/install/state_estimation/share/state_estimation/package.dsv'
+[16.622s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2_ws/install/state_estimation/share/state_estimation/package.sh'
+[16.622s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2_ws/install/state_estimation/share/state_estimation/package.bash'
+[16.623s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2_ws/install/state_estimation/share/state_estimation/package.zsh'
+[16.623s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ros2_ws/install/state_estimation/share/colcon-core/packages/state_estimation)
+[16.644s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(state_estimation)
+[16.644s] Level 1:colcon.colcon_core.environment:checking '/home/ros2_ws/install/state_estimation' for CMake module files
+[16.645s] Level 1:colcon.colcon_core.environment:checking '/home/ros2_ws/install/state_estimation' for CMake config files
+[16.645s] Level 1:colcon.colcon_core.shell:create_environment_hook('state_estimation', 'cmake_prefix_path')
+[16.645s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2_ws/install/state_estimation/share/state_estimation/hook/cmake_prefix_path.ps1'
+[16.646s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ros2_ws/install/state_estimation/share/state_estimation/hook/cmake_prefix_path.dsv'
+[16.646s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2_ws/install/state_estimation/share/state_estimation/hook/cmake_prefix_path.sh'
+[16.647s] Level 1:colcon.colcon_core.environment:checking '/home/ros2_ws/install/state_estimation/bin'
+[16.647s] Level 1:colcon.colcon_core.environment:checking '/home/ros2_ws/install/state_estimation/lib/pkgconfig/state_estimation.pc'
+[16.647s] Level 1:colcon.colcon_core.environment:checking '/home/ros2_ws/install/state_estimation/lib/python3.12/site-packages'
+[16.647s] Level 1:colcon.colcon_core.environment:checking '/home/ros2_ws/install/state_estimation/bin'
+[16.648s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2_ws/install/state_estimation/share/state_estimation/package.ps1'
+[16.648s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ros2_ws/install/state_estimation/share/state_estimation/package.dsv'
+[16.649s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2_ws/install/state_estimation/share/state_estimation/package.sh'
+[16.649s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2_ws/install/state_estimation/share/state_estimation/package.bash'
+[16.650s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2_ws/install/state_estimation/share/state_estimation/package.zsh'
+[16.650s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ros2_ws/install/state_estimation/share/colcon-core/packages/state_estimation)
+[24.797s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ros2_ws/build/mfe_msgs' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/ros2_ws/build/mfe_msgs -- -j8 -l8
+[24.987s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mfe_msgs)
+[24.987s] Level 1:colcon.colcon_core.environment:checking '/home/ros2_ws/install/mfe_msgs' for CMake module files
+[24.988s] Level 1:colcon.colcon_core.environment:checking '/home/ros2_ws/install/mfe_msgs' for CMake config files
+[24.988s] Level 1:colcon.colcon_core.environment:checking '/home/ros2_ws/install/mfe_msgs/bin'
+[24.988s] Level 1:colcon.colcon_core.environment:checking '/home/ros2_ws/install/mfe_msgs/lib/pkgconfig/mfe_msgs.pc'
+[24.989s] Level 1:colcon.colcon_core.environment:checking '/home/ros2_ws/install/mfe_msgs/lib/python3.12/site-packages'
+[24.989s] Level 1:colcon.colcon_core.environment:checking '/home/ros2_ws/install/mfe_msgs/bin'
+[24.989s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2_ws/install/mfe_msgs/share/mfe_msgs/package.ps1'
+[24.990s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ros2_ws/install/mfe_msgs/share/mfe_msgs/package.dsv'
+[24.990s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2_ws/install/mfe_msgs/share/mfe_msgs/package.sh'
+[24.991s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2_ws/install/mfe_msgs/share/mfe_msgs/package.bash'
+[24.991s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2_ws/install/mfe_msgs/share/mfe_msgs/package.zsh'
+[24.992s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ros2_ws/install/mfe_msgs/share/colcon-core/packages/mfe_msgs)
+[34.852s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[34.852s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[34.852s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[34.852s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[35.467s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[35.467s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[35.467s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[35.467s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[35.645s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.InvalidFileContent: D-Bus library appears to be incorrectly set up: see the manual page for dbus-uuidgen to correct this issue. (Failed to open "/var/lib/dbus/machine-id": No such file or directory; UUID file '/etc/machine-id' should contain a hex string of length 32, not length 0, with no other text)
+[35.645s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[35.646s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ros2_ws/install/local_setup.ps1'
+[35.646s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ros2_ws/install/_local_setup_util_ps1.py'
+[35.664s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ros2_ws/install/setup.ps1'
+[35.665s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ros2_ws/install/local_setup.sh'
+[35.666s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ros2_ws/install/_local_setup_util_sh.py'
+[35.667s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ros2_ws/install/setup.sh'
+[35.668s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ros2_ws/install/local_setup.bash'
+[35.668s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ros2_ws/install/setup.bash'
+[35.669s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ros2_ws/install/local_setup.zsh'
+[35.742s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ros2_ws/install/setup.zsh'

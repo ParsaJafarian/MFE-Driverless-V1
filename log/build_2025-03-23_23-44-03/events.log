@@ -1,0 +1,752 @@
+[0.000000] (-) TimerEvent: {}
+[0.000125] (articubot_one) JobQueued: {'identifier': 'articubot_one', 'dependencies': OrderedDict()}
+[0.000176] (lidar_cone_detector) JobQueued: {'identifier': 'lidar_cone_detector', 'dependencies': OrderedDict()}
+[0.000217] (mfe) JobQueued: {'identifier': 'mfe', 'dependencies': OrderedDict()}
+[0.000236] (mfe_base) JobQueued: {'identifier': 'mfe_base', 'dependencies': OrderedDict()}
+[0.000330] (mfe_bringup) JobQueued: {'identifier': 'mfe_bringup', 'dependencies': OrderedDict()}
+[0.000756] (mfe_mapping) JobQueued: {'identifier': 'mfe_mapping', 'dependencies': OrderedDict()}
+[0.000780] (mfe_msgs) JobQueued: {'identifier': 'mfe_msgs', 'dependencies': OrderedDict()}
+[0.000796] (mfe_navigation) JobQueued: {'identifier': 'mfe_navigation', 'dependencies': OrderedDict()}
+[0.000809] (mfe_path_planning) JobQueued: {'identifier': 'mfe_path_planning', 'dependencies': OrderedDict()}
+[0.000822] (mfe_simulation) JobQueued: {'identifier': 'mfe_simulation', 'dependencies': OrderedDict()}
+[0.000946] (state_estimation) JobQueued: {'identifier': 'state_estimation', 'dependencies': OrderedDict()}
+[0.000961] (vision_cone_detector) JobQueued: {'identifier': 'vision_cone_detector', 'dependencies': OrderedDict()}
+[0.000974] (articubot_one) JobStarted: {'identifier': 'articubot_one'}
+[0.028943] (lidar_cone_detector) JobStarted: {'identifier': 'lidar_cone_detector'}
+[0.032340] (mfe) JobStarted: {'identifier': 'mfe'}
+[0.034997] (mfe_base) JobStarted: {'identifier': 'mfe_base'}
+[0.038147] (mfe_bringup) JobStarted: {'identifier': 'mfe_bringup'}
+[0.041396] (mfe_mapping) JobStarted: {'identifier': 'mfe_mapping'}
+[0.044742] (mfe_msgs) JobStarted: {'identifier': 'mfe_msgs'}
+[0.048911] (mfe_navigation) JobStarted: {'identifier': 'mfe_navigation'}
+[0.076029] (mfe) JobProgress: {'identifier': 'mfe', 'progress': 'cmake'}
+[0.076344] (mfe) Command: {'cmd': ['/usr/bin/cmake', '/home/ros2_ws/ros2/src/mfe', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/ros2_ws/install/mfe'], 'cwd': '/home/ros2_ws/build/mfe', 'env': OrderedDict({'HOSTNAME': 'fedora', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/root', 'OLDPWD': '/home', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'XAUTHORITY': '/tmp/.docker.xauth', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/ros2_ws/build/mfe', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.099776] (-) TimerEvent: {}
+[0.109269] (mfe_navigation) JobProgress: {'identifier': 'mfe_navigation', 'progress': 'cmake'}
+[0.109749] (mfe_navigation) Command: {'cmd': ['/usr/bin/cmake', '/home/ros2_ws/ros2/src/mfe_navigation', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/ros2_ws/install/mfe_navigation'], 'cwd': '/home/ros2_ws/build/mfe_navigation', 'env': OrderedDict({'HOSTNAME': 'fedora', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/root', 'OLDPWD': '/home', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'XAUTHORITY': '/tmp/.docker.xauth', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/ros2_ws/build/mfe_navigation', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.111645] (mfe_bringup) JobProgress: {'identifier': 'mfe_bringup', 'progress': 'cmake'}
+[0.112246] (mfe_bringup) Command: {'cmd': ['/usr/bin/cmake', '/home/ros2_ws/ros2/src/mfe_bringup', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/ros2_ws/install/mfe_bringup'], 'cwd': '/home/ros2_ws/build/mfe_bringup', 'env': OrderedDict({'HOSTNAME': 'fedora', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/root', 'OLDPWD': '/home', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'XAUTHORITY': '/tmp/.docker.xauth', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/ros2_ws/build/mfe_bringup', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.113437] (mfe_mapping) JobProgress: {'identifier': 'mfe_mapping', 'progress': 'cmake'}
+[0.113633] (mfe_mapping) Command: {'cmd': ['/usr/bin/cmake', '/home/ros2_ws/ros2/src/mfe_mapping', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/ros2_ws/install/mfe_mapping'], 'cwd': '/home/ros2_ws/build/mfe_mapping', 'env': OrderedDict({'HOSTNAME': 'fedora', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/root', 'OLDPWD': '/home', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'XAUTHORITY': '/tmp/.docker.xauth', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/ros2_ws/build/mfe_mapping', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.114511] (mfe_base) JobProgress: {'identifier': 'mfe_base', 'progress': 'cmake'}
+[0.114867] (mfe_base) Command: {'cmd': ['/usr/bin/cmake', '/home/ros2_ws/ros2/src/mfe_base', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/ros2_ws/install/mfe_base'], 'cwd': '/home/ros2_ws/build/mfe_base', 'env': OrderedDict({'HOSTNAME': 'fedora', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/root', 'OLDPWD': '/home', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'XAUTHORITY': '/tmp/.docker.xauth', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/ros2_ws/build/mfe_base', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.116265] (articubot_one) JobProgress: {'identifier': 'articubot_one', 'progress': 'cmake'}
+[0.116301] (articubot_one) Command: {'cmd': ['/usr/bin/cmake', '/home/ros2_ws/ros2/src/articubot_one', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/ros2_ws/install/articubot_one'], 'cwd': '/home/ros2_ws/build/articubot_one', 'env': OrderedDict({'HOSTNAME': 'fedora', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/root', 'OLDPWD': '/home', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'XAUTHORITY': '/tmp/.docker.xauth', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/ros2_ws/build/articubot_one', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.117578] (mfe_msgs) JobProgress: {'identifier': 'mfe_msgs', 'progress': 'cmake'}
+[0.117646] (mfe_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/ros2_ws/ros2/src/mfe_msgs', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/ros2_ws/install/mfe_msgs'], 'cwd': '/home/ros2_ws/build/mfe_msgs', 'env': OrderedDict({'HOSTNAME': 'fedora', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/root', 'OLDPWD': '/home', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'XAUTHORITY': '/tmp/.docker.xauth', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/ros2_ws/build/mfe_msgs', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.118748] (lidar_cone_detector) JobProgress: {'identifier': 'lidar_cone_detector', 'progress': 'cmake'}
+[0.119072] (lidar_cone_detector) Command: {'cmd': ['/usr/bin/cmake', '/home/ros2_ws/ros2/src/mfe_perception/lidar_cone_detector', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/ros2_ws/install/lidar_cone_detector'], 'cwd': '/home/ros2_ws/build/lidar_cone_detector', 'env': OrderedDict({'HOSTNAME': 'fedora', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/root', 'OLDPWD': '/home', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'XAUTHORITY': '/tmp/.docker.xauth', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/ros2_ws/build/lidar_cone_detector', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.199849] (-) TimerEvent: {}
+[0.300516] (-) TimerEvent: {}
+[0.400781] (-) TimerEvent: {}
+[0.501145] (-) TimerEvent: {}
+[0.601983] (-) TimerEvent: {}
+[0.703562] (-) TimerEvent: {}
+[0.803913] (-) TimerEvent: {}
+[0.905827] (-) TimerEvent: {}
+[1.006462] (-) TimerEvent: {}
+[1.106804] (-) TimerEvent: {}
+[1.207475] (-) TimerEvent: {}
+[1.307812] (-) TimerEvent: {}
+[1.408462] (-) TimerEvent: {}
+[1.508789] (-) TimerEvent: {}
+[1.609349] (-) TimerEvent: {}
+[1.709745] (-) TimerEvent: {}
+[1.810189] (-) TimerEvent: {}
+[1.911488] (-) TimerEvent: {}
+[2.014792] (-) TimerEvent: {}
+[2.115443] (-) TimerEvent: {}
+[2.216719] (-) TimerEvent: {}
+[2.317544] (-) TimerEvent: {}
+[2.417873] (-) TimerEvent: {}
+[2.518632] (-) TimerEvent: {}
+[2.618899] (-) TimerEvent: {}
+[2.719519] (-) TimerEvent: {}
+[2.820603] (-) TimerEvent: {}
+[2.897301] (mfe) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[2.913629] (mfe_mapping) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[2.919636] (mfe_base) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[2.924667] (-) TimerEvent: {}
+[2.931522] (articubot_one) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[2.934120] (mfe_bringup) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[2.947440] (mfe_navigation) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[3.025030] (-) TimerEvent: {}
+[3.126858] (-) TimerEvent: {}
+[3.227648] (-) TimerEvent: {}
+[3.327930] (-) TimerEvent: {}
+[3.455734] (-) TimerEvent: {}
+[3.567099] (-) TimerEvent: {}
+[3.672805] (-) TimerEvent: {}
+[3.684784] (articubot_one) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[3.735116] (mfe_navigation) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[3.750003] (mfe_mapping) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[3.757764] (mfe_bringup) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[3.770294] (mfe) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[3.772910] (-) TimerEvent: {}
+[3.784020] (mfe_base) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[3.873444] (-) TimerEvent: {}
+[3.965710] (mfe_bringup) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[3.966712] (articubot_one) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[3.969398] (mfe_base) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[3.973818] (-) TimerEvent: {}
+[3.980766] (mfe_mapping) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[3.987983] (mfe_navigation) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[3.997943] (mfe) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[4.074003] (-) TimerEvent: {}
+[4.176454] (-) TimerEvent: {}
+[4.277675] (-) TimerEvent: {}
+[4.381166] (-) TimerEvent: {}
+[4.484095] (-) TimerEvent: {}
+[4.585706] (-) TimerEvent: {}
+[4.682333] (mfe_bringup) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[4.685875] (-) TimerEvent: {}
+[4.704178] (articubot_one) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[4.705879] (mfe_mapping) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[4.707089] (mfe) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[4.713971] (mfe_base) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[4.786269] (-) TimerEvent: {}
+[4.795019] (mfe_bringup) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[4.813868] (articubot_one) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[4.816904] (mfe_navigation) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[4.822838] (mfe) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[4.825874] (articubot_one) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[4.827457] (mfe_bringup) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[4.827612] (mfe) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[4.833059] (mfe_mapping) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[4.835679] (mfe_mapping) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[4.843679] (mfe_base) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[4.846211] (mfe_base) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[4.858818] (mfe_base) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[4.861626] (mfe_bringup) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[4.862673] (mfe_mapping) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[4.864537] (articubot_one) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[4.865983] (mfe) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[4.872953] (mfe_navigation) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[4.875683] (mfe_navigation) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[4.880901] (mfe_navigation) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[4.886562] (-) TimerEvent: {}
+[4.940967] (mfe_navigation) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[4.944623] (mfe_base) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[4.950613] (mfe_bringup) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[4.962453] (articubot_one) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[4.965904] (mfe_mapping) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[4.976073] (mfe) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[4.988691] (-) TimerEvent: {}
+[5.119024] (-) TimerEvent: {}
+[5.229724] (-) TimerEvent: {}
+[5.330910] (-) TimerEvent: {}
+[5.437678] (-) TimerEvent: {}
+[5.566721] (-) TimerEvent: {}
+[5.669682] (-) TimerEvent: {}
+[5.773467] (-) TimerEvent: {}
+[5.802623] (mfe_mapping) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[5.819579] (mfe_navigation) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[5.821557] (articubot_one) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[5.850660] (mfe_bringup) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[5.873809] (-) TimerEvent: {}
+[5.924746] (mfe_mapping) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[5.928890] (mfe_mapping) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[5.934232] (mfe_mapping) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[5.947758] (mfe_navigation) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[5.948845] (mfe_navigation) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[5.955158] (mfe_base) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[5.961029] (mfe_navigation) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[5.963792] (articubot_one) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[5.967596] (articubot_one) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[5.970536] (articubot_one) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[5.974066] (-) TimerEvent: {}
+[5.987277] (mfe_bringup) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[5.990203] (mfe_bringup) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[5.995195] (mfe_bringup) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[6.012485] (mfe) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[6.038288] (mfe_base) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[6.038631] (mfe_base) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[6.039265] (mfe_base) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[6.056461] (mfe) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[6.056808] (mfe) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[6.057314] (mfe) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[6.074107] (-) TimerEvent: {}
+[6.078257] (mfe_bringup) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[6.078580] (mfe) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[6.078720] (mfe_navigation) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[6.078851] (articubot_one) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[6.078983] (mfe_mapping) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[6.079115] (mfe_base) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[6.174560] (-) TimerEvent: {}
+[6.274810] (-) TimerEvent: {}
+[6.375617] (-) TimerEvent: {}
+[6.476298] (-) TimerEvent: {}
+[6.577415] (-) TimerEvent: {}
+[6.683286] (-) TimerEvent: {}
+[6.785242] (-) TimerEvent: {}
+[6.888219] (-) TimerEvent: {}
+[6.991707] (-) TimerEvent: {}
+[7.101931] (-) TimerEvent: {}
+[7.205624] (-) TimerEvent: {}
+[7.239654] (mfe_navigation) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[7.273533] (mfe_mapping) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[7.280174] (mfe) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[7.280494] (mfe_base) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[7.282289] (mfe_bringup) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[7.282922] (articubot_one) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[7.305751] (-) TimerEvent: {}
+[7.406155] (-) TimerEvent: {}
+[7.508490] (-) TimerEvent: {}
+[7.609558] (-) TimerEvent: {}
+[7.717525] (-) TimerEvent: {}
+[7.818275] (-) TimerEvent: {}
+[7.928512] (-) TimerEvent: {}
+[8.027501] (mfe_bringup) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[8.029632] (-) TimerEvent: {}
+[8.032137] (mfe_mapping) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[8.071022] (mfe_navigation) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[8.080367] (mfe_base) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[8.113259] (mfe) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[8.122283] (articubot_one) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[8.129787] (-) TimerEvent: {}
+[8.232653] (-) TimerEvent: {}
+[8.333717] (-) TimerEvent: {}
+[8.435458] (-) TimerEvent: {}
+[8.454879] (mfe_mapping) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[8.458835] (articubot_one) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[8.459611] (mfe_base) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[8.463480] (mfe) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[8.467090] (mfe_navigation) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[8.467805] (mfe_bringup) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[8.535551] (-) TimerEvent: {}
+[8.636205] (-) TimerEvent: {}
+[8.743341] (-) TimerEvent: {}
+[8.844299] (-) TimerEvent: {}
+[8.946638] (-) TimerEvent: {}
+[9.047668] (-) TimerEvent: {}
+[9.148530] (-) TimerEvent: {}
+[9.249789] (-) TimerEvent: {}
+[9.318027] (mfe) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[9.320441] (mfe_base) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[9.323999] (mfe_mapping) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[9.325334] (mfe_bringup) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[9.327065] (mfe) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[9.327248] (mfe_base) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[9.328001] (mfe_mapping) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[9.328480] (mfe_bringup) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[9.330924] (mfe) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[9.331945] (mfe_base) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[9.346847] (mfe_bringup) StdoutLine: {'line': b'-- Configuring done (8.8s)\n'}
+[9.348015] (mfe_mapping) StdoutLine: {'line': b'-- Configuring done (8.8s)\n'}
+[9.350123] (-) TimerEvent: {}
+[9.361692] (mfe_base) StdoutLine: {'line': b'-- Configuring done (8.8s)\n'}
+[9.362154] (mfe) StdoutLine: {'line': b'-- Configuring done (8.8s)\n'}
+[9.366896] (mfe_navigation) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[9.368239] (articubot_one) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[9.383024] (mfe_navigation) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[9.387869] (mfe_bringup) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[9.389878] (mfe_mapping) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[9.392909] (mfe_navigation) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[9.400372] (mfe_mapping) StdoutLine: {'line': b'-- Build files have been written to: /home/ros2_ws/build/mfe_mapping\n'}
+[9.401237] (mfe_bringup) StdoutLine: {'line': b'-- Build files have been written to: /home/ros2_ws/build/mfe_bringup\n'}
+[9.404117] (mfe_navigation) StdoutLine: {'line': b'-- Configuring done (8.9s)\n'}
+[9.408588] (mfe) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[9.409974] (mfe_base) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[9.421584] (mfe_base) StdoutLine: {'line': b'-- Build files have been written to: /home/ros2_ws/build/mfe_base\n'}
+[9.436641] (mfe) StdoutLine: {'line': b'-- Build files have been written to: /home/ros2_ws/build/mfe\n'}
+[9.444131] (mfe_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[9.448927] (mfe_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[9.449578] (mfe_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[9.449734] (mfe_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[9.452519] (-) TimerEvent: {}
+[9.457823] (mfe_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[9.459201] (mfe_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[9.466908] (mfe_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[9.467301] (mfe_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[9.467637] (mfe_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[9.468101] (mfe_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[9.468387] (mfe_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[9.470999] (mfe_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[9.471302] (mfe_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[9.486998] (mfe_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[9.488855] (mfe_msgs) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[9.489437] (mfe_msgs) StdoutLine: {'line': b'-- Found builtin_interfaces: 2.0.2 (/opt/ros/jazzy/share/builtin_interfaces/cmake)\n'}
+[9.497353] (mfe_navigation) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[9.498068] (mfe_mapping) CommandEnded: {'returncode': 0}
+[9.500219] (mfe_mapping) JobProgress: {'identifier': 'mfe_mapping', 'progress': 'build'}
+[9.500266] (mfe_mapping) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ros2_ws/build/mfe_mapping', '--', '-j8', '-l8'], 'cwd': '/home/ros2_ws/build/mfe_mapping', 'env': OrderedDict({'HOSTNAME': 'fedora', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/root', 'OLDPWD': '/home', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'XAUTHORITY': '/tmp/.docker.xauth', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/ros2_ws/build/mfe_mapping', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[9.506337] (lidar_cone_detector) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[9.508217] (lidar_cone_detector) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[9.508560] (lidar_cone_detector) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[9.512965] (lidar_cone_detector) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[9.516652] (lidar_cone_detector) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[9.518466] (lidar_cone_detector) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[9.524455] (lidar_cone_detector) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[9.524653] (lidar_cone_detector) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[9.530364] (lidar_cone_detector) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[9.532551] (lidar_cone_detector) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[9.532729] (lidar_cone_detector) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[9.535591] (lidar_cone_detector) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[9.535759] (lidar_cone_detector) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[9.536828] (lidar_cone_detector) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[9.538357] (lidar_cone_detector) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[9.538528] (lidar_cone_detector) StdoutLine: {'line': b'-- Found rclcpp: 28.1.5 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[9.542960] (lidar_cone_detector) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[9.549659] (mfe_navigation) StdoutLine: {'line': b'-- Build files have been written to: /home/ros2_ws/build/mfe_navigation\n'}
+[9.550865] (mfe_bringup) CommandEnded: {'returncode': 0}
+[9.552390] (mfe_bringup) JobProgress: {'identifier': 'mfe_bringup', 'progress': 'build'}
+[9.552608] (-) TimerEvent: {}
+[9.567843] (mfe_bringup) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ros2_ws/build/mfe_bringup', '--', '-j8', '-l8'], 'cwd': '/home/ros2_ws/build/mfe_bringup', 'env': OrderedDict({'HOSTNAME': 'fedora', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/root', 'OLDPWD': '/home', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'XAUTHORITY': '/tmp/.docker.xauth', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/ros2_ws/build/mfe_bringup', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[9.571011] (mfe_msgs) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[9.571273] (mfe) CommandEnded: {'returncode': 0}
+[9.575878] (articubot_one) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[9.576743] (articubot_one) StdoutLine: {'line': b"-- Configured 'flake8' exclude dirs and/or files: \n"}
+[9.576909] (mfe) JobProgress: {'identifier': 'mfe', 'progress': 'build'}
+[9.576946] (mfe) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ros2_ws/build/mfe', '--', '-j8', '-l8'], 'cwd': '/home/ros2_ws/build/mfe', 'env': OrderedDict({'HOSTNAME': 'fedora', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/root', 'OLDPWD': '/home', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'XAUTHORITY': '/tmp/.docker.xauth', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/ros2_ws/build/mfe', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[9.578646] (mfe_base) CommandEnded: {'returncode': 0}
+[9.579781] (mfe_base) JobProgress: {'identifier': 'mfe_base', 'progress': 'build'}
+[9.579814] (articubot_one) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[9.585041] (articubot_one) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[9.585260] (mfe_base) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ros2_ws/build/mfe_base', '--', '-j8', '-l8'], 'cwd': '/home/ros2_ws/build/mfe_base', 'env': OrderedDict({'HOSTNAME': 'fedora', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/root', 'OLDPWD': '/home', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'XAUTHORITY': '/tmp/.docker.xauth', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/ros2_ws/build/mfe_base', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[9.587766] (mfe_navigation) CommandEnded: {'returncode': 0}
+[9.593138] (mfe_navigation) JobProgress: {'identifier': 'mfe_navigation', 'progress': 'build'}
+[9.593279] (mfe_navigation) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ros2_ws/build/mfe_navigation', '--', '-j8', '-l8'], 'cwd': '/home/ros2_ws/build/mfe_navigation', 'env': OrderedDict({'HOSTNAME': 'fedora', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/root', 'OLDPWD': '/home', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'XAUTHORITY': '/tmp/.docker.xauth', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/ros2_ws/build/mfe_navigation', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[9.638102] (articubot_one) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[9.652994] (-) TimerEvent: {}
+[9.662654] (articubot_one) StdoutLine: {'line': b'-- Configuring done (9.1s)\n'}
+[9.733870] (articubot_one) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[9.734319] (articubot_one) StdoutLine: {'line': b'-- Build files have been written to: /home/ros2_ws/build/articubot_one\n'}
+[9.753229] (-) TimerEvent: {}
+[9.803665] (mfe_mapping) CommandEnded: {'returncode': 0}
+[9.836609] (articubot_one) CommandEnded: {'returncode': 0}
+[9.840185] (articubot_one) JobProgress: {'identifier': 'articubot_one', 'progress': 'build'}
+[9.840475] (articubot_one) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ros2_ws/build/articubot_one', '--', '-j8', '-l8'], 'cwd': '/home/ros2_ws/build/articubot_one', 'env': OrderedDict({'HOSTNAME': 'fedora', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/root', 'OLDPWD': '/home', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'XAUTHORITY': '/tmp/.docker.xauth', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/ros2_ws/build/articubot_one', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[9.851268] (mfe) CommandEnded: {'returncode': 0}
+[9.855844] (-) TimerEvent: {}
+[9.859830] (mfe_msgs) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[9.861679] (lidar_cone_detector) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[9.892216] (mfe_bringup) CommandEnded: {'returncode': 0}
+[9.903709] (mfe_base) CommandEnded: {'returncode': 0}
+[9.932617] (mfe_navigation) CommandEnded: {'returncode': 0}
+[9.956157] (-) TimerEvent: {}
+[9.999794] (mfe_mapping) JobProgress: {'identifier': 'mfe_mapping', 'progress': 'install'}
+[10.056612] (-) TimerEvent: {}
+[10.067931] (mfe_mapping) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ros2_ws/build/mfe_mapping'], 'cwd': '/home/ros2_ws/build/mfe_mapping', 'env': OrderedDict({'HOSTNAME': 'fedora', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/root', 'OLDPWD': '/home', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'XAUTHORITY': '/tmp/.docker.xauth', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/ros2_ws/build/mfe_mapping', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[10.074574] (mfe_bringup) JobProgress: {'identifier': 'mfe_bringup', 'progress': 'install'}
+[10.074668] (mfe_bringup) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ros2_ws/build/mfe_bringup'], 'cwd': '/home/ros2_ws/build/mfe_bringup', 'env': OrderedDict({'HOSTNAME': 'fedora', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/root', 'OLDPWD': '/home', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'XAUTHORITY': '/tmp/.docker.xauth', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/ros2_ws/build/mfe_bringup', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[10.075176] (mfe) JobProgress: {'identifier': 'mfe', 'progress': 'install'}
+[10.076601] (mfe) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ros2_ws/build/mfe'], 'cwd': '/home/ros2_ws/build/mfe', 'env': OrderedDict({'HOSTNAME': 'fedora', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/root', 'OLDPWD': '/home', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'XAUTHORITY': '/tmp/.docker.xauth', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/ros2_ws/build/mfe', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[10.090649] (mfe_base) JobProgress: {'identifier': 'mfe_base', 'progress': 'install'}
+[10.091340] (mfe_base) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ros2_ws/build/mfe_base'], 'cwd': '/home/ros2_ws/build/mfe_base', 'env': OrderedDict({'HOSTNAME': 'fedora', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/root', 'OLDPWD': '/home', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'XAUTHORITY': '/tmp/.docker.xauth', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/ros2_ws/build/mfe_base', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[10.098048] (mfe_navigation) JobProgress: {'identifier': 'mfe_navigation', 'progress': 'install'}
+[10.098173] (mfe_navigation) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ros2_ws/build/mfe_navigation'], 'cwd': '/home/ros2_ws/build/mfe_navigation', 'env': OrderedDict({'HOSTNAME': 'fedora', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/root', 'OLDPWD': '/home', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'XAUTHORITY': '/tmp/.docker.xauth', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/ros2_ws/build/mfe_navigation', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[10.102679] (mfe_mapping) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[10.119291] (mfe_mapping) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[10.121123] (mfe_mapping) StdoutLine: {'line': b'-- Symlinking: /home/ros2_ws/install/mfe_mapping/share/ament_index/resource_index/package_run_dependencies/mfe_mapping\n'}
+[10.149568] (mfe) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[10.152513] (mfe_bringup) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[10.156104] (mfe) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[10.157009] (-) TimerEvent: {}
+[10.160245] (mfe) StdoutLine: {'line': b'-- Symlinking: /home/ros2_ws/install/mfe/share/ament_index/resource_index/package_run_dependencies/mfe\n'}
+[10.162333] (mfe_base) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[10.170567] (mfe_base) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[10.171352] (mfe_base) StdoutLine: {'line': b'-- Symlinking: /home/ros2_ws/install/mfe_base/share/ament_index/resource_index/package_run_dependencies/mfe_base\n'}
+[10.173149] (articubot_one) CommandEnded: {'returncode': 0}
+[10.183558] (mfe_bringup) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[10.184641] (mfe_bringup) StdoutLine: {'line': b'-- Symlinking: /home/ros2_ws/install/mfe_bringup/share/ament_index/resource_index/package_run_dependencies/mfe_bringup\n'}
+[10.229732] (mfe_mapping) StdoutLine: {'line': b'-- Symlinking: /home/ros2_ws/install/mfe_mapping/share/ament_index/resource_index/parent_prefix_path/mfe_mapping\n'}
+[10.246499] (mfe) StdoutLine: {'line': b'-- Symlinking: /home/ros2_ws/install/mfe/share/ament_index/resource_index/parent_prefix_path/mfe\n'}
+[10.248464] (mfe_base) StdoutLine: {'line': b'-- Symlinking: /home/ros2_ws/install/mfe_base/share/ament_index/resource_index/parent_prefix_path/mfe_base\n'}
+[10.249955] (mfe_bringup) StdoutLine: {'line': b'-- Symlinking: /home/ros2_ws/install/mfe_bringup/share/ament_index/resource_index/parent_prefix_path/mfe_bringup\n'}
+[10.257130] (-) TimerEvent: {}
+[10.264048] (mfe_mapping) StdoutLine: {'line': b'-- Symlinking: /home/ros2_ws/install/mfe_mapping/share/mfe_mapping/environment/ament_prefix_path.sh\n'}
+[10.271038] (mfe) StdoutLine: {'line': b'-- Symlinking: /home/ros2_ws/install/mfe/share/mfe/environment/ament_prefix_path.sh\n'}
+[10.289699] (mfe_base) StdoutLine: {'line': b'-- Symlinking: /home/ros2_ws/install/mfe_base/share/mfe_base/environment/ament_prefix_path.sh\n'}
+[10.319714] (mfe_bringup) StdoutLine: {'line': b'-- Symlinking: /home/ros2_ws/install/mfe_bringup/share/mfe_bringup/environment/ament_prefix_path.sh\n'}
+[10.327541] (lidar_cone_detector) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[10.328437] (mfe_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[10.331612] (mfe) StdoutLine: {'line': b'-- Symlinking: /home/ros2_ws/install/mfe/share/mfe/environment/ament_prefix_path.dsv\n'}
+[10.334753] (articubot_one) JobProgress: {'identifier': 'articubot_one', 'progress': 'install'}
+[10.336033] (articubot_one) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ros2_ws/build/articubot_one'], 'cwd': '/home/ros2_ws/build/articubot_one', 'env': OrderedDict({'HOSTNAME': 'fedora', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/root', 'OLDPWD': '/home', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'XAUTHORITY': '/tmp/.docker.xauth', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/ros2_ws/build/articubot_one', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[10.337125] (mfe_base) StdoutLine: {'line': b'-- Symlinking: /home/ros2_ws/install/mfe_base/share/mfe_base/environment/ament_prefix_path.dsv\n'}
+[10.340185] (mfe_mapping) StdoutLine: {'line': b'-- Symlinking: /home/ros2_ws/install/mfe_mapping/share/mfe_mapping/environment/ament_prefix_path.dsv\n'}
+[10.350267] (mfe_bringup) StdoutLine: {'line': b'-- Symlinking: /home/ros2_ws/install/mfe_bringup/share/mfe_bringup/environment/ament_prefix_path.dsv\n'}
+[10.357553] (-) TimerEvent: {}
+[10.377865] (mfe) StdoutLine: {'line': b'-- Symlinking: /home/ros2_ws/install/mfe/share/mfe/environment/path.sh\n'}
+[10.450678] (mfe_base) StdoutLine: {'line': b'-- Symlinking: /home/ros2_ws/install/mfe_base/share/mfe_base/environment/path.sh\n'}
+[10.457710] (mfe_mapping) StdoutLine: {'line': b'-- Symlinking: /home/ros2_ws/install/mfe_mapping/share/mfe_mapping/environment/path.sh\n'}
+[10.459322] (-) TimerEvent: {}
+[10.472914] (mfe_bringup) StdoutLine: {'line': b'-- Symlinking: /home/ros2_ws/install/mfe_bringup/share/mfe_bringup/environment/path.sh\n'}
+[10.473258] (mfe) StdoutLine: {'line': b'-- Symlinking: /home/ros2_ws/install/mfe/share/mfe/environment/path.dsv\n'}
+[10.534698] (mfe_base) StdoutLine: {'line': b'-- Symlinking: /home/ros2_ws/install/mfe_base/share/mfe_base/environment/path.dsv\n'}
+[10.559660] (-) TimerEvent: {}
+[10.570618] (mfe_mapping) StdoutLine: {'line': b'-- Symlinking: /home/ros2_ws/install/mfe_mapping/share/mfe_mapping/environment/path.dsv\n'}
+[10.571270] (mfe_bringup) StdoutLine: {'line': b'-- Symlinking: /home/ros2_ws/install/mfe_bringup/share/mfe_bringup/environment/path.dsv\n'}
+[10.580576] (mfe_base) StdoutLine: {'line': b'-- Symlinking: /home/ros2_ws/install/mfe_base/share/mfe_base/local_setup.bash\n'}
+[10.580941] (mfe) StdoutLine: {'line': b'-- Symlinking: /home/ros2_ws/install/mfe/share/mfe/local_setup.bash\n'}
+[10.639905] (mfe_mapping) StdoutLine: {'line': b'-- Symlinking: /home/ros2_ws/install/mfe_mapping/share/mfe_mapping/local_setup.bash\n'}
+[10.649626] (mfe) StdoutLine: {'line': b'-- Symlinking: /home/ros2_ws/install/mfe/share/mfe/local_setup.sh\n'}
+[10.662454] (-) TimerEvent: {}
+[10.671617] (mfe_bringup) StdoutLine: {'line': b'-- Symlinking: /home/ros2_ws/install/mfe_bringup/share/mfe_bringup/local_setup.bash\n'}
+[10.675716] (mfe_base) StdoutLine: {'line': b'-- Symlinking: /home/ros2_ws/install/mfe_base/share/mfe_base/local_setup.sh\n'}
+[10.676499] (mfe_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[10.679656] (lidar_cone_detector) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[10.682724] (mfe_mapping) StdoutLine: {'line': b'-- Symlinking: /home/ros2_ws/install/mfe_mapping/share/mfe_mapping/local_setup.sh\n'}
+[10.699130] (mfe_base) StdoutLine: {'line': b'-- Symlinking: /home/ros2_ws/install/mfe_base/share/mfe_base/local_setup.zsh\n'}
+[10.723633] (mfe) StdoutLine: {'line': b'-- Symlinking: /home/ros2_ws/install/mfe/share/mfe/local_setup.zsh\n'}
+[10.750621] (mfe_bringup) StdoutLine: {'line': b'-- Symlinking: /home/ros2_ws/install/mfe_bringup/share/mfe_bringup/local_setup.sh\n'}
+[10.762857] (-) TimerEvent: {}
+[10.785662] (mfe_mapping) StdoutLine: {'line': b'-- Symlinking: /home/ros2_ws/install/mfe_mapping/share/mfe_mapping/local_setup.zsh\n'}
+[10.796320] (mfe_base) StdoutLine: {'line': b'-- Symlinking: /home/ros2_ws/install/mfe_base/share/mfe_base/local_setup.dsv\n'}
+[10.801871] (mfe) StdoutLine: {'line': b'-- Symlinking: /home/ros2_ws/install/mfe/share/mfe/local_setup.dsv\n'}
+[10.864557] (mfe_bringup) StdoutLine: {'line': b'-- Symlinking: /home/ros2_ws/install/mfe_bringup/share/mfe_bringup/local_setup.zsh\n'}
+[10.865420] (-) TimerEvent: {}
+[10.900650] (mfe) StdoutLine: {'line': b'-- Symlinking: /home/ros2_ws/install/mfe/share/mfe/package.dsv\n'}
+[10.901007] (mfe_mapping) StdoutLine: {'line': b'-- Symlinking: /home/ros2_ws/install/mfe_mapping/share/mfe_mapping/local_setup.dsv\n'}
+[10.903812] (mfe_base) StdoutLine: {'line': b'-- Symlinking: /home/ros2_ws/install/mfe_base/share/mfe_base/package.dsv\n'}
+[10.917368] (mfe_mapping) StdoutLine: {'line': b'-- Symlinking: /home/ros2_ws/install/mfe_mapping/share/mfe_mapping/package.dsv\n'}
+[10.919590] (mfe_bringup) StdoutLine: {'line': b'-- Symlinking: /home/ros2_ws/install/mfe_bringup/share/mfe_bringup/local_setup.dsv\n'}
+[10.942607] (mfe) StdoutLine: {'line': b'-- Symlinking: /home/ros2_ws/install/mfe/share/ament_index/resource_index/packages/mfe\n'}
+[10.949660] (mfe_base) StdoutLine: {'line': b'-- Symlinking: /home/ros2_ws/install/mfe_base/share/ament_index/resource_index/packages/mfe_base\n'}
+[10.966629] (-) TimerEvent: {}
+[10.969146] (mfe_mapping) StdoutLine: {'line': b'-- Symlinking: /home/ros2_ws/install/mfe_mapping/share/ament_index/resource_index/packages/mfe_mapping\n'}
+[10.986967] (mfe_msgs) StdoutLine: {'line': b'-- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)\n'}
+[10.993473] (mfe_bringup) StdoutLine: {'line': b'-- Symlinking: /home/ros2_ws/install/mfe_bringup/share/mfe_bringup/package.dsv\n'}
+[10.997109] (mfe) StdoutLine: {'line': b'-- Symlinking: /home/ros2_ws/install/mfe/share/mfe/cmake/mfeConfig.cmake\n'}
+[11.010935] (mfe_base) StdoutLine: {'line': b'-- Symlinking: /home/ros2_ws/install/mfe_base/share/mfe_base/cmake/mfe_baseConfig.cmake\n'}
+[11.045237] (mfe_mapping) StdoutLine: {'line': b'-- Symlinking: /home/ros2_ws/install/mfe_mapping/share/mfe_mapping/cmake/mfe_mappingConfig.cmake\n'}
+[11.060897] (mfe_bringup) StdoutLine: {'line': b'-- Symlinking: /home/ros2_ws/install/mfe_bringup/share/ament_index/resource_index/packages/mfe_bringup\n'}
+[11.069687] (-) TimerEvent: {}
+[11.098704] (mfe) StdoutLine: {'line': b'-- Symlinking: /home/ros2_ws/install/mfe/share/mfe/cmake/mfeConfig-version.cmake\n'}
+[11.099952] (mfe_base) StdoutLine: {'line': b'-- Symlinking: /home/ros2_ws/install/mfe_base/share/mfe_base/cmake/mfe_baseConfig-version.cmake\n'}
+[11.142132] (mfe_bringup) StdoutLine: {'line': b'-- Symlinking: /home/ros2_ws/install/mfe_bringup/share/mfe_bringup/cmake/mfe_bringupConfig.cmake\n'}
+[11.142843] (mfe_base) StdoutLine: {'line': b'-- Symlinking: /home/ros2_ws/install/mfe_base/share/mfe_base/package.xml\n'}
+[11.148875] (mfe_mapping) StdoutLine: {'line': b'-- Symlinking: /home/ros2_ws/install/mfe_mapping/share/mfe_mapping/cmake/mfe_mappingConfig-version.cmake\n'}
+[11.169985] (-) TimerEvent: {}
+[11.215071] (mfe) StdoutLine: {'line': b'-- Symlinking: /home/ros2_ws/install/mfe/share/mfe/package.xml\n'}
+[11.215928] (mfe_bringup) StdoutLine: {'line': b'-- Symlinking: /home/ros2_ws/install/mfe_bringup/share/mfe_bringup/cmake/mfe_bringupConfig-version.cmake\n'}
+[11.228194] (mfe_navigation) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[11.230284] (mfe_navigation) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[11.231313] (mfe_navigation) StdoutLine: {'line': b'-- Symlinking: /home/ros2_ws/install/mfe_navigation/share/ament_index/resource_index/package_run_dependencies/mfe_navigation\n'}
+[11.239019] (mfe_navigation) StdoutLine: {'line': b'-- Symlinking: /home/ros2_ws/install/mfe_navigation/share/ament_index/resource_index/parent_prefix_path/mfe_navigation\n'}
+[11.240470] (mfe_navigation) StdoutLine: {'line': b'-- Symlinking: /home/ros2_ws/install/mfe_navigation/share/mfe_navigation/environment/ament_prefix_path.sh\n'}
+[11.241611] (mfe_navigation) StdoutLine: {'line': b'-- Symlinking: /home/ros2_ws/install/mfe_navigation/share/mfe_navigation/environment/ament_prefix_path.dsv\n'}
+[11.242117] (mfe_navigation) StdoutLine: {'line': b'-- Symlinking: /home/ros2_ws/install/mfe_navigation/share/mfe_navigation/environment/path.sh\n'}
+[11.243662] (mfe_navigation) StdoutLine: {'line': b'-- Symlinking: /home/ros2_ws/install/mfe_navigation/share/mfe_navigation/environment/path.dsv\n'}
+[11.244341] (mfe_navigation) StdoutLine: {'line': b'-- Symlinking: /home/ros2_ws/install/mfe_navigation/share/mfe_navigation/local_setup.bash\n'}
+[11.244856] (mfe_navigation) StdoutLine: {'line': b'-- Symlinking: /home/ros2_ws/install/mfe_navigation/share/mfe_navigation/local_setup.sh\n'}
+[11.246508] (mfe_navigation) StdoutLine: {'line': b'-- Symlinking: /home/ros2_ws/install/mfe_navigation/share/mfe_navigation/local_setup.zsh\n'}
+[11.247058] (mfe_navigation) StdoutLine: {'line': b'-- Symlinking: /home/ros2_ws/install/mfe_navigation/share/mfe_navigation/local_setup.dsv\n'}
+[11.248068] (mfe_navigation) StdoutLine: {'line': b'-- Symlinking: /home/ros2_ws/install/mfe_navigation/share/mfe_navigation/package.dsv\n'}
+[11.249662] (mfe_navigation) StdoutLine: {'line': b'-- Symlinking: /home/ros2_ws/install/mfe_navigation/share/ament_index/resource_index/packages/mfe_navigation\n'}
+[11.249872] (mfe_navigation) StdoutLine: {'line': b'-- Symlinking: /home/ros2_ws/install/mfe_navigation/share/mfe_navigation/cmake/mfe_navigationConfig.cmake\n'}
+[11.250080] (mfe_navigation) StdoutLine: {'line': b'-- Symlinking: /home/ros2_ws/install/mfe_navigation/share/mfe_navigation/cmake/mfe_navigationConfig-version.cmake\n'}
+[11.250664] (mfe_navigation) StdoutLine: {'line': b'-- Symlinking: /home/ros2_ws/install/mfe_navigation/share/mfe_navigation/package.xml\n'}
+[11.251003] (mfe_base) CommandEnded: {'returncode': 0}
+[11.251663] (mfe_bringup) StdoutLine: {'line': b'-- Symlinking: /home/ros2_ws/install/mfe_bringup/share/mfe_bringup/package.xml\n'}
+[11.252994] (mfe_mapping) StdoutLine: {'line': b'-- Symlinking: /home/ros2_ws/install/mfe_mapping/share/mfe_mapping/package.xml\n'}
+[11.270044] (-) TimerEvent: {}
+[11.275138] (articubot_one) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[11.275882] (articubot_one) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[11.276606] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/ros2_ws/install/articubot_one/share/articubot_one/config/ball_tracker_params_robot.yaml\n'}
+[11.277419] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/ros2_ws/install/articubot_one/share/articubot_one/config/ball_tracker_params_sim.yaml\n'}
+[11.277717] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/ros2_ws/install/articubot_one/share/articubot_one/config/drive_bot.rviz\n'}
+[11.277890] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/ros2_ws/install/articubot_one/share/articubot_one/config/empty.yaml\n'}
+[11.278014] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/ros2_ws/install/articubot_one/share/articubot_one/config/gaz_ros2_ctl_use_sim.yaml\n'}
+[11.278158] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/ros2_ws/install/articubot_one/share/articubot_one/config/gazebo_params.yaml\n'}
+[11.278325] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/ros2_ws/install/articubot_one/share/articubot_one/config/joystick.yaml\n'}
+[11.278680] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/ros2_ws/install/articubot_one/share/articubot_one/config/main.rviz\n'}
+[11.278837] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/ros2_ws/install/articubot_one/share/articubot_one/config/map.rviz\n'}
+[11.278960] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/ros2_ws/install/articubot_one/share/articubot_one/config/mapper_params_online_async.yaml\n'}
+[11.279346] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/ros2_ws/install/articubot_one/share/articubot_one/config/my_controllers.yaml\n'}
+[11.279743] (mfe) CommandEnded: {'returncode': 0}
+[11.280088] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/ros2_ws/install/articubot_one/share/articubot_one/config/nav2_params.yaml\n'}
+[11.288094] (mfe_navigation) CommandEnded: {'returncode': 0}
+[11.292779] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/ros2_ws/install/articubot_one/share/articubot_one/config/twist_mux.yaml\n'}
+[11.306515] (mfe_mapping) CommandEnded: {'returncode': 0}
+[11.311829] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/ros2_ws/install/articubot_one/share/articubot_one/config/view_bot.rviz\n'}
+[11.317649] (mfe_bringup) CommandEnded: {'returncode': 0}
+[11.322031] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/ros2_ws/install/articubot_one/share/articubot_one/description/camera.xacro\n'}
+[11.333487] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/ros2_ws/install/articubot_one/share/articubot_one/description/depth_camera.xacro\n'}
+[11.336618] (mfe_base) JobEnded: {'identifier': 'mfe_base', 'rc': 0}
+[11.351296] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/ros2_ws/install/articubot_one/share/articubot_one/description/face.xacro\n'}
+[11.356746] (mfe) JobEnded: {'identifier': 'mfe', 'rc': 0}
+[11.358083] (mfe_path_planning) JobStarted: {'identifier': 'mfe_path_planning'}
+[11.363667] (mfe_simulation) JobStarted: {'identifier': 'mfe_simulation'}
+[11.365544] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/ros2_ws/install/articubot_one/share/articubot_one/description/gazebo_control.xacro\n'}
+[11.370208] (-) TimerEvent: {}
+[11.375792] (mfe_navigation) JobEnded: {'identifier': 'mfe_navigation', 'rc': 0}
+[11.376887] (state_estimation) JobStarted: {'identifier': 'state_estimation'}
+[11.377773] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/ros2_ws/install/articubot_one/share/articubot_one/description/inertial_macros.xacro\n'}
+[11.391694] (mfe_mapping) JobEnded: {'identifier': 'mfe_mapping', 'rc': 0}
+[11.393178] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/ros2_ws/install/articubot_one/share/articubot_one/description/lidar.xacro\n'}
+[11.399734] (mfe_bringup) JobEnded: {'identifier': 'mfe_bringup', 'rc': 0}
+[11.401854] (mfe_path_planning) JobProgress: {'identifier': 'mfe_path_planning', 'progress': 'cmake'}
+[11.403128] (mfe_path_planning) Command: {'cmd': ['/usr/bin/cmake', '/home/ros2_ws/ros2/src/mfe_path_planning', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/ros2_ws/install/mfe_path_planning'], 'cwd': '/home/ros2_ws/build/mfe_path_planning', 'env': OrderedDict({'HOSTNAME': 'fedora', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/root', 'OLDPWD': '/home', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'XAUTHORITY': '/tmp/.docker.xauth', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/ros2_ws/build/mfe_path_planning', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[11.405050] (vision_cone_detector) JobStarted: {'identifier': 'vision_cone_detector'}
+[11.407579] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/ros2_ws/install/articubot_one/share/articubot_one/description/robot.urdf.xacro\n'}
+[11.408684] (mfe_simulation) JobProgress: {'identifier': 'mfe_simulation', 'progress': 'cmake'}
+[11.408886] (mfe_simulation) Command: {'cmd': ['/usr/bin/cmake', '/home/ros2_ws/ros2/src/mfe_simulation', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/ros2_ws/install/mfe_simulation'], 'cwd': '/home/ros2_ws/build/mfe_simulation', 'env': OrderedDict({'HOSTNAME': 'fedora', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/root', 'OLDPWD': '/home', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'XAUTHORITY': '/tmp/.docker.xauth', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/ros2_ws/build/mfe_simulation', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[11.421602] (state_estimation) JobProgress: {'identifier': 'state_estimation', 'progress': 'cmake'}
+[11.421723] (state_estimation) Command: {'cmd': ['/usr/bin/cmake', '/home/ros2_ws/ros2/src/mfe_perception/state_estimation', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/ros2_ws/install/state_estimation'], 'cwd': '/home/ros2_ws/build/state_estimation', 'env': OrderedDict({'HOSTNAME': 'fedora', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/root', 'OLDPWD': '/home', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'XAUTHORITY': '/tmp/.docker.xauth', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/ros2_ws/build/state_estimation', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[11.430137] (vision_cone_detector) JobProgress: {'identifier': 'vision_cone_detector', 'progress': 'cmake'}
+[11.431609] (vision_cone_detector) Command: {'cmd': ['/usr/bin/cmake', '/home/ros2_ws/ros2/src/mfe_perception/vision_cone_detector', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/ros2_ws/install/vision_cone_detector'], 'cwd': '/home/ros2_ws/build/vision_cone_detector', 'env': OrderedDict({'HOSTNAME': 'fedora', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/root', 'OLDPWD': '/home', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'XAUTHORITY': '/tmp/.docker.xauth', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/ros2_ws/build/vision_cone_detector', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[11.436983] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/ros2_ws/install/articubot_one/share/articubot_one/description/robot_core.xacro\n'}
+[11.470661] (-) TimerEvent: {}
+[11.484623] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/ros2_ws/install/articubot_one/share/articubot_one/description/ros2_control.xacro\n'}
+[11.547493] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/ros2_ws/install/articubot_one/share/articubot_one/launch/ball_tracker.launch.py\n'}
+[11.571647] (-) TimerEvent: {}
+[11.622920] (mfe_msgs) StdoutLine: {'line': b'-- Found geometry_msgs: 5.3.5 (/opt/ros/jazzy/share/geometry_msgs/cmake)\n'}
+[11.631663] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/ros2_ws/install/articubot_one/share/articubot_one/launch/camera.launch.py\n'}
+[11.677599] (-) TimerEvent: {}
+[11.692735] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/ros2_ws/install/articubot_one/share/articubot_one/launch/joystick.launch.py\n'}
+[11.742238] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/ros2_ws/install/articubot_one/share/articubot_one/launch/launch_robot.launch.py\n'}
+[11.759079] (mfe_path_planning) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[11.777862] (-) TimerEvent: {}
+[11.793016] (state_estimation) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[11.796318] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/ros2_ws/install/articubot_one/share/articubot_one/launch/launch_sim.launch.py\n'}
+[11.822992] (mfe_simulation) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[11.852140] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/ros2_ws/install/articubot_one/share/articubot_one/launch/localization_launch.py\n'}
+[11.876405] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/ros2_ws/install/articubot_one/share/articubot_one/launch/navigation_launch.py\n'}
+[11.878094] (-) TimerEvent: {}
+[11.945729] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/ros2_ws/install/articubot_one/share/articubot_one/launch/online_async_launch.py\n'}
+[11.978658] (-) TimerEvent: {}
+[12.012509] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/ros2_ws/install/articubot_one/share/articubot_one/launch/rplidar.launch.py\n'}
+[12.084707] (-) TimerEvent: {}
+[12.090991] (mfe_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[12.121927] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/ros2_ws/install/articubot_one/share/articubot_one/launch/rsp.launch.py\n'}
+[12.187683] (-) TimerEvent: {}
+[12.208109] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/ros2_ws/install/articubot_one/share/articubot_one/worlds/empty.world\n'}
+[12.212146] (mfe_path_planning) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[12.254709] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/ros2_ws/install/articubot_one/share/articubot_one/worlds/obstacles.world\n'}
+[12.284960] (state_estimation) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[12.288256] (-) TimerEvent: {}
+[12.308486] (mfe_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.4 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[12.312465] (mfe_simulation) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[12.320853] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/ros2_ws/install/articubot_one/share/ament_index/resource_index/package_run_dependencies/articubot_one\n'}
+[12.335605] (mfe_path_planning) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[12.386844] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/ros2_ws/install/articubot_one/share/ament_index/resource_index/parent_prefix_path/articubot_one\n'}
+[12.388640] (-) TimerEvent: {}
+[12.407548] (lidar_cone_detector) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[12.415924] (state_estimation) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[12.441716] (mfe_simulation) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[12.444663] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/ros2_ws/install/articubot_one/share/articubot_one/environment/ament_prefix_path.sh\n'}
+[12.480328] (lidar_cone_detector) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[12.488993] (-) TimerEvent: {}
+[12.510640] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/ros2_ws/install/articubot_one/share/articubot_one/environment/ament_prefix_path.dsv\n'}
+[12.558473] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/ros2_ws/install/articubot_one/share/articubot_one/environment/path.sh\n'}
+[12.589710] (-) TimerEvent: {}
+[12.623305] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/ros2_ws/install/articubot_one/share/articubot_one/environment/path.dsv\n'}
+[12.680932] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/ros2_ws/install/articubot_one/share/articubot_one/local_setup.bash\n'}
+[12.690224] (-) TimerEvent: {}
+[12.740202] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/ros2_ws/install/articubot_one/share/articubot_one/local_setup.sh\n'}
+[12.790502] (-) TimerEvent: {}
+[12.843004] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/ros2_ws/install/articubot_one/share/articubot_one/local_setup.zsh\n'}
+[12.877692] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/ros2_ws/install/articubot_one/share/articubot_one/local_setup.dsv\n'}
+[12.890876] (-) TimerEvent: {}
+[12.925502] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/ros2_ws/install/articubot_one/share/articubot_one/package.dsv\n'}
+[12.932763] (mfe_path_planning) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[12.988098] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/ros2_ws/install/articubot_one/share/ament_index/resource_index/packages/articubot_one\n'}
+[12.991093] (-) TimerEvent: {}
+[13.016849] (state_estimation) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[13.037630] (mfe_path_planning) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[13.046615] (mfe_path_planning) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[13.047280] (mfe_path_planning) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[13.055570] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/ros2_ws/install/articubot_one/share/articubot_one/cmake/articubot_oneConfig.cmake\n'}
+[13.091687] (-) TimerEvent: {}
+[13.113859] (mfe_simulation) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[13.117268] (mfe_path_planning) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[13.120214] (state_estimation) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[13.120725] (state_estimation) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[13.123766] (state_estimation) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[13.136457] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/ros2_ws/install/articubot_one/share/articubot_one/cmake/articubot_oneConfig-version.cmake\n'}
+[13.192661] (-) TimerEvent: {}
+[13.207847] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/ros2_ws/install/articubot_one/share/articubot_one/package.xml\n'}
+[13.209675] (state_estimation) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[13.259707] (mfe_simulation) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[13.262215] (mfe_simulation) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[13.268979] (mfe_simulation) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[13.283962] (articubot_one) CommandEnded: {'returncode': 0}
+[13.290106] (vision_cone_detector) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[13.292092] (vision_cone_detector) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[13.292317] (vision_cone_detector) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[13.294742] (-) TimerEvent: {}
+[13.296428] (vision_cone_detector) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[13.301850] (vision_cone_detector) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[13.303270] (vision_cone_detector) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[13.303423] (vision_cone_detector) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[13.303592] (vision_cone_detector) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[13.321434] (mfe_simulation) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[13.396655] (-) TimerEvent: {}
+[13.498182] (-) TimerEvent: {}
+[13.514272] (articubot_one) JobEnded: {'identifier': 'articubot_one', 'rc': 0}
+[13.598366] (-) TimerEvent: {}
+[13.685658] (lidar_cone_detector) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[13.698645] (-) TimerEvent: {}
+[13.771837] (mfe_path_planning) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[13.782296] (lidar_cone_detector) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[13.796473] (state_estimation) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[13.798712] (-) TimerEvent: {}
+[13.811146] (lidar_cone_detector) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[13.816670] (mfe_path_planning) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[13.817100] (mfe_path_planning) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[13.818159] (mfe_path_planning) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[13.818329] (state_estimation) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[13.818843] (state_estimation) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[13.819337] (state_estimation) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[13.844074] (vision_cone_detector) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[13.844476] (mfe_simulation) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[13.864390] (vision_cone_detector) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[13.865443] (vision_cone_detector) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[13.866934] (mfe_simulation) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[13.867106] (mfe_simulation) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[13.867337] (vision_cone_detector) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[13.867587] (mfe_simulation) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[13.898741] (-) TimerEvent: {}
+[13.908019] (mfe_simulation) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[13.919586] (mfe_path_planning) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[13.922323] (state_estimation) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[13.933162] (vision_cone_detector) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[13.999161] (-) TimerEvent: {}
+[14.100878] (-) TimerEvent: {}
+[14.201373] (-) TimerEvent: {}
+[14.303178] (-) TimerEvent: {}
+[14.385370] (mfe_msgs) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/jazzy/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:57 (message):\n'}
+[14.386461] (mfe_msgs) StderrLine: {'line': b'  execute_process(/usr/bin/python3 -m rosidl_adapter --package-name mfe_msgs\n'}
+[14.387627] (mfe_msgs) StderrLine: {'line': b'  --arguments-file\n'}
+[14.389248] (mfe_msgs) StderrLine: {'line': b'  /home/ros2_ws/build/mfe_msgs/rosidl_adapter__arguments__mfe_msgs.json\n'}
+[14.390701] (mfe_msgs) StderrLine: {'line': b'  --output-dir /home/ros2_ws/build/mfe_msgs/rosidl_adapter/mfe_msgs\n'}
+[14.391785] (mfe_msgs) StderrLine: {'line': b'  --output-file /home/ros2_ws/build/mfe_msgs/rosidl_adapter/mfe_msgs.idls)\n'}
+[14.391956] (mfe_msgs) StderrLine: {'line': b'  returned error code 1:\n'}
+[14.393429] (mfe_msgs) StderrLine: {'line': b'\n'}
+[14.394455] (mfe_msgs) StderrLine: {'line': b'  Traceback (most recent call last):\n'}
+[14.394648] (mfe_msgs) StderrLine: {'line': b'\n'}
+[14.396182] (mfe_msgs) StderrLine: {'line': b'    File "<frozen runpy>", line 198, in _run_module_as_main\n'}
+[14.397165] (mfe_msgs) StderrLine: {'line': b'    File "<frozen runpy>", line 88, in _run_code\n'}
+[14.397601] (mfe_msgs) StderrLine: {'line': b'    File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/__main__.py", line 19, in <module>\n'}
+[14.399128] (mfe_msgs) StderrLine: {'line': b'      sys.exit(main())\n'}
+[14.399885] (mfe_msgs) StderrLine: {'line': b'               ^^^^^^\n'}
+[14.400020] (mfe_msgs) StderrLine: {'line': b'    File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/main.py", line 53, in main\n'}
+[14.401301] (mfe_msgs) StderrLine: {'line': b'      abs_idl_file = convert_to_idl(\n'}
+[14.402533] (mfe_msgs) StderrLine: {'line': b'                     ^^^^^^^^^^^^^^^\n'}
+[14.402672] (mfe_msgs) StderrLine: {'line': b'    File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/__init__.py", line 24, in convert_to_idl\n'}
+[14.403663] (-) TimerEvent: {}
+[14.406351] (mfe_msgs) StderrLine: {'line': b'      return convert_srv_to_idl(\n'}
+[14.409135] (mfe_msgs) StderrLine: {'line': b'             ^^^^^^^^^^^^^^^^^^^\n'}
+[14.409348] (mfe_msgs) StderrLine: {'line': b'    File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/srv/__init__.py", line 28, in convert_srv_to_idl\n'}
+[14.419053] (mfe_msgs) StderrLine: {'line': b'      srv = parse_service_string(package_name, input_file.stem, content)\n'}
+[14.419976] (mfe_msgs) StderrLine: {'line': b'            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n'}
+[14.420136] (mfe_msgs) StderrLine: {'line': b'    File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/parser.py", line 851, in parse_service_string\n'}
+[14.427902] (mfe_msgs) StderrLine: {'line': b'      raise InvalidServiceSpecification(\n'}
+[14.435564] (mfe_msgs) StderrLine: {'line': b'\n'}
+[14.436529] (mfe_msgs) StderrLine: {'line': b'  rosidl_adapter.parser.InvalidServiceSpecification: Could not find separator\n'}
+[14.455609] (mfe_msgs) StderrLine: {'line': b"  '---' between request and response\n"}
+[14.461396] (mfe_msgs) StderrLine: {'line': b'\n'}
+[14.461728] (mfe_msgs) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[14.461879] (mfe_msgs) StderrLine: {'line': b'  /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:132 (rosidl_adapt_interfaces)\n'}
+[14.462025] (mfe_msgs) StderrLine: {'line': b'  CMakeLists.txt:26 (rosidl_generate_interfaces)\n'}
+[14.462175] (mfe_msgs) StderrLine: {'line': b'\n'}
+[14.462308] (mfe_msgs) StderrLine: {'line': b'\x1b[0m\n'}
+[14.463088] (mfe_msgs) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[14.471550] (mfe_msgs) CommandEnded: {'returncode': 1}
+[14.503761] (-) TimerEvent: {}
+[14.514604] (mfe_simulation) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[14.543695] (mfe_msgs) JobEnded: {'identifier': 'mfe_msgs', 'rc': 1}
+[14.559337] (mfe_path_planning) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[14.573856] (vision_cone_detector) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[14.587056] (state_estimation) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[14.603856] (-) TimerEvent: {}
+[14.704147] (-) TimerEvent: {}
+[14.760768] (mfe_simulation) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[14.774369] (mfe_path_planning) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[14.782485] (vision_cone_detector) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[14.787939] (state_estimation) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[14.804483] (-) TimerEvent: {}
+[14.904766] (-) TimerEvent: {}
+[14.973619] (mfe_path_planning) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[14.982470] (vision_cone_detector) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[14.993485] (mfe_simulation) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[14.999158] (state_estimation) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[15.005084] (-) TimerEvent: {}
+[15.106917] (-) TimerEvent: {}
+[15.208631] (-) TimerEvent: {}
+[15.308923] (-) TimerEvent: {}
+[15.409295] (-) TimerEvent: {}
+[15.509660] (-) TimerEvent: {}
+[15.524588] (mfe_simulation) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[15.527937] (mfe_path_planning) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[15.528692] (vision_cone_detector) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[15.529054] (mfe_simulation) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[15.531446] (state_estimation) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[15.534082] (mfe_simulation) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[15.534414] (vision_cone_detector) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[15.534840] (mfe_path_planning) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[15.535319] (state_estimation) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[15.538715] (mfe_path_planning) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[15.538839] (mfe_simulation) StdoutLine: {'line': b'-- Configuring done (4.1s)\n'}
+[15.541514] (vision_cone_detector) StdoutLine: {'line': b'-- Configuring done (4.1s)\n'}
+[15.542813] (state_estimation) StdoutLine: {'line': b'-- Configuring done (4.1s)\n'}
+[15.544104] (mfe_path_planning) StdoutLine: {'line': b'-- Configuring done (4.1s)\n'}
+[15.548036] (mfe_simulation) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[15.552130] (mfe_simulation) StdoutLine: {'line': b'-- Build files have been written to: /home/ros2_ws/build/mfe_simulation\n'}
+[15.552351] (vision_cone_detector) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[15.556519] (vision_cone_detector) StdoutLine: {'line': b'-- Build files have been written to: /home/ros2_ws/build/vision_cone_detector\n'}
+[15.556682] (state_estimation) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[15.560597] (mfe_path_planning) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[15.563159] (state_estimation) StdoutLine: {'line': b'-- Build files have been written to: /home/ros2_ws/build/state_estimation\n'}
+[15.566236] (mfe_path_planning) StdoutLine: {'line': b'-- Build files have been written to: /home/ros2_ws/build/mfe_path_planning\n'}
+[15.567657] (mfe_simulation) JobEnded: {'identifier': 'mfe_simulation', 'rc': 'SIGINT'}
+[15.572754] (vision_cone_detector) JobEnded: {'identifier': 'vision_cone_detector', 'rc': 'SIGINT'}
+[15.575025] (state_estimation) JobEnded: {'identifier': 'state_estimation', 'rc': 'SIGINT'}
+[15.577186] (mfe_path_planning) JobEnded: {'identifier': 'mfe_path_planning', 'rc': 'SIGINT'}
+[15.609812] (-) TimerEvent: {}
+[15.702159] (lidar_cone_detector) StdoutLine: {'line': b'-- Found sensor_msgs: 5.3.5 (/opt/ros/jazzy/share/sensor_msgs/cmake)\n'}
+[15.709906] (-) TimerEvent: {}
+[15.810445] (-) TimerEvent: {}
+[15.911269] (-) TimerEvent: {}
+[15.969424] (lidar_cone_detector) StderrLine: {'line': b'\x1b[33mCMake Warning at CMakeLists.txt:13 (find_package):\n'}
+[15.969607] (lidar_cone_detector) StderrLine: {'line': b'  By not providing "Findvision_msgs.cmake" in CMAKE_MODULE_PATH this project\n'}
+[15.969688] (lidar_cone_detector) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[15.969758] (lidar_cone_detector) StderrLine: {'line': b'  "vision_msgs", but CMake did not find one.\n'}
+[15.969827] (lidar_cone_detector) StderrLine: {'line': b'\n'}
+[15.969895] (lidar_cone_detector) StderrLine: {'line': b'  Could not find a package configuration file provided by "vision_msgs" with\n'}
+[15.969962] (lidar_cone_detector) StderrLine: {'line': b'  any of the following names:\n'}
+[15.970027] (lidar_cone_detector) StderrLine: {'line': b'\n'}
+[15.970092] (lidar_cone_detector) StderrLine: {'line': b'    vision_msgsConfig.cmake\n'}
+[15.970159] (lidar_cone_detector) StderrLine: {'line': b'    vision_msgs-config.cmake\n'}
+[15.970243] (lidar_cone_detector) StderrLine: {'line': b'\n'}
+[15.970314] (lidar_cone_detector) StderrLine: {'line': b'  Add the installation prefix of "vision_msgs" to CMAKE_PREFIX_PATH or set\n'}
+[15.970390] (lidar_cone_detector) StderrLine: {'line': b'  "vision_msgs_DIR" to a directory containing one of the above files.  If\n'}
+[15.970474] (lidar_cone_detector) StderrLine: {'line': b'  "vision_msgs" provides a separate development package or SDK, be sure it\n'}
+[15.970539] (lidar_cone_detector) StderrLine: {'line': b'  has been installed.\n'}
+[15.970603] (lidar_cone_detector) StderrLine: {'line': b'\n'}
+[15.970667] (lidar_cone_detector) StderrLine: {'line': b'\x1b[0m\n'}
+[15.988182] (lidar_cone_detector) StdoutLine: {'line': b'-- Found tf2: 0.36.4 (/opt/ros/jazzy/share/tf2/cmake)\n'}
+[16.011504] (-) TimerEvent: {}
+[16.029605] (lidar_cone_detector) StdoutLine: {'line': b'-- Found tf2_ros: 0.36.4 (/opt/ros/jazzy/share/tf2_ros/cmake)\n'}
+[16.111805] (-) TimerEvent: {}
+[16.212095] (-) TimerEvent: {}
+[16.312474] (-) TimerEvent: {}
+[16.412778] (-) TimerEvent: {}
+[16.513304] (-) TimerEvent: {}
+[16.613791] (-) TimerEvent: {}
+[16.714203] (-) TimerEvent: {}
+[16.814598] (-) TimerEvent: {}
+[16.914887] (-) TimerEvent: {}
+[17.015183] (-) TimerEvent: {}
+[17.107688] (lidar_cone_detector) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:16 (find_package):\n'}
+[17.107983] (lidar_cone_detector) StderrLine: {'line': b'  By not providing "Findpcl_ros.cmake" in CMAKE_MODULE_PATH this project has\n'}
+[17.108066] (lidar_cone_detector) StderrLine: {'line': b'  asked CMake to find a package configuration file provided by "pcl_ros", but\n'}
+[17.108143] (lidar_cone_detector) StderrLine: {'line': b'  CMake did not find one.\n'}
+[17.108217] (lidar_cone_detector) StderrLine: {'line': b'\n'}
+[17.108291] (lidar_cone_detector) StderrLine: {'line': b'  Could not find a package configuration file provided by "pcl_ros" with any\n'}
+[17.108377] (lidar_cone_detector) StderrLine: {'line': b'  of the following names:\n'}
+[17.108472] (lidar_cone_detector) StderrLine: {'line': b'\n'}
+[17.108575] (lidar_cone_detector) StderrLine: {'line': b'    pcl_rosConfig.cmake\n'}
+[17.108646] (lidar_cone_detector) StderrLine: {'line': b'    pcl_ros-config.cmake\n'}
+[17.108715] (lidar_cone_detector) StderrLine: {'line': b'\n'}
+[17.108800] (lidar_cone_detector) StderrLine: {'line': b'  Add the installation prefix of "pcl_ros" to CMAKE_PREFIX_PATH or set\n'}
+[17.108867] (lidar_cone_detector) StderrLine: {'line': b'  "pcl_ros_DIR" to a directory containing one of the above files.  If\n'}
+[17.108934] (lidar_cone_detector) StderrLine: {'line': b'  "pcl_ros" provides a separate development package or SDK, be sure it has\n'}
+[17.109000] (lidar_cone_detector) StderrLine: {'line': b'  been installed.\n'}
+[17.109066] (lidar_cone_detector) StderrLine: {'line': b'\n'}
+[17.109130] (lidar_cone_detector) StderrLine: {'line': b'\x1b[0m\n'}
+[17.109195] (lidar_cone_detector) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[17.115332] (-) TimerEvent: {}
+[17.117795] (lidar_cone_detector) JobEnded: {'identifier': 'lidar_cone_detector', 'rc': 'SIGINT'}
+[17.119766] (-) EventReactorShutdown: {}

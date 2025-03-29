@@ -1,0 +1,21 @@
+[1.112s] Invoking command in '/home/ros2_ws/build/mfe_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/ros2_ws/build/mfe_bringup -- -j8 -l8
+[12.702s] Invoked command in '/home/ros2_ws/build/mfe_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/ros2_ws/build/mfe_bringup -- -j8 -l8
+[12.729s] Invoking command in '/home/ros2_ws/build/mfe_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/ros2_ws/build/mfe_bringup
+[12.739s] -- Install configuration: ""
+[12.803s] -- Execute custom install script
+[12.803s] -- Up-to-date symlink: /home/ros2_ws/install/mfe_bringup/share/ament_index/resource_index/package_run_dependencies/mfe_bringup
+[12.804s] -- Up-to-date symlink: /home/ros2_ws/install/mfe_bringup/share/ament_index/resource_index/parent_prefix_path/mfe_bringup
+[12.804s] -- Up-to-date symlink: /home/ros2_ws/install/mfe_bringup/share/mfe_bringup/environment/ament_prefix_path.sh
+[12.804s] -- Up-to-date symlink: /home/ros2_ws/install/mfe_bringup/share/mfe_bringup/environment/ament_prefix_path.dsv
+[12.804s] -- Up-to-date symlink: /home/ros2_ws/install/mfe_bringup/share/mfe_bringup/environment/path.sh
+[12.805s] -- Up-to-date symlink: /home/ros2_ws/install/mfe_bringup/share/mfe_bringup/environment/path.dsv
+[12.805s] -- Up-to-date symlink: /home/ros2_ws/install/mfe_bringup/share/mfe_bringup/local_setup.bash
+[12.805s] -- Up-to-date symlink: /home/ros2_ws/install/mfe_bringup/share/mfe_bringup/local_setup.sh
+[12.806s] -- Up-to-date symlink: /home/ros2_ws/install/mfe_bringup/share/mfe_bringup/local_setup.zsh
+[12.806s] -- Up-to-date symlink: /home/ros2_ws/install/mfe_bringup/share/mfe_bringup/local_setup.dsv
+[12.806s] -- Symlinking: /home/ros2_ws/install/mfe_bringup/share/mfe_bringup/package.dsv
+[12.824s] -- Up-to-date symlink: /home/ros2_ws/install/mfe_bringup/share/ament_index/resource_index/packages/mfe_bringup
+[12.824s] -- Up-to-date symlink: /home/ros2_ws/install/mfe_bringup/share/mfe_bringup/cmake/mfe_bringupConfig.cmake
+[12.825s] -- Up-to-date symlink: /home/ros2_ws/install/mfe_bringup/share/mfe_bringup/cmake/mfe_bringupConfig-version.cmake
+[12.825s] -- Up-to-date symlink: /home/ros2_ws/install/mfe_bringup/share/mfe_bringup/package.xml
+[12.935s] Invoked command in '/home/ros2_ws/build/mfe_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/ros2_ws/build/mfe_bringup

@@ -1,0 +1,20 @@
+[0.100s] Invoking command in '/home/ros2_ws/build/mfe_simulation': /usr/bin/cmake --build /home/ros2_ws/build/mfe_simulation -- -j8 -l8
+[0.226s] Invoked command in '/home/ros2_ws/build/mfe_simulation' returned '0': /usr/bin/cmake --build /home/ros2_ws/build/mfe_simulation -- -j8 -l8
+[0.268s] Invoking command in '/home/ros2_ws/build/mfe_simulation': /usr/bin/cmake --install /home/ros2_ws/build/mfe_simulation
+[0.281s] -- Install configuration: ""
+[0.352s] -- Execute custom install script
+[0.353s] -- Up-to-date symlink: /home/ros2_ws/install/mfe_simulation/share/ament_index/resource_index/package_run_dependencies/mfe_simulation
+[0.353s] -- Up-to-date symlink: /home/ros2_ws/install/mfe_simulation/share/ament_index/resource_index/parent_prefix_path/mfe_simulation
+[0.354s] -- Up-to-date symlink: /home/ros2_ws/install/mfe_simulation/share/mfe_simulation/environment/ament_prefix_path.sh
+[0.356s] -- Up-to-date symlink: /home/ros2_ws/install/mfe_simulation/share/mfe_simulation/environment/ament_prefix_path.dsv
+[0.357s] -- Up-to-date symlink: /home/ros2_ws/install/mfe_simulation/share/mfe_simulation/environment/path.sh
+[0.358s] -- Up-to-date symlink: /home/ros2_ws/install/mfe_simulation/share/mfe_simulation/environment/path.dsv
+[0.359s] -- Up-to-date symlink: /home/ros2_ws/install/mfe_simulation/share/mfe_simulation/local_setup.bash
+[0.359s] -- Up-to-date symlink: /home/ros2_ws/install/mfe_simulation/share/mfe_simulation/local_setup.sh
+[0.360s] -- Up-to-date symlink: /home/ros2_ws/install/mfe_simulation/share/mfe_simulation/local_setup.zsh
+[0.360s] -- Up-to-date symlink: /home/ros2_ws/install/mfe_simulation/share/mfe_simulation/local_setup.dsv
+[0.361s] -- Symlinking: /home/ros2_ws/install/mfe_simulation/share/mfe_simulation/package.dsv
+[0.373s] -- Up-to-date symlink: /home/ros2_ws/install/mfe_simulation/share/ament_index/resource_index/packages/mfe_simulation
+[0.373s] -- Up-to-date symlink: /home/ros2_ws/install/mfe_simulation/share/mfe_simulation/cmake/mfe_simulationConfig.cmake
+[0.374s] -- Up-to-date symlink: /home/ros2_ws/install/mfe_simulation/share/mfe_simulation/cmake/mfe_simulationConfig-version.cmake
+[0.376s] -- Up-to-date symlink: /home/ros2_ws/install/mfe_simulation/share/mfe_simulation/package.xml

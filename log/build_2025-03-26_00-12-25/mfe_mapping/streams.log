@@ -1,0 +1,21 @@
+[0.028s] Invoking command in '/home/ros2_ws/build/mfe_mapping': /usr/bin/cmake --build /home/ros2_ws/build/mfe_mapping -- -j8 -l8
+[0.107s] Invoked command in '/home/ros2_ws/build/mfe_mapping' returned '0': /usr/bin/cmake --build /home/ros2_ws/build/mfe_mapping -- -j8 -l8
+[0.150s] Invoking command in '/home/ros2_ws/build/mfe_mapping': /usr/bin/cmake --install /home/ros2_ws/build/mfe_mapping
+[0.171s] -- Install configuration: ""
+[0.171s] -- Execute custom install script
+[0.173s] -- Up-to-date symlink: /home/ros2_ws/install/mfe_mapping/share/ament_index/resource_index/package_run_dependencies/mfe_mapping
+[0.174s] -- Up-to-date symlink: /home/ros2_ws/install/mfe_mapping/share/ament_index/resource_index/parent_prefix_path/mfe_mapping
+[0.174s] -- Up-to-date symlink: /home/ros2_ws/install/mfe_mapping/share/mfe_mapping/environment/ament_prefix_path.sh
+[0.174s] -- Up-to-date symlink: /home/ros2_ws/install/mfe_mapping/share/mfe_mapping/environment/ament_prefix_path.dsv
+[0.174s] -- Up-to-date symlink: /home/ros2_ws/install/mfe_mapping/share/mfe_mapping/environment/path.sh
+[0.175s] -- Up-to-date symlink: /home/ros2_ws/install/mfe_mapping/share/mfe_mapping/environment/path.dsv
+[0.175s] -- Up-to-date symlink: /home/ros2_ws/install/mfe_mapping/share/mfe_mapping/local_setup.bash
+[0.175s] -- Up-to-date symlink: /home/ros2_ws/install/mfe_mapping/share/mfe_mapping/local_setup.sh
+[0.176s] -- Up-to-date symlink: /home/ros2_ws/install/mfe_mapping/share/mfe_mapping/local_setup.zsh
+[0.182s] -- Up-to-date symlink: /home/ros2_ws/install/mfe_mapping/share/mfe_mapping/local_setup.dsv
+[0.182s] -- Symlinking: /home/ros2_ws/install/mfe_mapping/share/mfe_mapping/package.dsv
+[0.196s] -- Up-to-date symlink: /home/ros2_ws/install/mfe_mapping/share/ament_index/resource_index/packages/mfe_mapping
+[0.197s] -- Up-to-date symlink: /home/ros2_ws/install/mfe_mapping/share/mfe_mapping/cmake/mfe_mappingConfig.cmake
+[0.197s] -- Up-to-date symlink: /home/ros2_ws/install/mfe_mapping/share/mfe_mapping/cmake/mfe_mappingConfig-version.cmake
+[0.200s] -- Up-to-date symlink: /home/ros2_ws/install/mfe_mapping/share/mfe_mapping/package.xml
+[0.223s] Invoked command in '/home/ros2_ws/build/mfe_mapping' returned '0': /usr/bin/cmake --install /home/ros2_ws/build/mfe_mapping

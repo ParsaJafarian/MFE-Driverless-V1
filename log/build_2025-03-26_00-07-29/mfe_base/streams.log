@@ -1,0 +1,21 @@
+[0.192s] Invoking command in '/home/ros2_ws/build/mfe_base': /usr/bin/cmake --build /home/ros2_ws/build/mfe_base -- -j8 -l8
+[1.737s] Invoked command in '/home/ros2_ws/build/mfe_base' returned '0': /usr/bin/cmake --build /home/ros2_ws/build/mfe_base -- -j8 -l8
+[1.775s] Invoking command in '/home/ros2_ws/build/mfe_base': /usr/bin/cmake --install /home/ros2_ws/build/mfe_base
+[1.790s] -- Install configuration: ""
+[1.833s] -- Execute custom install script
+[1.833s] -- Up-to-date symlink: /home/ros2_ws/install/mfe_base/share/ament_index/resource_index/package_run_dependencies/mfe_base
+[1.834s] -- Up-to-date symlink: /home/ros2_ws/install/mfe_base/share/ament_index/resource_index/parent_prefix_path/mfe_base
+[1.834s] -- Up-to-date symlink: /home/ros2_ws/install/mfe_base/share/mfe_base/environment/ament_prefix_path.sh
+[1.834s] -- Up-to-date symlink: /home/ros2_ws/install/mfe_base/share/mfe_base/environment/ament_prefix_path.dsv
+[1.834s] -- Up-to-date symlink: /home/ros2_ws/install/mfe_base/share/mfe_base/environment/path.sh
+[1.834s] -- Up-to-date symlink: /home/ros2_ws/install/mfe_base/share/mfe_base/environment/path.dsv
+[1.835s] -- Up-to-date symlink: /home/ros2_ws/install/mfe_base/share/mfe_base/local_setup.bash
+[1.835s] -- Up-to-date symlink: /home/ros2_ws/install/mfe_base/share/mfe_base/local_setup.sh
+[1.835s] -- Up-to-date symlink: /home/ros2_ws/install/mfe_base/share/mfe_base/local_setup.zsh
+[1.835s] -- Up-to-date symlink: /home/ros2_ws/install/mfe_base/share/mfe_base/local_setup.dsv
+[1.836s] -- Symlinking: /home/ros2_ws/install/mfe_base/share/mfe_base/package.dsv
+[1.846s] -- Up-to-date symlink: /home/ros2_ws/install/mfe_base/share/ament_index/resource_index/packages/mfe_base
+[1.846s] -- Up-to-date symlink: /home/ros2_ws/install/mfe_base/share/mfe_base/cmake/mfe_baseConfig.cmake
+[1.846s] -- Up-to-date symlink: /home/ros2_ws/install/mfe_base/share/mfe_base/cmake/mfe_baseConfig-version.cmake
+[1.846s] -- Up-to-date symlink: /home/ros2_ws/install/mfe_base/share/mfe_base/package.xml
+[1.922s] Invoked command in '/home/ros2_ws/build/mfe_base' returned '0': /usr/bin/cmake --install /home/ros2_ws/build/mfe_base

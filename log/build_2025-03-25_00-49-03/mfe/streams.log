@@ -1,0 +1,21 @@
+[0.854s] Invoking command in '/home/ros2_ws/build/mfe': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/ros2_ws/build/mfe -- -j8 -l8
+[12.724s] Invoked command in '/home/ros2_ws/build/mfe' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/ros2_ws/build/mfe -- -j8 -l8
+[12.751s] Invoking command in '/home/ros2_ws/build/mfe': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/ros2_ws/build/mfe
+[12.926s] -- Install configuration: ""
+[12.927s] -- Execute custom install script
+[12.927s] -- Up-to-date symlink: /home/ros2_ws/install/mfe/share/ament_index/resource_index/package_run_dependencies/mfe
+[12.927s] -- Up-to-date symlink: /home/ros2_ws/install/mfe/share/ament_index/resource_index/parent_prefix_path/mfe
+[12.927s] -- Up-to-date symlink: /home/ros2_ws/install/mfe/share/mfe/environment/ament_prefix_path.sh
+[12.928s] -- Up-to-date symlink: /home/ros2_ws/install/mfe/share/mfe/environment/ament_prefix_path.dsv
+[12.928s] -- Up-to-date symlink: /home/ros2_ws/install/mfe/share/mfe/environment/path.sh
+[12.928s] -- Up-to-date symlink: /home/ros2_ws/install/mfe/share/mfe/environment/path.dsv
+[12.928s] -- Up-to-date symlink: /home/ros2_ws/install/mfe/share/mfe/local_setup.bash
+[12.929s] -- Up-to-date symlink: /home/ros2_ws/install/mfe/share/mfe/local_setup.sh
+[12.929s] -- Up-to-date symlink: /home/ros2_ws/install/mfe/share/mfe/local_setup.zsh
+[12.929s] -- Up-to-date symlink: /home/ros2_ws/install/mfe/share/mfe/local_setup.dsv
+[12.929s] -- Symlinking: /home/ros2_ws/install/mfe/share/mfe/package.dsv
+[12.929s] -- Up-to-date symlink: /home/ros2_ws/install/mfe/share/ament_index/resource_index/packages/mfe
+[12.929s] -- Up-to-date symlink: /home/ros2_ws/install/mfe/share/mfe/cmake/mfeConfig.cmake
+[12.929s] -- Up-to-date symlink: /home/ros2_ws/install/mfe/share/mfe/cmake/mfeConfig-version.cmake
+[12.929s] -- Up-to-date symlink: /home/ros2_ws/install/mfe/share/mfe/package.xml
+[12.959s] Invoked command in '/home/ros2_ws/build/mfe' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/ros2_ws/build/mfe

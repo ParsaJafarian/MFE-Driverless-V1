@@ -1,0 +1,19 @@
+[0.027s] Invoking command in '/home/ros2_ws/build/mfe_bringup': /usr/bin/cmake /home/ros2_ws/ros2/src/mfe_bringup -DCMAKE_INSTALL_PREFIX=/home/ros2_ws/install/mfe_bringup
+[0.077s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.451s] Traceback (most recent call last):
+[0.451s]   File "/opt/ros/jazzy/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py", line 21, in <module>
+[0.451s]     from ament_package.templates import get_environment_hook_template_path
+[0.452s] ModuleNotFoundError: No module named 'ament_package'
+[0.463s] [31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/ament_cmake_package_templates-extras.cmake:41 (message):
+[0.463s]   execute_process(/usr/bin/python3
+[0.463s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py
+[0.463s]   /home/ros2_ws/build/mfe_bringup/ament_cmake_package_templates/templates.cmake)
+[0.464s]   returned error code 1
+[0.464s] Call Stack (most recent call first):
+[0.464s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[0.468s]   /opt/ros/jazzy/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[0.468s]   /opt/ros/jazzy/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[0.468s]   CMakeLists.txt:9 (find_package)
+[0.469s] 
+[0.469s] [0m
+[0.469s] -- Configuring incomplete, errors occurred!

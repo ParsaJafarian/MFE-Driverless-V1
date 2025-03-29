@@ -1,0 +1,1 @@
+/home/ros2_ws/ros2/src/articubot_one/launch/localization_launch.py

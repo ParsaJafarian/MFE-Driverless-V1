@@ -1,0 +1,49 @@
+[0.046s] Invoking command in '/home/ros2_ws/build/mfe_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/ros2_ws/ros2/src/mfe_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ros2_ws/install/mfe_msgs
+[0.081s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.398s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.571s] -- Found builtin_interfaces: 2.0.2 (/opt/ros/jazzy/share/builtin_interfaces/cmake)
+[1.380s] -- Found rosidl_generator_c: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.451s] -- Found rosidl_generator_cpp: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.579s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.654s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.742s] -- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)
+[1.981s] -- Found geometry_msgs: 5.3.5 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[2.204s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[2.277s] -- Found rosidl_adapter: 4.6.4 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[3.025s] [31mCMake Error at /opt/ros/jazzy/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:57 (message):
+[3.025s]   execute_process(/usr/bin/python3 -m rosidl_adapter --package-name mfe_msgs
+[3.026s]   --arguments-file
+[3.026s]   /home/ros2_ws/build/mfe_msgs/rosidl_adapter__arguments__mfe_msgs.json
+[3.026s]   --output-dir /home/ros2_ws/build/mfe_msgs/rosidl_adapter/mfe_msgs
+[3.026s]   --output-file /home/ros2_ws/build/mfe_msgs/rosidl_adapter/mfe_msgs.idls)
+[3.027s]   returned error code 1:
+[3.027s] 
+[3.027s]   Traceback (most recent call last):
+[3.027s] 
+[3.027s]     File "<frozen runpy>", line 198, in _run_module_as_main
+[3.028s]     File "<frozen runpy>", line 88, in _run_code
+[3.028s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[3.028s]       sys.exit(main())
+[3.028s]                ^^^^^^
+[3.028s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/main.py", line 53, in main
+[3.028s]       abs_idl_file = convert_to_idl(
+[3.029s]                      ^^^^^^^^^^^^^^^
+[3.029s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/__init__.py", line 24, in convert_to_idl
+[3.029s]       return convert_srv_to_idl(
+[3.029s]              ^^^^^^^^^^^^^^^^^^^
+[3.029s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/srv/__init__.py", line 28, in convert_srv_to_idl
+[3.029s]       srv = parse_service_string(package_name, input_file.stem, content)
+[3.029s]             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[3.030s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/parser.py", line 851, in parse_service_string
+[3.030s]       raise InvalidServiceSpecification(
+[3.030s] 
+[3.030s]   rosidl_adapter.parser.InvalidServiceSpecification: Could not find separator
+[3.030s]   '---' between request and response
+[3.030s] 
+[3.031s] Call Stack (most recent call first):
+[3.031s]   /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:132 (rosidl_adapt_interfaces)
+[3.031s]   CMakeLists.txt:26 (rosidl_generate_interfaces)
+[3.031s] 
+[3.031s] [0m
+[3.032s] -- Configuring incomplete, errors occurred!
+[3.035s] Invoked command in '/home/ros2_ws/build/mfe_msgs' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/ros2_ws/ros2/src/mfe_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ros2_ws/install/mfe_msgs

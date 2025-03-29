@@ -1,0 +1,4 @@
+source;share/mfe/local_setup.bash
+source;share/mfe/local_setup.dsv
+source;share/mfe/local_setup.sh
+source;share/mfe/local_setup.zsh

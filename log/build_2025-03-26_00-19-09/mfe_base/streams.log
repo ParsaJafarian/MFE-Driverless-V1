@@ -1,0 +1,32 @@
+[0.043s] Invoking command in '/home/ros2_ws/build/mfe_base': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/ros2_ws/ros2/src/mfe_base -DCMAKE_INSTALL_PREFIX=/home/ros2_ws/install/mfe_base
+[0.073s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.605s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.682s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.991s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.991s] -- Added test 'lint_cmake' to check CMake code style
+[0.994s] -- Added test 'xmllint' to check XML markup files
+[0.994s] -- Configuring done (0.9s)
+[0.994s] -- Generating done (0.0s)
+[0.998s] -- Build files have been written to: /home/ros2_ws/build/mfe_base
+[1.003s] Invoked command in '/home/ros2_ws/build/mfe_base' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/ros2_ws/ros2/src/mfe_base -DCMAKE_INSTALL_PREFIX=/home/ros2_ws/install/mfe_base
+[1.004s] Invoking command in '/home/ros2_ws/build/mfe_base': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/ros2_ws/build/mfe_base -- -j8 -l8
+[1.090s] Invoked command in '/home/ros2_ws/build/mfe_base' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/ros2_ws/build/mfe_base -- -j8 -l8
+[1.138s] Invoking command in '/home/ros2_ws/build/mfe_base': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/ros2_ws/build/mfe_base
+[1.153s] -- Install configuration: ""
+[1.171s] -- Execute custom install script
+[1.172s] -- Up-to-date symlink: /home/ros2_ws/install/mfe_base/share/ament_index/resource_index/package_run_dependencies/mfe_base
+[1.173s] -- Up-to-date symlink: /home/ros2_ws/install/mfe_base/share/ament_index/resource_index/parent_prefix_path/mfe_base
+[1.175s] -- Up-to-date symlink: /home/ros2_ws/install/mfe_base/share/mfe_base/environment/ament_prefix_path.sh
+[1.179s] -- Up-to-date symlink: /home/ros2_ws/install/mfe_base/share/mfe_base/environment/ament_prefix_path.dsv
+[1.180s] -- Up-to-date symlink: /home/ros2_ws/install/mfe_base/share/mfe_base/environment/path.sh
+[1.180s] -- Up-to-date symlink: /home/ros2_ws/install/mfe_base/share/mfe_base/environment/path.dsv
+[1.181s] -- Up-to-date symlink: /home/ros2_ws/install/mfe_base/share/mfe_base/local_setup.bash
+[1.183s] -- Up-to-date symlink: /home/ros2_ws/install/mfe_base/share/mfe_base/local_setup.sh
+[1.184s] -- Up-to-date symlink: /home/ros2_ws/install/mfe_base/share/mfe_base/local_setup.zsh
+[1.184s] -- Up-to-date symlink: /home/ros2_ws/install/mfe_base/share/mfe_base/local_setup.dsv
+[1.184s] -- Symlinking: /home/ros2_ws/install/mfe_base/share/mfe_base/package.dsv
+[1.199s] -- Up-to-date symlink: /home/ros2_ws/install/mfe_base/share/ament_index/resource_index/packages/mfe_base
+[1.200s] -- Up-to-date symlink: /home/ros2_ws/install/mfe_base/share/mfe_base/cmake/mfe_baseConfig.cmake
+[1.201s] -- Up-to-date symlink: /home/ros2_ws/install/mfe_base/share/mfe_base/cmake/mfe_baseConfig-version.cmake
+[1.201s] -- Up-to-date symlink: /home/ros2_ws/install/mfe_base/share/mfe_base/package.xml
+[1.232s] Invoked command in '/home/ros2_ws/build/mfe_base' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/ros2_ws/build/mfe_base

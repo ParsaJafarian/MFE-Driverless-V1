@@ -1,0 +1,32 @@
+[0.053s] Invoking command in '/home/ros2_ws/build/mfe_simulation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/ros2_ws/ros2/src/mfe_simulation -DCMAKE_INSTALL_PREFIX=/home/ros2_ws/install/mfe_simulation
+[0.854s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.854s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.855s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.021s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.021s] -- Added test 'lint_cmake' to check CMake code style
+[1.023s] -- Added test 'xmllint' to check XML markup files
+[1.025s] -- Configuring done (1.0s)
+[1.073s] -- Generating done (0.0s)
+[1.088s] -- Build files have been written to: /home/ros2_ws/build/mfe_simulation
+[1.119s] Invoked command in '/home/ros2_ws/build/mfe_simulation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/ros2_ws/ros2/src/mfe_simulation -DCMAKE_INSTALL_PREFIX=/home/ros2_ws/install/mfe_simulation
+[1.121s] Invoking command in '/home/ros2_ws/build/mfe_simulation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/ros2_ws/build/mfe_simulation -- -j8 -l8
+[1.251s] Invoked command in '/home/ros2_ws/build/mfe_simulation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/ros2_ws/build/mfe_simulation -- -j8 -l8
+[1.318s] Invoking command in '/home/ros2_ws/build/mfe_simulation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/ros2_ws/build/mfe_simulation
+[1.347s] -- Install configuration: ""
+[1.379s] -- Execute custom install script
+[1.380s] -- Up-to-date symlink: /home/ros2_ws/install/mfe_simulation/share/ament_index/resource_index/package_run_dependencies/mfe_simulation
+[1.380s] -- Up-to-date symlink: /home/ros2_ws/install/mfe_simulation/share/ament_index/resource_index/parent_prefix_path/mfe_simulation
+[1.381s] -- Up-to-date symlink: /home/ros2_ws/install/mfe_simulation/share/mfe_simulation/environment/ament_prefix_path.sh
+[1.381s] -- Up-to-date symlink: /home/ros2_ws/install/mfe_simulation/share/mfe_simulation/environment/ament_prefix_path.dsv
+[1.382s] -- Up-to-date symlink: /home/ros2_ws/install/mfe_simulation/share/mfe_simulation/environment/path.sh
+[1.382s] -- Up-to-date symlink: /home/ros2_ws/install/mfe_simulation/share/mfe_simulation/environment/path.dsv
+[1.382s] -- Up-to-date symlink: /home/ros2_ws/install/mfe_simulation/share/mfe_simulation/local_setup.bash
+[1.383s] -- Up-to-date symlink: /home/ros2_ws/install/mfe_simulation/share/mfe_simulation/local_setup.sh
+[1.383s] -- Up-to-date symlink: /home/ros2_ws/install/mfe_simulation/share/mfe_simulation/local_setup.zsh
+[1.383s] -- Up-to-date symlink: /home/ros2_ws/install/mfe_simulation/share/mfe_simulation/local_setup.dsv
+[1.384s] -- Symlinking: /home/ros2_ws/install/mfe_simulation/share/mfe_simulation/package.dsv
+[1.402s] -- Up-to-date symlink: /home/ros2_ws/install/mfe_simulation/share/ament_index/resource_index/packages/mfe_simulation
+[1.402s] -- Up-to-date symlink: /home/ros2_ws/install/mfe_simulation/share/mfe_simulation/cmake/mfe_simulationConfig.cmake
+[1.402s] -- Up-to-date symlink: /home/ros2_ws/install/mfe_simulation/share/mfe_simulation/cmake/mfe_simulationConfig-version.cmake
+[1.403s] -- Up-to-date symlink: /home/ros2_ws/install/mfe_simulation/share/mfe_simulation/package.xml
+[1.406s] Invoked command in '/home/ros2_ws/build/mfe_simulation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/ros2_ws/build/mfe_simulation
